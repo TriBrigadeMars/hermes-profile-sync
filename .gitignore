@@ -1,0 +1,8 @@
+# Lock files
+*.lock
+*.tmp
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
