@@ -17,19 +17,19 @@ chmod +x sync/hermes-sync.sh
 bash sync/hermes-sync.sh
 ```
 
-## Auto Sync (every 15 minutes)
+## Auto Sync (daily)
 
 **Windows Task Scheduler (recommended):**
 1. Open Task Scheduler (`taskschd.msc`)
 2. Create Basic Task → "Hermes Profile Sync"
-3. Trigger: Daily → repeat every 15 minutes
+3. Trigger: Daily → once at 04:00 AM (no repeat)
 4. Action: Start a program → `hermes-sync.bat`
 5. Start in: `%LOCALAPPDATA%\hermes\sync`
 
 **Git Bash cron (if running):**
 ```bash
 crontab -e
-# Add: */15 * * * * bash "$LOCALAPPDATA/hermes/sync/hermes-sync.sh" >> "$LOCALAPPDATA/hermes/sync/sync.log" 2>&1
+# Add: 0 4 * * * bash "$LOCALAPPDATA/hermes/sync/hermes-sync.sh" >> "$LOCALAPPDATA/hermes/sync/sync.log" 2>&1
 ```
 
 ## Manual Sync
