@@ -66,22 +66,6 @@ if [ -d "$PETS_DIR" ]; then
     done
 fi
 echo "  Exported $synced_pets pet(s) to repo"
-
-# Import repo pets that aren't installed locally
-imported_pets=0
-for pet_dir in "$SYNC_DIR/pets"/*/; do
-    [ -d "$pet_dir" ] || continue
-    slug="$(basename "$pet_dir")"
-    if [ -d "$PETS_DIR/$slug" ]; then
-        echo "  Pet already installed: $slug (skipping)"
-    elif [ -f "$pet_dir/pet.json" ] && [ -f "$pet_dir/spritesheet.webp" ]; then
-        mkdir -p "$PETS_DIR/$slug"
-        cp "$pet_dir/pet.json" "$PETS_DIR/$slug/pet.json"
-        cp "$pet_dir/spritesheet.webp" "$PETS_DIR/$slug/spritesheet.webp"
-        imported_pets=$((imported_pets+1))
-        echo "  Installed pet: $slug"
-    fi
-done
 echo ""
 
 # ── Step 3: Commit and push ──────────────────────────────────────────
@@ -126,6 +110,25 @@ for archive in "$SYNC_DIR/profiles/"*.tar.gz; do
     fi
 done
 echo ""
+
+# Also import repo pets that aren't installed locally (after the pull above)
+imported_pets=0
+for pet_dir in "$SYNC_DIR/pets"/*/; do
+    [ -d "$pet_dir" ] || continue
+    slug="$(basename "$pet_dir")"
+    if [ -d "$PETS_DIR/$slug" ]; then
+        echo "  Pet already installed: $slug (skipping)"
+    elif [ -f "$pet_dir/pet.json" ] && [ -f "$pet_dir/spritesheet.webp" ]; then
+        mkdir -p "$PETS_DIR/$slug"
+        cp "$pet_dir/pet.json" "$PETS_DIR/$slug/pet.json"
+        cp "$pet_dir/spritesheet.webp" "$PETS_DIR/$slug/spritesheet.webp"
+        imported_pets=$((imported_pets+1))
+        echo "  Installed pet: $slug"
+    fi
+done
+if [ "$imported_pets" -gt 0 ]; then
+    echo ""
+fi
 
 # ── Step 6: Sync scripts and cron jobs ───────────────────────────────
 echo "[6/6] Syncing scripts and cron jobs..."
