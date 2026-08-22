@@ -1,0 +1,25 @@
+{
+  "name": "Academic-Journal-Digest-Biweekly",
+  "description": "Biweekly email digest of 14 OA journals (Public Health, AI, Data Engineering). Asia/Europe preferred.",
+  "schedule": "0 9 */14 * *",
+  "script": "scripts/academic_digest.py",
+  "email": "nalcs.mika@gmail.com",
+  "journals": [
+    "Lancet Global Health",
+    "Lancet Public Health",
+    "Lancet Regional Health \u2014 Western Pacific",
+    "Lancet Digital Health",
+    "BMJ Global Health",
+    "Annals, Academy of Medicine Singapore",
+    "J Formosan Medical Association",
+    "Nature Machine Intelligence",
+    "Nature Computational Science",
+    "Light: Science & Applications",
+    "Nature Communications",
+    "Scientific Reports",
+    "Communications Physics",
+    "Nature Electronics"
+  ],
+  "created": "2026-08-21",
+  "sync_to_other_machines": true
+}
