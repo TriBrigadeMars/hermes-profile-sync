@@ -1,0 +1,123 @@
+{
+  "id": "mack",
+  "displayName": "Mack",
+  "description": "A faithful Codex pet version of the McWOLF mechanical wolf: tall top hat, extra-long snout with black round nose, half-lidded sly eyes, backward wing-like ears, cream and charcoal horizontal striped metal body, thin limbs, glove-like hands, and round shoes.",
+  "spritesheetPath": "spritesheet.webp",
+  "states": {
+    "idle": {
+      "atlasRow": "idle",
+      "notes": "Calm in-place baseline with tiny blink, tiny hat bob, and sly half-lidded expression preserved."
+    },
+    "walk": {
+      "atlasRows": [
+        "running-right",
+        "running-left"
+      ],
+      "notes": "True directional stroll rows for movement and drag-facing behavior."
+    },
+    "curious": {
+      "atlasRow": "review",
+      "notes": "Small thoughtful lean and chin-touch gestures without breaking Mack's relaxed mechanical-wolf identity."
+    },
+    "happy": {
+      "atlasRow": "waving",
+      "notes": "Restrained pleased and smug gesture row, intentionally mapped to the waving atlas slot."
+    },
+    "sleep": {
+      "atlasRow": "waiting",
+      "notes": "Standing doze with drooped lids and slight sleepy nod."
+    },
+    "point": {
+      "atlasRow": "jumping",
+      "notes": "Spare atlas row repurposed as Mack's upward pointing finger gesture."
+    },
+    "stroll": {
+      "atlasRow": "running",
+      "notes": "Spare atlas row used for a relaxed theatrical saunter variant."
+    },
+    "lamp_pose": {
+      "atlasRow": "failed",
+      "notes": "Spare atlas row repurposed as a prop-free lean inspired by the reference sheet's lamp-post attitude."
+    }
+  },
+  "atlasRowSemantics": {
+    "idle": "idle",
+    "running-right": "walk-right",
+    "running-left": "walk-left",
+    "waving": "happy",
+    "jumping": "point",
+    "failed": "lamp-pose",
+    "waiting": "sleep",
+    "running": "stroll",
+    "review": "curious"
+  },
+  "requestedActionMap": {
+    "idle": {
+      "atlasRow": "idle",
+      "status": "implemented"
+    },
+    "walk_right": {
+      "atlasRow": "running-right",
+      "status": "implemented"
+    },
+    "walk_left": {
+      "atlasRow": "running-left",
+      "status": "implemented"
+    },
+    "curious": {
+      "atlasRow": "review",
+      "status": "implemented"
+    },
+    "happy": {
+      "atlasRow": "waving",
+      "status": "implemented"
+    },
+    "sleep": {
+      "atlasRow": "waiting",
+      "status": "implemented"
+    },
+    "drag": {
+      "leftAtlasRow": "running-left",
+      "rightAtlasRow": "running-right",
+      "status": "implemented",
+      "notes": "Directional drag intentionally reuses the true left and right walk rows."
+    },
+    "point": {
+      "atlasRow": "jumping",
+      "status": "implemented",
+      "notes": "Optional feature action stored in the spare jumping atlas row."
+    },
+    "stroll": {
+      "atlasRow": "running",
+      "status": "implemented",
+      "notes": "Optional feature action stored in the spare running atlas row."
+    },
+    "lamp-pose": {
+      "atlasRow": "failed",
+      "status": "implemented",
+      "notes": "Optional feature action stored in the spare failed atlas row as a relaxed lean."
+    },
+    "smug": {
+      "atlasRows": [
+        "waving",
+        "failed"
+      ],
+      "status": "approximated",
+      "notes": "Smug attitude is split across the happy row and the lamp-pose lean row because the fixed 8x9 atlas leaves no separate dedicated smug row."
+    }
+  },
+  "dragFacingValidation": {
+    "rule": "deltaX < 0 => facing left; deltaX > 0 => facing right",
+    "leftDragUses": "running-left",
+    "rightDragUses": "running-right",
+    "leftRowDerivedFrom": "generated-separately",
+    "manualVerification": [
+      "walk_left is a true left-facing strip, not an unchecked mirror",
+      "walk_right is a true right-facing strip",
+      "left drag uses the left-facing walk row",
+      "right drag uses the right-facing walk row",
+      "left drag never faces right and right drag never faces left",
+      "snout, hat, ears, stripes, hands, legs, and round shoes stay directionally unified in both walk rows"
+    ]
+  }
+}

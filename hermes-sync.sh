@@ -17,6 +17,7 @@ fi
 HERMES_HOME="${HERMES_HOME:-$LOCALAPPDATA/hermes}"
 PROFILES_DIR="$HERMES_HOME/profiles"
 SCRIPTS_DIR="$HERMES_HOME/scripts"
+PETS_DIR="$HERMES_HOME/pets"
 
 echo "=== Hermes Profile Sync ==="
 echo "Sync dir:  $SYNC_DIR"
@@ -44,8 +45,47 @@ if [ "$exported" -eq 0 ]; then
 fi
 echo ""
 
-# ── Step 2: Commit and push ──────────────────────────────────────────
-echo "[2/5] Committing & pushing..."
+# ── Step 2: Sync pets (petdex mascots — incl. hatched/generated pets) ──
+echo "[2/5] Syncing pets..."
+mkdir -p "$SYNC_DIR/pets"
+synced_pets=0
+
+# Export every installed pet's folder (pet.json + spritesheet.webp) to the repo
+if [ -d "$PETS_DIR" ]; then
+    for pet_dir in "$PETS_DIR"/*/; do
+        [ -d "$pet_dir" ] || continue
+        slug="$(basename "$pet_dir")"
+        [ "$slug" = ".thumbs" ] && continue
+        if [ -f "$pet_dir/pet.json" ] && [ -f "$pet_dir/spritesheet.webp" ]; then
+            out="$SYNC_DIR/pets/$slug"
+            mkdir -p "$out"
+            cp "$pet_dir/pet.json" "$out/pet.json"
+            cp "$pet_dir/spritesheet.webp" "$out/spritesheet.webp"
+            synced_pets=$((synced_pets+1))
+        fi
+    done
+fi
+echo "  Exported $synced_pets pet(s) to repo"
+
+# Import repo pets that aren't installed locally
+imported_pets=0
+for pet_dir in "$SYNC_DIR/pets"/*/; do
+    [ -d "$pet_dir" ] || continue
+    slug="$(basename "$pet_dir")"
+    if [ -d "$PETS_DIR/$slug" ]; then
+        echo "  Pet already installed: $slug (skipping)"
+    elif [ -f "$pet_dir/pet.json" ] && [ -f "$pet_dir/spritesheet.webp" ]; then
+        mkdir -p "$PETS_DIR/$slug"
+        cp "$pet_dir/pet.json" "$PETS_DIR/$slug/pet.json"
+        cp "$pet_dir/spritesheet.webp" "$PETS_DIR/$slug/spritesheet.webp"
+        imported_pets=$((imported_pets+1))
+        echo "  Installed pet: $slug"
+    fi
+done
+echo ""
+
+# ── Step 3: Commit and push ──────────────────────────────────────────
+echo "[3/6] Committing & pushing..."
 cd "$SYNC_DIR"
 git add -A
 if git diff --cached --quiet; then
@@ -58,14 +98,14 @@ else
 fi
 echo ""
 
-# ── Step 3: Pull from other machines ─────────────────────────────────
-echo "[3/5] Pulling from remote..."
+# ── Step 4: Pull from other machines ─────────────────────────────────
+echo "[4/6] Pulling from remote..."
 cd "$SYNC_DIR"
 git pull origin main --rebase 2>&1 || echo "  Pull failed (resolve manually)"
 echo ""
 
-# ── Step 4: Import any profiles we don't have locally ────────────────
-echo "[4/5] Importing new profiles..."
+# ── Step 5: Import any profiles we don't have locally ────────────────
+echo "[5/6] Importing new profiles..."
 cd "$SYNC_DIR"
 imported=0
 for archive in "$SYNC_DIR/profiles/"*.tar.gz; do
@@ -87,8 +127,8 @@ for archive in "$SYNC_DIR/profiles/"*.tar.gz; do
 done
 echo ""
 
-# ── Step 5: Sync scripts and cron jobs ───────────────────────────────
-echo "[5/5] Syncing scripts and cron jobs..."
+# ── Step 6: Sync scripts and cron jobs ───────────────────────────────
+echo "[6/6] Syncing scripts and cron jobs..."
 mkdir -p "$SCRIPTS_DIR"
 
 # Copy digest scripts from repo to Hermes scripts dir
@@ -122,4 +162,4 @@ if command -v hermes &>/dev/null; then
 fi
 
 echo ""
-echo "=== Done! Exported $exported profile(s), imported $imported new profile(s), synced scripts + cron. ==="
+echo "=== Done! Exported $exported profile(s), imported $imported new profile(s), synced $synced_pets pet(s) + scripts + cron. ==="

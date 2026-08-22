@@ -43,6 +43,7 @@ bash "$LOCALAPPDATA/hermes/sync/hermes-sync.sh"
 - All **named** Hermes profiles (exported as `.tar.gz` archives)
 - Includes: config, skills, memory, plugins per profile
 - The `default` profile is NOT synced (it's the built-in root)
+- **Pets** (petdex mascots — including hatched/generated pets like Mackenzie) — `pets/<slug>/` with `pet.json` + `spritesheet.webp`
 - **Scripts** (`academic_digest.py`, `mail.py`, `setup_digest.py`, `cron_config.json`) — copied to `~/.hermes/scripts/`
 - **Cron jobs** — academic digest cron created automatically if missing
 
