@@ -20,11 +20,28 @@ bash sync/hermes-sync.sh
 ## Auto Sync (daily)
 
 **Windows Task Scheduler (recommended):**
+
+One command (includes the missed-start failsafe):
+```bash
+powershell -NoProfile -ExecutionPolicy Bypass -File "%LOCALAPPDATA%\hermes\sync\setup-scheduled-task.ps1"
+```
+
+This creates the "Hermes Profile Sync" task to run daily at 04:00 AM with
+`StartWhenAvailable` enabled — so if the PC is asleep at 4 AM, the sync runs
+as soon as the machine wakes instead of being skipped. It also runs on battery
+and has a 15-minute execution limit. Idempotent; no admin needed.
+
+`setup-other-machine.bat` runs this automatically as its final step.
+
+To adjust the time: `... setup-scheduled-task.ps1 -Time "06:30"`
+
+Manual Task Scheduler alternative:
 1. Open Task Scheduler (`taskschd.msc`)
 2. Create Basic Task → "Hermes Profile Sync"
 3. Trigger: Daily → once at 04:00 AM (no repeat)
 4. Action: Start a program → `hermes-sync.bat`
 5. Start in: `%LOCALAPPDATA%\hermes\sync`
+6. In task Properties → Settings, tick **"Run task as soon as possible after a scheduled start is missed"**
 
 **Git Bash cron (if running):**
 ```bash

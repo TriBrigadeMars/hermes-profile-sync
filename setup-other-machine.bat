@@ -60,16 +60,17 @@ icacls hermes-sync.sh /grant:r "%USERNAME%:R" >nul 2>&1
 echo   Done.
 echo.
 
-REM Step 5: Create scheduled task
-echo [5/5] Creating scheduled task (daily at 4:00 AM MST)...
-schtasks /Create /TN "Hermes Profile Sync" /TR "\"C:\Program Files\Git\bin\bash.exe\" \"%LOCALAPPDATA%\hermes\sync\hermes-sync.sh\"" /SC DAILY /ST 04:00 /F
+REM Step 5: Create scheduled task (daily at 4:00 AM, with missed-start failsafe)
+echo [5/5] Creating scheduled task (daily at 4:00 AM, auto catch-up on wake)...
+cd /d "%LOCALAPPDATA%\hermes\sync"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%LOCALAPPDATA%\hermes\sync\setup-scheduled-task.ps1"
 echo.
 
 echo === Setup Complete! ===
 echo.
 echo   Sync repo:  https://github.com/TriBrigadeMars/hermes-profile-sync
 echo   Sync dir:   %LOCALAPPDATA%\hermes\sync
-echo   Schedule:   Daily at 4:00 AM MST
+echo   Schedule:   Daily at 4:00 AM (runs as soon as possible if missed while asleep)
 echo.
 echo   To sync now:  bash "%LOCALAPPDATA%\hermes\sync\hermes-sync.sh"
 echo.
