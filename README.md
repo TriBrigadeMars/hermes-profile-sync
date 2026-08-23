@@ -63,6 +63,20 @@ bash "$LOCALAPPDATA/hermes/sync/hermes-sync.sh"
 - **Pets** (petdex mascots — including hatched/generated pets like Mackenzie) — `pets/<slug>/` with `pet.json` + `spritesheet.webp`
 - **Scripts** (`academic_digest.py`, `mail.py`, `setup_digest.py`, `cron_config.json`) — copied to `~/.hermes/scripts/`
 - **Cron jobs** — academic digest cron created automatically if missing
+- **Synced skills** — curated skills under `profiles/synced/skills/<category>/` (see below)
+
+### Synced Skills (Bionic Desktop)
+
+The current skillset from this Bionic/Hermes desktop installation lives under `profiles/synced/skills/bionic/`:
+
+- `create-skill.md` — Create reusable guidance to perform certain tasks
+- `document-processing-and-graphics.md` — Create, read, edit, and redline documents; diagrams, charts, and visualizations
+- `install-skill.md` — Install a skill from a file, a folder, or a URL
+- `introspection.md` — Introspect the local Bionic/Hermes installation
+- `power-point-processing.md` — Create, read, edit PowerPoint files
+- `skill-management.md` — Create, install, uninstall, or remove skills
+
+Each file preserves the full `SKILL.md` content (including front matter) from the source installation.
 
 ## What Does NOT Get Synced
 
