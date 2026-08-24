@@ -51,9 +51,20 @@ crontab -e
 
 ## Manual Sync
 
-```bash
-bash "$LOCALAPPDATA/hermes/sync/hermes-sync.sh"
+**Windows (recommended — works from any terminal):**
+```cmd
+%LOCALAPPDATA%\hermes\sync\hermes-sync.bat
 ```
+
+**Git Bash / WSL:**
+```bash
+cd "$LOCALAPPDATA/hermes/sync" && bash hermes-sync.sh
+```
+
+> **Troubleshooting:** If you get `No such file or directory`, `$LOCALAPPDATA`
+> may not be set in your shell (common in `cmd.exe` or PowerShell, where the
+> variable is `%LOCALAPPDATA%` or `$env:LOCALAPPDATA` respectively). Use the
+> `.bat` wrapper above instead, or open Git Bash directly.
 
 ## What Gets Synced
 
