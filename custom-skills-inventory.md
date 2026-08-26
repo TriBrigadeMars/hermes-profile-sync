@@ -4,9 +4,9 @@ Generated: 2026-08-26
 
 Inventory of all skills that are **custom to this agent** (i.e., *not* bundled with Hermes). Determined by diffing every `SKILL.md` on disk against the bundled manifest (`~/.hermes/skills/.bundled_manifest`).
 
-- **Total custom skills:** 52
+- **Total custom skills:** 56
 - **Bundled (shipped with Hermes):** 82
-- **Total on disk:** 134
+- **Total on disk:** 138
 
 ---
 
@@ -102,11 +102,18 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 | `resume-builder` | Build a truthful, ATS-readable resume from verified candidate evidence |
 | `resume-bullet-writer` | Convert verified work evidence into concise accomplishment-oriented resume bullets |
 | `resume-tailor` | Tailor an existing resume to a target job by selecting, ordering, and phrasing only supported candidate evidence |
+| `professional-reframer` | Reframe real work experience into clear, credible, business-legible language for LinkedIn and other professional contexts without inflating scope or outcomes |
 
 ## 📊 Career Market Intelligence
 | Skill | Purpose |
 |---|---|
 | `career-market-intelligence` | Local-first labor-market analysis for skill demand, experience benchmarks, gaps, and outcome associations |
+
+## 📥 Outlook / Accessibility
+| Skill | Purpose |
+|---|---|
+| `outlook-agents` | Manage Outlook calendar: daily briefs, conflict detection |
+| `ocr-redaction-local` | Locally detect and redact sensitive text in images and PDFs (Tesseract OCR + Presidio) |
 
 ## 🛠️ Technical / Misc
 | Skill | Purpose |
@@ -122,5 +129,5 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 - **Agent-created during sessions** (curator ledger): `album-media-downloader`, `batch-web-gallery-download`, `compliant-markdown-converter`, `hermes-skill-installation`.
 - **Deleted/merged:** `erome-album-downloader` → absorbed into `album-media-downloader` (no longer on disk).
 - **Installed from zip (2026-08-25):** `security-safety-codebase-auditor`, `ai-guardrails-codebase-auditor`, `excalidraw-chart-reconstructor`, `davinci-resolve-free-local`, `gimp-local`, `krita-local`.
-- **Installed from zip (2026-08-26):** `ballotpedia-style-reviewer` (v0.1.0), `hermes-career-application-suite` (v0.1.0 — 9 career writing skills + 1 market intelligence skill).
+- **Installed from zip (2026-08-26):** `ballotpedia-style-reviewer` (v0.1.0), `hermes-career-application-suite` (v0.1.0 — 9 career writing skills + 1 market intelligence skill), `professional-reframer` (v0.1.0).
 - This list is a snapshot; skills are added/removed over time. Re-derive by running the diff against `.bundled_manifest` when it needs refreshing.

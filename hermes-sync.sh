@@ -73,9 +73,11 @@ echo "[2b/6] Syncing skills from repo..."
 SKILLS_DIR="$HERMES_HOME/skills"
 synced_skills=0
 if [ -d "$SYNC_DIR/skills" ]; then
+    # Install categorized skills (skills/<category>/<skill-name>/)
     for category_dir in "$SYNC_DIR/skills"/*/; do
         [ -d "$category_dir" ] || continue
         category="$(basename "$category_dir")"
+        [ "$category" = "_standalone" ] && continue
         for skill_dir in "$category_dir"*/; do
             [ -d "$skill_dir" ] || continue
             skill_name="$(basename "$skill_dir")"
@@ -85,6 +87,17 @@ if [ -d "$SYNC_DIR/skills" ]; then
             synced_skills=$((synced_skills+1))
         done
     done
+    # Install standalone skills (skills/_standalone/<skill-name>/)
+    if [ -d "$SYNC_DIR/skills/_standalone" ]; then
+        for skill_dir in "$SYNC_DIR/skills/_standalone"/*/; do
+            [ -d "$skill_dir" ] || continue
+            skill_name="$(basename "$skill_dir")"
+            dst="$SKILLS_DIR/$skill_name"
+            mkdir -p "$dst"
+            cp -r "$skill_dir" "$dst"
+            synced_skills=$((synced_skills+1))
+        done
+    fi
 fi
 echo "  Installed/updated $synced_skills skill(s) from repo"
 echo ""
