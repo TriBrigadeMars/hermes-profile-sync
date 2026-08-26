@@ -1,12 +1,12 @@
 # Custom Skills Inventory — Hermes Agent
 
-Generated: 2026-08-25
+Generated: 2026-08-26
 
 Inventory of all skills that are **custom to this agent** (i.e., *not* bundled with Hermes). Determined by diffing every `SKILL.md` on disk against the bundled manifest (`~/.hermes/skills/.bundled_manifest`).
 
-- **Total custom skills:** 42
+- **Total custom skills:** 52
 - **Bundled (shipped with Hermes):** 82
-- **Total on disk:** 124
+- **Total on disk:** 134
 
 ---
 
@@ -85,6 +85,29 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 | `security-safety-codebase-auditor` | Conventional app-security / supply-chain audit |
 | `ai-guardrails-codebase-auditor` | AI/LLM guardrails & agentic security audit |
 
+## 📝 Ballotpedia Editorial
+| Skill | Purpose |
+|---|---|
+| `ballotpedia-style-reviewer` | Review prose, diction, neutrality, structure, and editorial mechanics against the supplied Ballotpedia Style Guide and bias framework (~162 KB extracted guide + 3 source PDFs) |
+
+## 💼 Career Application Suite
+| Skill | Purpose |
+|---|---|
+| `application-materials` | Orchestrator — bund evidence profile, job analysis, resume, cover letter, and gap analysis into a complete application package |
+| `career-gap-analyzer` | Compare candidate evidence with a job description and optional labor-market data to distinguish strengths, partial matches, and development gaps |
+| `career-profile` | Build and maintain a canonical evidence profile for truthful resume and cover-letter writing |
+| `cover-letter-writer` | Write a role-specific cover letter from verified candidate evidence and the target job description |
+| `job-description-analyzer` | Analyze a job description into requirements, responsibilities, terminology, seniority, and performance signals |
+| `resume-ats-auditor` | Audit a resume for ATS readability, truthful keyword alignment, parsing risks, and evidence gaps |
+| `resume-builder` | Build a truthful, ATS-readable resume from verified candidate evidence |
+| `resume-bullet-writer` | Convert verified work evidence into concise accomplishment-oriented resume bullets |
+| `resume-tailor` | Tailor an existing resume to a target job by selecting, ordering, and phrasing only supported candidate evidence |
+
+## 📊 Career Market Intelligence
+| Skill | Purpose |
+|---|---|
+| `career-market-intelligence` | Local-first labor-market analysis for skill demand, experience benchmarks, gaps, and outcome associations |
+
 ## 🛠️ Technical / Misc
 | Skill | Purpose |
 |---|---|
@@ -99,4 +122,5 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 - **Agent-created during sessions** (curator ledger): `album-media-downloader`, `batch-web-gallery-download`, `compliant-markdown-converter`, `hermes-skill-installation`.
 - **Deleted/merged:** `erome-album-downloader` → absorbed into `album-media-downloader` (no longer on disk).
 - **Installed from zip (2026-08-25):** `security-safety-codebase-auditor`, `ai-guardrails-codebase-auditor`, `excalidraw-chart-reconstructor`, `davinci-resolve-free-local`, `gimp-local`, `krita-local`.
+- **Installed from zip (2026-08-26):** `ballotpedia-style-reviewer` (v0.1.0), `hermes-career-application-suite` (v0.1.0 — 9 career writing skills + 1 market intelligence skill).
 - This list is a snapshot; skills are added/removed over time. Re-derive by running the diff against `.bundled_manifest` when it needs refreshing.

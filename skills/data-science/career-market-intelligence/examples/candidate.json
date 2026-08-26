@@ -1,0 +1,12 @@
+{
+  "skills": ["SQL", "Python", "Power BI", "Excel", "Stakeholder Management"],
+  "years_experience": 6,
+  "education": "Bachelor's degree",
+  "evidence": {
+    "SQL": "Built and maintained production reporting queries",
+    "Python": "Automated recurring analysis and data-cleaning workflows",
+    "Power BI": "Developed executive dashboards",
+    "Excel": "Built forecasting and reporting models",
+    "Stakeholder Management": "Presented findings to cross-functional leaders"
+  }
+}

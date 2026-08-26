@@ -68,6 +68,27 @@ fi
 echo "  Exported $synced_pets pet(s) to repo"
 echo ""
 
+# ── Step 2b: Sync custom skills from repo → local install ───────────────
+echo "[2b/6] Syncing skills from repo..."
+SKILLS_DIR="$HERMES_HOME/skills"
+synced_skills=0
+if [ -d "$SYNC_DIR/skills" ]; then
+    for category_dir in "$SYNC_DIR/skills"/*/; do
+        [ -d "$category_dir" ] || continue
+        category="$(basename "$category_dir")"
+        for skill_dir in "$category_dir"*/; do
+            [ -d "$skill_dir" ] || continue
+            skill_name="$(basename "$skill_dir")"
+            dst="$SKILLS_DIR/$category/$skill_name"
+            mkdir -p "$(dirname "$dst")"
+            cp -r "$skill_dir" "$dst"
+            synced_skills=$((synced_skills+1))
+        done
+    done
+fi
+echo "  Installed/updated $synced_skills skill(s) from repo"
+echo ""
+
 # ── Step 3: Commit and push ──────────────────────────────────────────
 echo "[3/6] Committing & pushing..."
 cd "$SYNC_DIR"
@@ -165,4 +186,4 @@ if command -v hermes &>/dev/null; then
 fi
 
 echo ""
-echo "=== Done! Exported $exported profile(s), imported $imported new profile(s), synced $synced_pets pet(s) + scripts + cron. ==="
+echo "=== Done! Exported $exported profile(s), imported $imported new profile(s), synced $synced_pets pet(s) + $synced_skills skill(s) + scripts + cron. ==="

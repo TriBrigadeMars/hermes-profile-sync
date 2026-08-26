@@ -1,0 +1,25 @@
+{
+  "snapshot_date": "2026-08-26",
+  "sources": [
+    {
+      "title": "Ballotpedia's Style Guide",
+      "file": "ballotpedia-style-guide.pdf",
+      "role": "controlling house-style and usage source",
+      "text_extraction": "references/ballotpedia-style-guide-full.txt"
+    },
+    {
+      "title": "Ballotpedia: How we categorize bias",
+      "file": "ballotpedia-taxonomy-of-bias.pdf",
+      "role": "controlling Ballotpedia neutrality/bias taxonomy",
+      "text_extraction": null,
+      "note": "image-based snapshot; use curated references/bias-taxonomy.md"
+    },
+    {
+      "title": "Wikipedia: Neutral point of view",
+      "file": "wikipedia-neutral-point-of-view.pdf",
+      "role": "complementary neutrality and due-weight guidance",
+      "text_extraction": null,
+      "note": "image-based snapshot; use curated references/neutrality-principles.md"
+    }
+  ]
+}

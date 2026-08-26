@@ -1,0 +1,65 @@
+sql
+python
+r
+excel
+power bi
+powerbi
+tableau
+snowflake
+dbt
+aws
+azure
+gcp
+databricks
+machine learning
+generative ai
+artificial intelligence
+data visualization
+statistics
+financial modeling
+project management
+program management
+product management
+stakeholder management
+risk management
+budget management
+change management
+agile
+scrum
+jira
+salesforce
+workday
+sap
+oracle
+cybersecurity
+nist
+fedramp
+cissp
+pmp
+six sigma
+lean
+public speaking
+technical writing
+policy analysis
+research
+regulatory compliance
+grant writing
+fundraising
+customer success
+account management
+business development
+strategic planning
+people management
+team leadership
+process improvement
+automation
+quality assurance
+vendor management
+contract management
+procurement
+forecasting
+budgeting
+data analysis
+business intelligence
+communication
+leadership

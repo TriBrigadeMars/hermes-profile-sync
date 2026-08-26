@@ -1,0 +1,126 @@
+skill,aliases,category
+SQL,"sql;structured query language",data
+Python,"python",data
+R,"r programming;r language",data
+Excel,"excel;microsoft excel",business
+Power BI,"power bi;powerbi",data
+Tableau,"tableau",data
+Looker,"looker",data
+Snowflake,"snowflake",data
+dbt,"dbt;data build tool",data
+Databricks,"databricks",data
+AWS,"aws;amazon web services",cloud
+Azure,"azure;microsoft azure",cloud
+Google Cloud,"google cloud;gcp",cloud
+Docker,"docker",engineering
+Kubernetes,"kubernetes;k8s",engineering
+Terraform,"terraform",engineering
+Git,"git;github;gitlab",engineering
+Linux,"linux",engineering
+Java,"java",engineering
+JavaScript,"javascript;js",engineering
+TypeScript,"typescript",engineering
+C++,"c++",engineering
+C#,"c#;c sharp",engineering
+Go,"golang;go language",engineering
+Rust,"rust",engineering
+React,"react;react.js;reactjs",engineering
+Node.js,"node.js;nodejs",engineering
+REST APIs,"rest api;restful api;rest apis",engineering
+GraphQL,"graphql",engineering
+PostgreSQL,"postgresql;postgres",data
+MySQL,"mysql",data
+MongoDB,"mongodb",data
+Spark,"apache spark;spark",data
+Kafka,"apache kafka;kafka",data
+Airflow,"apache airflow;airflow",data
+Machine Learning,"machine learning;ml",ai
+Deep Learning,"deep learning",ai
+Natural Language Processing,"natural language processing;nlp",ai
+Generative AI,"generative ai;genai;generative artificial intelligence",ai
+Large Language Models,"large language model;large language models;llm;llms",ai
+MLOps,"mlops",ai
+Statistics,"statistics;statistical analysis",analytics
+A/B Testing,"a/b testing;ab testing;experimentation",analytics
+Data Visualization,"data visualization;data visualisation",analytics
+Data Modeling,"data modeling;data modelling",data
+Data Warehousing,"data warehouse;data warehousing",data
+ETL,"etl;extract transform load",data
+Data Governance,"data governance",data
+Data Quality,"data quality",data
+Financial Modeling,"financial modeling;financial modelling",finance
+Forecasting,"forecasting;forecast model",analytics
+Budget Management,"budget management;budgeting",business
+Risk Management,"risk management;risk mitigation",business
+Project Management,"project management",business
+Program Management,"program management",business
+Product Management,"product management",business
+Agile,"agile;scrum",business
+Jira,"jira",business
+Salesforce,"salesforce",business
+CRM,"crm;customer relationship management",business
+ERP,"erp;enterprise resource planning",business
+SAP,"sap",business
+Oracle,"oracle",business
+Stakeholder Management,"stakeholder management;stakeholder engagement",leadership
+Change Management,"change management",leadership
+Strategic Planning,"strategic planning;strategy development",leadership
+People Management,"people management;team management;staff management",leadership
+Cross-functional Leadership,"cross-functional leadership;cross functional leadership",leadership
+Communication,"written communication;verbal communication;communication skills",soft-skill
+Presentation,"presentation skills;presentations",soft-skill
+Negotiation,"negotiation",soft-skill
+Problem Solving,"problem solving;problem-solving",soft-skill
+Critical Thinking,"critical thinking",soft-skill
+Customer Service,"customer service;customer support",service
+Business Analysis,"business analysis;requirements analysis",business
+Requirements Gathering,"requirements gathering;requirements elicitation",business
+Process Improvement,"process improvement;continuous improvement",business
+Lean,"lean methodology;lean",operations
+Six Sigma,"six sigma",operations
+Supply Chain,"supply chain;supply chain management",operations
+Procurement,"procurement;sourcing",operations
+Inventory Management,"inventory management",operations
+Quality Assurance,"quality assurance;qa",quality
+Quality Control,"quality control;qc",quality
+Cybersecurity,"cybersecurity;cyber security;information security",security
+Network Security,"network security",security
+Cloud Security,"cloud security",security
+SIEM,"siem;security information and event management",security
+Splunk,"splunk",security
+Incident Response,"incident response",security
+Penetration Testing,"penetration testing;pen testing",security
+IAM,"identity and access management;iam",security
+Zero Trust,"zero trust",security
+NIST,"nist;nist cybersecurity framework",security
+HIPAA,"hipaa",compliance
+GDPR,"gdpr",compliance
+SOX,"sox;sarbanes oxley",compliance
+PCI DSS,"pci dss;pci-dss",compliance
+FISMA,"fisma",compliance
+FedRAMP,"fedramp",compliance
+Technical Writing,"technical writing;documentation",communication
+Research,"research methods;research",research
+Qualitative Research,"qualitative research",research
+Quantitative Research,"quantitative research",research
+Survey Design,"survey design",research
+User Research,"user research;ux research",research
+Figma,"figma",design
+UX Design,"ux design;user experience design",design
+UI Design,"ui design;user interface design",design
+Adobe Creative Suite,"adobe creative suite;photoshop;illustrator;indesign",design
+SEO,"seo;search engine optimization",marketing
+SEM,"sem;search engine marketing",marketing
+Google Analytics,"google analytics;ga4",marketing
+Marketing Automation,"marketing automation",marketing
+Content Strategy,"content strategy;content marketing",marketing
+Demand Generation,"demand generation;demand gen",marketing
+Account Management,"account management",sales
+Business Development,"business development",sales
+Sales Operations,"sales operations;sales ops",sales
+Revenue Operations,"revenue operations;revops",sales
+PMP,"pmp;project management professional",certification
+CISSP,"cissp",certification
+CPA,"cpa;certified public accountant",certification
+SHRM,"shrm;shrm-cp;shrm-scp",certification
+PHR,"phr;sphr",certification

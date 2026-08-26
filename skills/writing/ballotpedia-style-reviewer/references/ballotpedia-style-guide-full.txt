@@ -1,0 +1,3580 @@
+2
+Dear Ballotpedia Staff,
+Ballotpedia’s Style Guide is your primary resource for crafting neutral, encyclopedic content. It
+outlines our editorial guidelines on language and formatting.
+When readers come to Ballotpedia, we want them to see a unified style — one that makes our
+work professional and trustworthy. The four guiding principles for our style guide are credibility,
+consistency, clarity, and cachet.
+Credibility
+First and foremost, our style guide demonstrates our commitment to neutrality and fact-based
+content. Every editorial choice we make should reinforce our mission of providing unbiased
+information to educate and inspire American voters. Because language evolves, especially
+political language, this style guide will evolve as well.
+Consistency
+Uniform style choices make our content professional and polished. Consistency demonstrates
+our attention to detail and fosters trust in our work.
+Clarity
+We want our writing to be accessible, not alienating. We aim for straightforward prose that
+prioritizes clarity and plain language over political jargon and speech tribe terminology.
+Cachet
+Thoughtful phrasing, along with the use of custom tooltips and footnotes, illustrates the
+sophisticated nature of our writing and our consideration for our readers.
+This iteration of the style guide is Ballotpedia’s authoritative reference for editorial style and
+usage. However, our style guidelines will require ongoing re-evaluation and discussion. If you
+want to submit changes, updates, or additions, please use this form.
+Tips for using this guide
+●​ Begin with the Table of contents for an overview.
+●​ Use the search function (Cmd+F or Ctrl+F) to quickly locate specific entries.
+●​ Explore the “Related entries and documentation” section of each entry to read more
+about a topic.
+I hope this style guide makes your writing process more efficient. If you have questions about
+anything included or missing, I am happy to help you find an answer.
+Sincerely,
+Kelly Coyle
+Editorial Quality Associate
+
+3
+
+Table of contents
+Instructions recommending a new entry or update
+Sample Entry Template
+Entry Name
+BP Style Guide changelog
+A
+Abbreviations, Acronyms, and Initialisms
+Abbreviations, Political titles
+Academic Degrees
+Abortion
+Accent Marks
+Adviser, advisor
+African American
+Amid
+Apostrophes
+Arab American
+Army Reserve
+Article, section, and clause numbers
+Asian, Asian American
+Assisted death
+At large, at-large
+At-Large Congressional District
+B
+Ballotpedia
+Ballot initiative
+Between ... and, From ... to
+Bills and resolutions
+Bipartisan
+BIPOC
+Biracial, multiracial
+Black
+Board member
+BP News best practices
+BP News headlines
+Bolding
+Brackets, internal links
+Brackets, Internal links with titles, possessives
+Bulleted lists
+By district, by-district
+C
+
+4
+Campaign slogans
+Cancel, canceled, canceling, cancellation
+Capitalization, the basics
+Capitalization, Governing bodies
+Capitalization, Political titles
+Capitalization, Districts
+Capitalization, Occupational titles
+Capitalization, Political affiliations and ideologies
+Capitol
+Caucus
+Chairman, chairwoman, chair
+Cisgender
+City
+City council
+Clean energy, green energy
+Climate change
+Comma
+Comma, introductory words and phrases
+Comma, with conjunctions
+Comprised of, composed of
+Congressman, congresswoman
+Coordinating conjunction, beginning a sentence with
+Councilman, councilwoman, council member
+County
+Court names
+Crime, criminal justice
+Critical race theory (CRT)
+D
+Dangling prepositions
+Dates, basic format: [month] [day], [year]
+Dates, Historical periods and events
+Dates, Formatting dates for news posts
+Death
+Decimals, rounding
+Democrat, Democratic Party
+Disabled, disability
+Disambiguation pages
+Disclaimers
+District of Columbia
+District
+Dual heritage
+
+5
+E
+Election, Election Day, election night
+Electoral College
+— Em dash
+Ellipsis
+Email
+Ensure, insure
+– En dash
+ESG (environmental, social, and governance)
+Ex officio
+Exclamation point (!)
+Explanatory notes
+External links
+F
+Factive verbs
+Federal
+Fewer, less
+Firearms, guns
+Fiscal year
+Front-runner
+G
+Global warming
+Governor
+Greener
+Greenhouse gases, emissions
+Gulf of America (formerly Gulf of Mexico)
+H
+Headers
+Hiding content
+Healthcare
+Hispanic
+However
+Hyphen
+I
+Immigration
+Incumbent
+Independent, political affiliation
+Indian American
+Internal links
+Internet
+Italics
+
+6
+J
+Judge, justice
+Judgment
+Jungle primary/ Louisiana majority-vote system
+L
+Latino/Latina
+Left-wing, leftist, far-left
+Legislatively referred
+Legislature
+M
+Majority, plurality
+Media
+Middle class, middle-class
+Middle initials
+Midterm election
+Months
+Myriad
+N
+Names, individuals
+Nationwide
+Native Americans
+Nicknames, individuals
+Noncitizen
+None
+Nonpartisan
+Nonprofit
+Numerals
+Numeric ranges
+O
+Obamacare, Affordable Care Act
+Officeholder
+Opt-out/ opt out
+P
+Pacific Islander
+Parentheses
+Parental Bill of Rights, parental rights
+Passive voice
+Percentage points or less
+Percent
+Person/people of color
+Photo captions
+
+7
+Political affiliation
+Preschool
+President
+Profile pages, names
+Profile pages, nicknames
+Profanity
+Pronouns
+Proper nouns with shared words
+Proved, proven
+Public assistance programs
+Public servant
+Q
+Question mark (?)
+Quotations, Direct quotations
+Quotations, Dialogue
+Quotations, Altering the text of a quote
+Quotations, Quotes within quotes
+Quotations, Splitting quotes
+Quotations, Quote template use
+Quotations, Scare quotes
+R
+Re-elect, re-election
+Redirects
+Referendum
+Referring to other articles on BP
+Republican, Republican Party
+Right-wing, rightist, far-right
+Runner-up, runners-up
+Running mate
+Runoff
+S
+Same-sex marriage
+Sample Ballot Lookup Tool
+Satellite spending
+Seasons
+See also
+Sexual commerce and exploitation
+Sexuality and gender identity
+[sic]
+Signature filing deadline
+Singular proper nouns ending in -s
+
+8
+Split infinitives
+Spokesman, spokeswoman, spokesperson
+State
+State names, abbreviations for
+Statehouse, State House
+State nicknames
+State of the Union, State of the State, State of the City
+Statewide
+Supreme Court of the United States
+Supreme courts of the states
+T
+Teachers union
+Telephone numbers
+The, usage with proper nouns
+They/them, as a singular pronoun
+They/them/their, nonbinary
+Think tank
+Third party/third-party
+Tilde
+Time
+Titles, courtesy
+Today, tomorrow, tonight
+Tooltips
+Toward
+Transclusion
+Transgender
+Transgender, name change
+Transgender, sports participation
+Travel, traveled, traveling, traveler
+U
+United States
+V
+Vote-getters, vote recipients
+Votes counted, votes cast
+Vote totals
+W
+White
+Who, whom
+Y
+Year
+Z
+
+9
+Zero
+Footnotes
+Academic journal articles
+Amicus curiae briefs
+Archived links
+Article titles ending in punctuation marks
+Ballotpedia articles
+BP links in footnotes section
+Books
+Campaign websites
+Court cases
+Case of article titles
+Footnotes with ending punctuation
+Original interviews and correspondence
+Placement of footnotes in text
+Search results in a reference
+[sic] in footnotes
+Spelling out website names
+Social media
+Websites
+YouTube
+Additional resources
+Ballotpedia’s Comprehensive Bias Document
+Ballotpedia style guide for BP News posts
+Capitalization guidelines for political terms
+Election policy project reference examples
+How to properly tense election language
+Preventing tense errors
+Proofreading checklist & tips
+Terminology book
+Tensing legislation and regulation articles
+Titles and naming conventions
+
+10
+
+Instructions recommending a new entry or update
+Submit suggestions for new entries, updates, or changes to the style guide by using the BP
+Style Guide Updates form or contact Kelly Coyle .
+
+Sample Entry Template
+Entry Name
+Guidelines:
+●​ Examples:
+●​ Related entries and documentation:
+●​ Last Updated:
+
+BP Style Guide changelog
+You can view changes and updates to Ballotpedia’s Style Guide here.
+
+11
+
+A
+Abbreviations, Acronyms, and Initialisms
+Guidelines: An abbreviation is any shortened word or phrase. Acronyms and initialisms are
+specific types of abbreviations. Both acronyms and initialisms are formed by taking the first letter
+of each word in a name or phrase, but acronyms are pronounced by sounding out the letters (as
+if the first letters formed their own word), while initialisms are pronounced by naming each letter
+individually. For example, FEMA is an acronym, while FBI is an initialism. Both are
+abbreviations.
+If a particular name or phrase (e.g., an organization, a standardized test, or a law) is commonly
+abbreviated, we may want to refer to it by its abbreviation in order to avoid writing it out multiple
+times. These names or phrases should normally be written out in full on first reference, followed
+by the abbreviation in parentheses. Subsequent references may use the abbreviated form.
+●​ Examples: Republican National Committee (RNC); Center for Medical Progress (CMP)
+If an abbreviation is widely recognized (i.e., listed in a standard dictionary), the full name may
+not need to be written out on first reference.
+●​ Examples: the FBI; the U.S.; NASA
+Do not add an apostrophe to a plural abbreviation.
+●​ Example: More than one ID = IDs
+
+Abbreviations, Political titles
+Guidelines: Use the following abbreviations for political titles:
+●​ Governor: Gov./Govs.
+●​ Lieutenant governor: Lt. Gov./Lt. Govs.
+●​ Senator: Sen./Sens.
+●​ Representative: Rep./Reps.
+○​ Note: When appearing before a name, the four titles above can be abbreviated at
+the writer’s discretion. Do not abbreviate titles that would not be easily
+recognized by readers (e.g., Assemblyman, Assemblywoman).
+●​ Related entries and documentation:
+Monthly style email, March 2022, Political titles and affiliations
+●​ Last Updated: July 2025
+
+Academic Degrees
+Guidelines: Use the following forms: an associate degree (not associate’s), a bachelor’s
+degree, a master’s degree, a doctorate, a Bachelor of Arts, Master of Science, Juris Doctor (not
+juris doctorate). Use periods in abbreviated degree forms. Use “an” before abbreviations that
+
+12
+are pronounced by naming the letters. Academic departments or fields of study should not be
+capitalized unless they are proper nouns. Academic honors should be italicized but not
+capitalized.
+●​ Examples:
+○​ B.A., M.S., M.B.A., Ph.D., J.D., M.D.
+○​ An M.S. (read as “em es”).
+○​ A bachelor’s degree in journalism, a Ph.D. in English.
+○​ magna cum laude, summa cum laude.
+●​ Related entries and documentation:
+Monthly style digest, December 2021, academic degrees
+●​ Last Updated: July 2025
+
+Abortion
+Guidelines: If we are writing about a particular individual or organization and their views on
+abortion contain some nuance (such as supporting a ban on abortion after a certain number of
+weeks), be specific. Use as specific and relevant language as possible when describing general
+ideological sides of the debate.
+Avoid using speech tribe terms like anti-abortion, abortion rights, pro-life, pro-choice, and
+pro-abortion. If you must use these terms, define them and identify who is using them.
+In general, use the terms people who oppose abortion and people who support access to
+abortion as neutral alternatives to abortion-related loaded language and speech tribe
+terminology.
+When writing about abortion, it is also acceptable to refer to groups using the terminology that
+they use. For example, the Ballot Measures Team analyzed the support for and opposition to
+abortion-related ballot measures by categorizing them as either "campaigns that described
+themselves as pro-choice or pro-reproductive rights" or "campaigns that described themselves
+as pro-life."
+●​ Example: “From 1970 to 2024, there were 65 abortion-related ballot measures, and 44
+(68%) of these had the support of organizations that described themselves as pro-life.
+Voters approved 12 (27%) and rejected 32 (73%) of these 44 ballot measures. The other
+21 abortion-related ballot measures had the support of organizations that described
+themselves as pro-choice or pro-reproductive rights. Voters approved 15 (71%) and
+rejected six (29%).”
+In general, when writing about abortion, use woman or girl when referring to a person who has
+had an abortion or might seek an abortion. Gender-neutral language should be avoided. Do not
+use patient, pregnant person, pregnant individual, pregnant parent, birth-giver, birthing person,
+
+13
+person with the capacity for pregnancy, people with uteruses, or any other gender-neutral
+phrase or term when writing about abortion generally.
+Use gender-neutral phrases, like the ones above, when specifically writing about abortion and
+transgender men or people who identify as nonbinary. Use the pronouns and phrases the
+individual uses.
+Avoid the speech tribe terms fetal cardiac activity and heartbeat bill. When legislation, a ballot
+measure, or a person uses these terms, cite the terms directly on first reference, if possible.
+People who support access to abortion prefer the term fetus, while people who oppose abortion
+prefer the terms unborn baby, unborn child, and unborn life. Because there isn’t a neutral term
+to use here, include both terms. Use fetus/baby.
+Family planning and reproductive health are speech tribe terms. Be specific about what family
+planning and reproductive health mean in the context of the debate, legislation, ballot measure,
+etc. Is the bill describing contraception, abortion, etc.?
+Use abortion in the third trimester instead of late-term abortion.
+●​ Related entries and documentation:
+Three strikes or four balls?: Women, gender-neutral language, and abortion
+○​
+○​
+Memo: Ballot Measures & Potentially Biased Person Nouns
+●​ Last Updated: July 2025
+
+Accent Marks
+Guidelines: Use accent marks in names that normally use them. On a Mac, these characters
+may be formed by using the shortcuts listed below. Windows users can find shortcuts at the
+following website, but they may find it easier to simply copy and paste the characters from
+another source: www.drlemon.com/accents.html
+Accent Type
+
+Characters
+
+Shortcut
+
+Acute
+
+Á, á, É, é, Í, í, Ó, ó, Ú, ú
+
+Option + E, [character]
+
+Circumflex
+
+Â, â, Ê, ê, Î, î, Ô, ô, Û, û
+
+Option + I, [character]
+
+Grave
+
+À, à, È, è, Ì, ì, Ò, ò, Ù, ù
+
+Option + `, [character]
+
+Tilde
+
+Ã, ã, Ñ, ñ, Õ, õ
+
+Option + N, [character]
+
+Diaeresis/Umlaut
+
+Ä, ä, Ë, ë, Ï, ï, Ö, ö, Ü, ü
+
+Option + U, [character]
+
+To form ü, hold down the Option key and type U, release both keys, then type lowercase u.
+
+14
+●​ Example: Marisela Saldaña.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Adviser, advisor
+Guidelines: Though both advisor and adviser are widely accepted spellings, Ballotpedia prefers
+advisor. For official titles, follow the preferred spelling of the word as written on official websites
+or documentation.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+African American
+Guidelines: When used as an indicator of race, the preferred term is Black unless the individual
+self-identifies as an American person of African descent. These terms are not interchangeable,
+as not all African Americans are Black, nor are all Black Americans necessarily of African
+descent.
+●​ Examples: African American voters, an African American candidate.
+●​ Related entries and documentation: Black,
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Amid
+Guidelines: Use amid, not amidst.
+●​ Example:
+○​ The decision was made amid controversy.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Apostrophes
+Guidelines: Do not add an apostrophe to a plural abbreviation.
+●​ Example: More than one ID = IDs
+Use only an apostrophe for singular proper nouns ending in -s.
+●​ Examples: Kansas’ schools, Jones’ campaign
+Do not add an apostrophe to Yesses and Nos/ Yeas and Nays.
+
+15
+
+●​ Example: On this vote, the yeas are 229, and the nays are 198.
+
+●​ Related entries and documentation:
+Monthly style email, October 2023, Apostrophes, brackets, and ellipses
+●​ Last Updated: July 2025
+
+Arab American
+Guidelines: The term Arab American is applied to individuals of Arab birth or descent who live
+in the U.S., though it is preferable to specify the person’s country of origin when known (for
+example, Lebanese American or Egyptian American). Do not hyphenate Arab American.
+●​ Example: The Boston Globe's Laura Crimaldi wrote, "Although census figures show
+about 65% of city residents identify as people of color, the upcoming election will be the
+first in Boston history that won’t result in a white man becoming mayor." The four
+candidates mentioned above are women. Janey and Campbell are Black. Essaibi
+George is Arab American. Wu is Asian American.
+●​ Related entries and documentation:
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Army Reserve
+Guidelines: When referring to someone in the United States Army Reserve, do not add an -s to
+Reserve
+●​ Example: She serves in the U.S. Army Reserve.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Article, section, and clause numbers
+Guidelines: Article, section, and clause numbers should be separated by commas without a
+comma following the last number. For the U.S. Constitution, use Roman numerals for articles
+and Arabic numerals for sections and clauses.
+●​ Example: Article I, Section 8
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Asian, Asian American
+Guidelines: The term Asian American is applied to individuals of Asian birth or descent who live
+in the U.S. It is preferable to specify the person’s country of origin when known (for example,
+
+16
+Filipino American or Chinese American). Do not hyphenate Asian American. Do not describe
+Pacific Islanders as Asian Americans.
+●​ Example: The plaintiffs in the suit, a group of Asian American voters (a protected class
+under the CVRA), allege that Santa Clara's at-large electoral system for city council
+seats prevents them from electing candidates of their choosing.
+●​ Related entries and documentation:
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Assisted death
+Guidelines: The issue of assisted death addresses an individual's consent to end their life with
+the assistance of another person. Do not use the terms euthanasia, physician-assisted suicide,
+right to die, medically assisted suicide, or death with dignity. Physician-assisted death or
+medical aid-in-dying is acceptable.
+●​ Example: Oregon became the first U.S. state to legalize physician-assisted death in
+1997.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+At large, at-large
+Guidelines: Hyphenate at large when used as an adjective. Do not hyphenate at large when it
+is used as an adverb or as a part of a person’s title.
+●​
+●​
+●​
+●​
+●​
+
+Example: There are three at-large positions on the school board.
+Example: Three school board members are elected at large.
+Example: There are three members at large.
+Related entries and documentation:
+Last Updated: July 2025
+
+At-Large Congressional District
+Guidelines: Capitalize At-Large when referring to a state’s congressional district.
+●​ Example: Vermont's At-Large Congressional District, North Dakota's At-Large
+Congressional District
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+B
+Ballotpedia
+
+17
+
+Guidelines: Do not italicize the name Ballotpedia.
+●​ Example: Ballotpedia surveyed 134 strategists, pollsters, activists, and lobbyists.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Ballot initiative
+Guidelines: Ballot initiative should be used to refer to proposed laws or constitutional
+amendments placed on the ballot through petition drives by citizens.
+●​ Example: The ballot initiative to legalize recreational marijuana was approved by voters.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Between ... and, From ... to
+Guidelines: Use between ... and or from ... to, not between ... to or from ... and.
+●​ Examples:
+○​ The meeting is scheduled between 2 p.m. and 4 p.m., not between 2 p.m. to 4
+p.m.
+○​ The event runs from Monday to Friday, not from Monday and Friday.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Bills and resolutions
+Guidelines: Avoid periods in abbreviations for bills and resolutions, and include a space
+between the abbreviation and the number.
+●​ Examples:
+○​ HB 714, not H.B.714.
+○​ S 123, not S.123.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Bipartisan
+Guidelines: Use bipartisan, not bi-partisan.
+●​ Example: The bipartisan effort led to the bill’s passage.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+18
+
+BIPOC
+Guidelines: BIPOC stands for Black, Indigenous, and people of color. Avoid this term, “which
+some see as more inclusive by distinguishing the experiences of Black and Indigenous people,
+but others see as less inclusive by diminishing the experiences of everyone else,” according to
+the Associated Press. Instead, be specific when writing about different racial and ethnic
+backgrounds.
+●​ Related entries and documentation:
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Biracial, multiracial
+Guidelines: The terms biracial and multiracial describe individuals or groups of people with
+more than one racial heritage and may be used when relevant. Be specific if possible. Avoid the
+term mixed-race.
+●​ Acceptable: Former Vice President Kamala Harris is biracial.
+●​ Preferred: Former Vice President Kamala Harris is Tamil Indian American and Jamaican
+American.
+●​ Related entries and documentation:
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Black
+Guidelines: When used as an indicator of race, BP’s preferred term is Black unless the
+individual self-identifies as an American person of African descent. African American and Black
+are not interchangeable, as not all African Americans are Black, nor are all Black Americans
+necessarily of African descent. Capitalize Black when used as an adjective in a racial, ethnic, or
+cultural sense. Follow a person’s preference if it’s known.
+●​ Examples: Tim Scott (R) is the first Black senator from South Carolina. Ketanji Brown
+Jackson is the first Black woman to serve on the U.S. Supreme Court.
+●​ Related entries and documentation: African American,
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Board member
+Guidelines: The phrase board member should not be treated as a formal title, so it should not
+be capitalized in any case. This guideline also applies to the phrase school board member.
+
+19
+●​ Example: A majority of voters cast ballots in favor of recalling San Francisco Unified
+School District Board of Education members Gabriela López, Alison Collins, and
+Faauuga Moliga.
+●​ Related entries and documentation:
+Monthly style email, March 2022, Political titles and affiliations
+●​ Last Updated: July 2025
+
+BP News best practices
+Guidelines:
+Make sure the lede of the story is in the first paragraph. Ideally, it should be in the first sentence.
+Whenever possible, try to write in the active voice over the passive voice. This means that the
+subject of your sentence (the one taking the action) should go first.
+Avoid the use of relative dates (“yesterday,” “tomorrow,” “next week”), especially in headlines.
+We never know precisely when our readers will read our content, or when it will be posted and
+redistributed by our news partners. Use specific, not relative dates, to ensure clarity.
+Use “%,” not “percent.”
+Use hyperlinks as needed throughout your news post. Please remember that at least one
+hyperlink is necessary for each post. Ideally, the hyperlinks should lead readers to the relevant
+overview article or hub page, as well as to any prominent candidate profile pages, related
+analyses, or marquee content. External source links can be included at the end of the posts to
+be added in the “Additional reading” section of the news post, but internal links are always
+preferable to leading readers away from BP content.
+Don’t start a sentence with a number. Write out the number as a word instead.
+When you’re referring to numbers that aren’t exact, use “more than” or “less than”, not “over” or
+“under”.
+When formatting dates for news posts, spell out the names of March, April, May, June, and July,
+and abbreviate all other months. Avoid starting a post with the date that something happened.
+
+●​ Related entries and documentation:
+Ballotpedia style guide for BP News posts (Version 2.0)
+●​ Last Updated: February 2026
+
+BP News headlines
+
+20
+Guidelines:
+●​ Names: Use last names only or title and last name for well-known public figures. Use full
+names when referring to lesser-known individuals or when needed to avoid confusion.
+○​ Examples: Trump signs spending bill; Sen. King meets with Greenland officials;
+Cleveland Mayor Justin Bibb announces new police chief
+
+●​ Titles: When using a title in a headline, abbreviate commonly recognized government
+titles (e.g., Gov., Sen., Rep., Lt. Gov.). Do not abbreviate titles that would not be easily
+recognized by readers; spell them out in full. (e.g., Assemblyman, Assemblywoman).
+○​ Examples: Gov. DeSantis signs elections bill into law; Lt. Gov. Delgado ends
+primary challenge to Hochul; Assemblywoman Latrice Walker introduces housing
+bill
+
+●​ Party affiliation: Include a person’s political party only when it is necessary for
+understanding the story or for disambiguation. Include the state abbreviation with the
+party affiliation if necessary.
+○​ Examples: Sen. Collins (R) votes against Republican spending bill; Sen. Tester
+(D) joins GOP to block labor bill; Rep. Garcia (D-Calif.) defeats Rep. Garcia
+(R-Texas) in leadership vote
+
+●​ Related entries and documentation:
+Ballotpedia style guide for BP News posts (Version 2.0)
+●​ Last Updated: February 2026
+
+Bolding
+Guidelines: Be judicious with the use of boldface type, as it can only add emphasis if used
+sparingly. However, do consider using boldface type for the following types of text:
+●​ numbers/statistics
+●​ dates in timelines
+●​ important names
+●​ key facts
+
+●​ Related entries and documentation:
+Monthly style email, March 2022, Political titles and affiliations
+●​ Last Updated: July 2025
+
+21
+
+Brackets, internal links
+Guidelines: An internal link is a link in the text of a Ballotpedia article that links to another
+Ballotpedia page. These links are created by placing two sets of square brackets around the
+page title, like this: [[Page title]]. In some cases, we may need to alter the linked text to make it
+fit with the surrounding text. To do this, we can use a pipe ( | ) after the page title, followed by
+the desired text. These changes may be necessary to change wording or capitalization.
+●​ Examples: Maggie Toulouse Oliver is the [[New Mexico Secretary of State|secretary of
+state]] of New Mexico. Cory Booker (D-N.J.) is a [[United States Senate|U.S. senator]].
+●​ Related entries and documentation:
+Monthly style email, October 2023, Apostrophes, brackets, and ellipses
+●​ Last Updated: July 2025
+
+Brackets, Internal links with titles, possessives
+Guidelines: Do not alter the text of an internal link to include a person’s full title or to include -’s
+for a possessive name. It is not considered an error to do so, but it is more efficient to eliminate
+this extra step.
+●​
+●​
+●​
+●​
+●​
+
+Incorrect: [[Rand Paul|Sen. Rand Paul]] (R-Ky.) said he would run for re-election.
+Correct: Sen. [[Rand Paul]] (R-Ky.) said he would run for re-election.
+Incorrect: Gov. [[Doug Ducey|Doug Ducey’s]] (R-Ariz.) term ended in 2023.
+Correct: Gov. [[Doug Ducey]]’s (R-Ariz.) term ended in 2023.
+Related entries and documentation:
+Monthly style email, October 2023, Apostrophes, brackets, and ellipses
+●​ Last Updated: July 2025
+
+Brackets, altering the text of a quotation
+Guidelines: It is acceptable to add clarifications to quotes using square brackets, but the words
+in brackets should normally be added to the quoted text; under most circumstances, do not use
+brackets to replace words in the quoted text. It is acceptable to replace a quoted word with a
+word in brackets in two situations: (1) You can change a verb to a different tense of the same
+verb if necessary to fit the quote into the sentence, and (2) You can change a pronoun if
+necessary to keep the quote referring to the correct person.
+If the capitalization of the original quote needs to be altered in order to fit with these guidelines,
+use square brackets around the letter that has been altered. However, it is generally preferable
+to alter the sentence structure to make the capitalization work as it exists in the quote.
+●​ Examples: He said that "[s]he [was] committed to bipartisan solutions." The senator
+said, "[W]e must prioritize economic growth."
+
+22
+●​ Related entries and documentation:
+Monthly style email, October 2023, Apostrophes, brackets, and ellipses
+●​ Last Updated: July 2025
+
+Bulleted lists
+Guidelines: Bulleted lists may take multiple forms as long as they satisfy two criteria: (1)
+consistency and (2) parallelism.
+Consistency applies to two main aspects of the list: capitalization and punctuation.
+●​ List items may start with either capital letters or lowercase letters, but this capitalization
+must be consistent within a list (with the exception of proper nouns in a list of items that
+are otherwise lowercase).
+●​ Some lists will not contain any punctuation after individual list items, while others will use
+commas, semicolons, or even periods. In all cases, use the same type of punctuation
+mark after each list item.
+○​ When using commas or semicolons, the entire list should be thought of as a
+complete sentence; it should have a conjunction after the second-to-last list item,
+and it should end with a period after the last list item.
+For parallelism, make sure that each list item fits with the phrase/clause that introduces the list.
+You should also make sure that each list item uses a similar grammatical structure. This means
+that if the first list item is a noun, all of the following list items should be nouns. If the first list
+item begins with a third-person singular verb, the other list items should also begin with
+third-person singular verbs.
+Note: A comment to an individual list item may be inserted under that bullet point and indented
+further than the others; such comments need not follow the same grammatical structure.
+Examples:
+Three states signed the lawsuit:
+●​ Alabama,
+●​ Mississippi, and
+●​ Louisiana.
+According to the White House, the key features of the bill included:
+●​ $89.9 billion in new infrastructure funding and reauthorizations
+●​ $66 billion in funding for Amtrak maintenance and development
+●​ $40 billion in new funding for bridge repair, replacement, and rehabilitation
+●​ $55 billion in funding for clean drinking water
+●​ $65 billion in funding to create universal access to reliable high-speed internet
+
+23
+●​ $65 billion in funding for clean energy transmission and power infrastructure upgrades
+The proposal included the following:
+●​ merging the U.S. Department of Labor (DOL) and the U.S. Department of Education
+(DOE) into a single federal agency;
+●​ restructuring the U.S. Army Corps of Engineers and the U.S. Postal Service; and
+●​ reorganizing several administrative programs under different agencies.
+Follow the steps below to sign up for an account:
+●​ Go to the website’s home page.
+●​ Click on the ‘Join now’ link at the top of the page.
+●​ Enter the requested information and follow the on-screen instructions.
+All of these lists are acceptable because they follow two main rules: (1) consistency and (2)
+parallelism.
+●​ Related entries and documentation:
+Monthly style digest, January 2023, bulleted lists
+●​ Last Updated: July 2025
+
+By district, by-district
+Guidelines: Hyphenate by-district when used as an adjective. Do not hyphenate by district
+when it is used as an adverb or as a part of a person’s title.
+●​ Examples: The council holds by-district elections. City council members are elected by
+district.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+C
+Campaign slogans
+Guidelines: Campaign slogans should be written in standard text. Only use quotation marks or
+italics if they are part of the official slogan.
+●​ Examples: Harris’ campaign slogan was, Let's win this! Trump’s campaign slogan was,
+Make America Great Again!
+CPC: Data attribute research guidelines
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+Cancel, canceled, canceling, cancellation
+Guidelines: Spell as follows: cancel, canceled, canceling, cancellation.
+
+24
+●​ Example: The event was canceled due to weather.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Capitalization, the basics
+Guidelines: A proper noun refers to a specific person, place, or thing: John Smith, New
+Orleans, or the Statue of Liberty. A common noun refers to a more general person, place, or
+thing: a candidate, a city, or a statue. The basic rule is to capitalize proper nouns and lowercase
+common nouns. Adjectives derived from proper nouns maintain this capitalization (e.g., America
+becomes American, and Democrat becomes Democratic). On Ballotpedia, most issues with
+capitalization occur with political titles, governing bodies, political affiliations, and academic
+fields of study.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Monthly style digest, July 2022, Capitalization
+
+Capitalization, Governing bodies
+Guidelines: The official names of governing bodies are always capitalized. When referring to a
+general type of governing body without referring to a specific one, the name should be
+lowercased.
+●​ Examples of governing bodies: the U.S. Senate, the Austin City Council, St. Joseph
+School District, the Missouri House of Representatives, the Alaska State Legislature, the
+U.S. Supreme Court
+●​ Examples: Heading into the election, the Democratic Party controlled the Colorado
+State Senate. A trifecta occurs when one party controls the state house, the state
+senate, and the governorship in any given state.
+Shortened names for governing bodies are often lowercased.
+●​ Example: The city council took a vote.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Monthly style digest, July 2022, Capitalization
+
+Capitalization, Political titles
+Political titles are only capitalized when they directly precede an official’s name. Otherwise,
+political titles should be lowercased. Political titles are always lowercased when set off from the
+official’s name by a comma. When a single title is held by more than one individual in a
+sentence, the names can be consolidated under one plural title.
+
+25
+●​ Examples of political titles: the president of the United States, the Kansas secretary of
+state, the governor of North Carolina, the South Dakota lieutenant governor, the
+superintendent, the federal judge
+●​ Example: Rep. Nancy Pelosi (D-Calif.) is the first and only woman to serve as speaker
+of the House. Pelosi was first elected speaker in 2007.
+●​ Example: She met U.S. Senators John Cornyn (R-Texas) and Ted Cruz (R-Texas) at the
+event.
+Monthly style digest, July 2022, Capitalization
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Capitalization, Districts
+All district names should be capitalized.
+●​ Examples: Ohio’s 3rd Congressional District, Houston Independent School District
+Monthly style digest, July 2022, Capitalization
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Capitalization, Occupational titles
+Guidelines: There is also a difference between a formal title and an occupational title. Most
+political titles are formal. However, titles such as chief of staff, campaign manager, press
+secretary, and first lady are occupational (along with teacher, professor, policeman, dentist,
+program manager, etc.). These titles should not be capitalized even if they directly precede the
+individual’s name. If a position is elected or appointed with a defined scope of authority, you can
+assume that it is a formal title. If you are unsure, the safest choice is to lowercase the title and
+set it off from the name with commas.
+●​ Examples: Julie Chávez Rodríguez was the campaign manager for Vice President
+Kamala Harris' (D) 2024 presidential campaign. First lady Melania Trump worked as a
+fashion model and married President Donald Trump in 2005.
+Monthly style digest, July 2022, Capitalization
+●​ Related entries and documentation:
+●​ Last Updated: November 2025
+
+Capitalization, Political affiliations and ideologies
+Guidelines: Names referring to official political parties — such as Republican and Democratic
+— refer to distinct organizations, so they are considered proper names and are capitalized.
+●​ Example: John Fetterman, a Democrat, will face Mehmet Oz, a Republican, in the
+general election in November.
+Labels for most political ideologies that don’t refer to an official party — such as conservative or
+liberal, in most uses — are common names and are lowercased. Political ideologies not
+
+26
+referring to an official party should only be capitalized when they are derived from a proper
+noun, such as Marxist.
+●​ Example: Of the three candidates for the Democratic nomination, he was seen as the
+most liberal.
+Unlike Democratic and Republican, the words independent and nonpartisan do not refer to
+official parties. As a result, they are not proper nouns and therefore should not be capitalized in
+the text of an article. (Note: Capitalization can be retained in infoboxes, tables, charts, etc.,
+where the labels are not part of a complete sentence.)
+●​ Examples: Michael Delaney is a 2022 independent candidate seeking election to the
+U.S. Senate. Rick Blangiardi is the nonpartisan mayor of Honolulu.
+Monthly style digest, July 2022, Capitalization
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Capitol
+Guidelines: Capitol should be capitalized when referring to the U.S. Capitol, even when the
+word stands alone. When referring to state capitol buildings, capitol should be lowercase unless
+it is part of a proper name.
+●​ Examples: the U.S. Capitol, the Capitol, Michigan State Capitol, the state capitol
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Caucus
+Guidelines: Capitalize caucus when referring to a party's group in the legislature.
+●​ Example: At the House Democratic Caucus leadership elections, the caucus voted to
+allow the House Democratic Leader Hakeem Jeffries (D-N.Y.) to select a chairperson,
+whose selection would then be voted on by the full caucus.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Chairman, chairwoman, chair
+Guidelines: Use chairman or chairwoman when the gender of the individual is known. Use the
+term chair if the gender is unknown or if making a generic reference to the office. All three terms
+should be capitalized as formal titles when they directly precede a chair’s name.
+●​ Example: Policy and Communications Committee Chairwoman Debbie Stabenow
+(D-Mich.)
+
+27
+●​ Related entries and documentation:
+Monthly style email, March 2022, Political titles and affiliations
+●​ Last Updated: July 2025
+
+Cisgender
+Guidelines: The term cisgender describes a person whose gender identity matches his or her
+sex. Avoid using the term cisgender unless it is part of a direct quote. It is a speech tribe term.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+City
+Guidelines: When used alone or after a proper noun, city should be lowercase. When used as
+part of a proper name, city should be capitalized.
+●​ Examples: the city of Chicago, the city, Kansas City
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+City council
+Guidelines: Do not capitalize city council unless it is being used with the municipality’s name as
+the body’s official title.
+●​ Examples: the Oakland City Council; the city council of Oakland; members of Oakland’s
+city council
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Clean energy, green energy
+Guidelines: Try to be specific when referring to energy sources such as wind, solar, or
+hydropower. Avoid using the terms clean energy or green energy unless part of a formal name
+(e.g., Clean Energy Act). Attribute those terms to speakers or groups.
+●​ Example: The governor announced a program to expand solar energy. She said it would
+"position New York as a leader in the clean energy transition."
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+Climate change
+Guidelines: Climate change is a borderline speech term; however, writers may use it because
+both supporters and opponents commonly do. Ballotpedia does not currently have a preferred
+
+28
+neutral alternative, and substituting another term would likely cause confusion, as climate
+change is the widely recognized phrase.
+Climate change may appear in quotations or when part of the formal name of a law, agency, or
+program. Be specific about what policies are being debated. Wherever possible, use neutral,
+descriptive language instead (e.g., carbon emissions, air quality standards, renewable energy
+requirements). Attribute claims about climate change to the source when possible.
+●​ Example: Supporters said the bill was needed to address climate change.
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+Comma
+Guidelines: Ballotpedia uses the serial (Oxford) comma. In a series of three or more elements,
+use a comma before etc.
+●​ Examples:
+○​ The agenda covered budget cuts, new hiring policies, and curriculum changes.
+○​ The report addressed taxes, fees, bonds, etc.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Comma, introductory words and phrases
+Guidelines: Introductory words and phrases should be followed by a comma when they
+function as adverbs. Do not use a comma after short prepositional phrases of four or fewer
+words unless needed for clarity.
+●​ Examples:
+○​ However, the meeting was postponed.
+○​ In 2024, the law was passed.
+○​ Before the election, voters were surveyed.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Comma, with conjunctions
+Guidelines: Use a comma before a conjunction separating two independent clauses. Do not
+use a comma before a conjunction when the second clause is dependent.
+●​ Examples:
+○​ The bill passed the House, but it failed in the Senate.
+○​ The bill passed the House but failed to gain Senate approval.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+29
+
+Comprised of, composed of
+Guidelines: Though the phrases comprised of and composed of are used interchangeably in
+casual speech, the word comprise actually means the opposite of compose. The verb to
+comprise means “to contain,” so it is normally used in the following way: [larger entity]
+comprises [smaller parts of entity]. As an alternative, you can also use the phrases composed of
+or made up of.
+●​ Incorrect: The U.S. is comprised of 50 states.
+●​ Correct: The U.S. is composed of 50 states. The U.S. is made up of 50 states. The U.S.
+comprises 50 states.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Congressman, congresswoman
+Guidelines: Congressman and congresswoman should be used only when referring to a
+specific member of the U.S. House of Representatives. Use representative for general
+references.
+●​ Examples: Congressman John Smith, Congresswoman Jane Doe. The representative
+from Ohio
+●​ Related entries and documentation:
+Monthly style email, March 2022, Political titles and affiliations
+●​ Last Updated: July 2025
+
+Coordinating conjunction, beginning a sentence with
+Guidelines: Coordinating conjunctions (for, and, nor, but, or, yet, and so) are generally used to
+connect two words, phrases, or clauses within a sentence. Ballotpedia does not consider it an
+error to start a sentence with a coordinating conjunction. That being said, this should not be
+overused because it does give a more informal tone of voice. When beginning a sentence with a
+coordinating conjunction, never use a comma after the conjunction unless you are setting off a
+nonessential clause or phrase.
+●​ Example: Joe Smith claimed that he did. But we find that Smith’s statement
+mischaracterizes what Jones said.
+●​ Example: They have pooled over a quarter of a million dollars into this year's school
+board races. And those with the biggest contributions were candidates on board with
+charter schools.
+●​ Related entries and documentation:
+Monthly style email, April 2023, Grammar rules you can break
+●​ Last Updated: July 2025
+
+30
+
+Councilman, councilwoman, council member
+Guidelines: Use councilman or councilwoman when the gender of the individual is known. Use
+the term council member if the gender is unknown or if making a generic reference to the office.
+Capitalize councilman and councilwoman when they appear as formal titles directly before a
+person’s name. Also, capitalize the word city if it precedes one of these titles. Treat council
+member as an occupational description rather than as a formal title; do not capitalize it in any
+case.
+●​ Examples: City Councilman John Connolly; Councilman John Connolly; city council
+member John Connolly; the city council member; the city councilman
+●​ Related entries and documentation:
+Monthly style email, March 2022, Political titles and affiliations
+●​ Last Updated: July 2025
+
+County
+Guidelines: County should be lowercase when used alone or after a proper noun.
+●​ Examples: the county of Los Angeles, the county, Los Angeles County
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Court names
+Guidelines: Capitalize the full proper names of all state and federal courts, retaining
+capitalization when the state name is dropped. Note: When referring to state supreme courts,
+lowercase when the state name is dropped. Do not capitalize if the name is shortened in a way
+that excludes the state name and the relevant district number/region. If the wording of a court
+name is subtly rearranged, retain capitalization.
+●​ Examples: the Virginia Circuit Courts; the Norfolk Circuit Court; the circuit courts; the
+Oregon 20th Judicial District Court; the 20th Judicial District Court; the district courts, the
+Minnesota Court of Appeals; the Minnesota Appeals Court
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+Credentials: Do not use any internal periods with occupational or professional credentials (e.g.,
+CPA, RN, etc.).
+●​ Example: Her career experience includes working as a CPA since 1995 and as a
+partner at Benford Brown & Associates since 1996.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+31
+
+Crime, criminal justice
+Guidelines: When writing about people in prison generally, acknowledge the crime that was
+committed and also the person who committed the crime. Use the terms person (people) in
+prison, person (people) with a felony conviction, and similar variations depending on the
+context. Adding context and being as specific as possible is the best approach when writing
+about the people involved in the criminal justice system.
+Additionally, although this is likely rare in our coverage, when writing about a specific person
+who committed a crime, we should use the term he or she prefers and provide context about the
+crime and the person’s experience. Include the victim’s experience of the crime when possible.
+Avoid the terms criminals, ex-cons, felons, justice-involved individual/youth, and juvenile
+delinquent.
+●​ Related entries and documentation:
+Three Strikes or Four Balls?: The language of incarceration
+●​ Last Updated: July 2025
+
+Critical race theory (CRT)
+Guidelines: Critical race theory (CRT) refers to a set of ideas, theories, and principles that can
+influence the understanding of race and racism. These include the idea that racism is
+embedded in legal and social systems. The term can also refer to activism based on this
+framework or specific conclusions, opinions, or policies attributed to CRT. The term originated in
+legal scholarship in the 1970s but became more widely used, both in other academic disciplines
+and popular culture, throughout the 1990s and 2000s.
+On the first use, refer to critical race theory as critical race theory (CRT), and then use the
+initialism in subsequent instances. When writing about debates, legislation, or curriculum that
+discuss or define CRT, use quoted language with clear attribution to avoid presenting contested
+definitions as Ballotpedia's own.
+●​ Related entries and documentation: Critical race theory (CRT)
+●​ Last Updated: September 2025
+
+D
+Dangling prepositions
+Guidelines: Every preposition has an object (though sometimes it may be only implied). A book
+can’t simply be in; it must be in something. In the sentence, “The book is in the bag,” the bag is
+the object of the preposition in.
+
+32
+A dangling preposition is a preposition that has been separated from its object. In these cases,
+the preposition will appear at the end of the sentence or clause rather than in its normal place
+next to the object. Examples include “What are you talking about?” and “I want to find a store I
+can walk to.”
+Ballotpedia does not consider dangling prepositions to be errors. If the sentence can easily be
+rephrased to place the preposition next to its object, it is preferable to do so. In other cases,
+though, a dangling preposition may be the best option.
+●​
+●​
+●​
+●​
+
+Example: He had taken more tax breaks than his real estate portfolio entitled him to.
+Example: On his campaign website, Saindon lists four issues he is concerned about.
+Example: Voters had to vote for the same party whose primary they voted in.
+Related entries and documentation:
+Monthly style email, April 2023, Grammar rules you can break
+●​ Last Updated: July 2025
+
+Dates, basic format: [month] [day], [year]
+Guidelines:
+Never use ordinal numbers (1st, 2nd, etc.) with dates.
+●​ Example: The election was held on November 5, 2024.
+Whenever possible, avoid using full dates as adjectives. If avoiding this phrasing is not possible,
+remember to include a comma following the year.
+●​ Acceptable: He won the November 5, 2024, election.
+●​ Preferred: He won the election on November 5, 2024.
+When using only the month and year, no commas are required.
+●​ Example: He assumed office in April 2025.
+When including the day of the week with a date, set it off from the rest of the date with a comma.
+●​ Example: The election will be held on Tuesday, November 5, 2024.
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Monthly style email, April 2022, Dates
+
+Dates, formatting date ranges
+Guidelines: When writing a range of dates, a hyphen may be used instead of the word to.
+Hyphens should not be used in phrases such as “from __ to __” and “between __ and __.”
+When only years are given, do not include a space before or after the hyphen.
+●​ Example: Ginsburg's Martin-Quinn score following the 2019-2020 term was -2.82,
+making her the second-most liberal justice on the court at that time.
+
+33
+●​ Example: Ginsburg served on the United States Supreme Court from 1993 to 2020.
+When full dates are given, include a space on both sides of the hyphen. If the date range is
+ongoing, capitalize the word Present and use spaces around the hyphen.
+●​ Example: January 3, 1997 - January 3, 2013
+●​ Example: January 3, 2013 - Present
+In general, use full years when giving a range of years. In some cases, it might be preferable to
+use only the last two digits of the latter year. In either case, be consistent throughout the page.
+●​ Incorrect: 2012-2013 and 2014-15
+●​ Acceptable: 2024-25 and 2024-25
+●​ Preferred: 2024-2025 and 2024- 2025
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Monthly style email, April 2022, Dates
+
+Dates, Historical periods and events
+Guidelines:
+Capitalize widely recognized popular names for periods and events.
+●​ Examples: the Atomic Age, the Great Depression, Prohibition
+When writing about centuries or decades, use an -s without the apostrophe to indicate a plural
+noun rather than a possessive noun.
+●​ Example: The 1800s were a time of rapid change in the United States.
+When abbreviating a decade, include an apostrophe at the start.
+●​ Example: During the ‘80s, people feared nuclear war.
+For centuries, spell out numbers under 10, and use numerals for 10 and higher.
+●​ Examples: the third century, the 21st century
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Monthly style email, April 2022, Dates
+
+Dates, Formatting dates for news posts
+Guidelines: In some cases, news posts follow slightly different style rules than our on-site style
+rules. Spell out the names of March, April, May, June, and July, and abbreviate all other months.
+●​ Example: The legislature adjourned on Aug. 25.
+Avoid starting a post with the date that something happened.
+
+34
+●​ Example: Massachusetts Governor Charlie Baker’s (R) administration announced on
+April 15 that the state intends to issue $2.6 billion of bonds to help replenish the state’s
+unemployment trust fund.
+If you refer to a month without an exact date, do not abbreviate the month.
+●​ Example: She took office in November 2021.
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Monthly style email, April 2022, Dates
+
+Death
+Guidelines: When reporting a death, use the following construction: NAME died on DATE. This
+should be the default phrasing in all articles and biographies. Always use died rather than
+euphemisms such as passed away or lost their life.
+●​ Example: John Smith died on March 4, 1996.
+●​ Related entries and documentation:
+●​ Last Updated: April 2026
+
+Decimals, rounding
+Guidelines: Decimals should always be rounded to the same place in tables, charts, and
+graphs. These numbers should not be written out past two decimal places (the hundredths
+place) unless there is a compelling reason to do so.
+In the text of an article, decimals should generally be rounded to one decimal place (the tenths
+place) unless greater precision is needed. When reporting decimals under one, the number may
+be rounded to two decimal places (or more, if necessary). For example, 24.86% should be
+rounded to 24.9%, but 0.352 tons should be rounded to 0.35 tons.
+When making comparisons about a related set of data, always bring the numbers out to the
+same decimal place, even if the data set includes some whole numbers.
+●​ Example: The candidates received 41.5%, 40.0%, and 18.5% of the vote total,
+respectively.
+Monthly style email, February 2022, Numbers
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Democrat, Democratic Party
+Guidelines: Use Democrat as a noun, Democratic as an adjective. Capitalize both terms when
+referring to the political party. Do not use the term Democrat Party. It is a speech tribe term.
+
+35
+●​ Examples: The Democrat voted for the Democratic Party’s platform.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Disabled, disability
+Guidelines: The terms people with disabilities and disabled people are acceptable when writing
+about disabilities. When possible, use the term that a person or group prefers.
+Do not use the term handicap to describe a disability or handicapped to describe a person with
+a disability. Do not use the terms differently abled or physically challenged.
+For more specific questions related to this topic (e.g., use of the term amputation or amputee),
+consult the National Center on Disability and Journalism’s style guide. Then, consult your
+managing editor for specific guidance.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Disambiguation pages
+Guidelines: In any case where two or more people share the same first and last name, a
+disambiguation page titled [First name] [Last name] should be created. This page will link to all
+profile pages of individuals with the same name.
+●​ Related entries and documentation:
+BP basics documentation: Titles and naming conventions ;
+BP Basics: Disambiguation page policy (Version 12.3)
+●​ Last Updated: October 2025
+
+Disclaimers
+Guidelines: Disclaimers should be used to clarify limitations or conditions of the page. Use
+them when the article’s neutrality, sourcing, or completeness is under review. Disclaimers
+typically appear at the top of the page, especially if the disclaimer addresses concerns about
+bias or timeliness. Disclaimers should signal to our readers that we are being honest about the
+complexity or disagreement of a topic.
+Use disclaimers when:
+●​ Accuracy or neutrality could be questioned.
+●​ Data has multiple valid interpretations.
+●​ Leaving information out could make Ballotpedia appear biased or misleading.
+Italicize disclaimers.
+
+36
+●​ Example: These statistics are mainly from government sources, including the U.S.
+Census Bureau and the National Center for Education Statistics. Figures given were the
+most recent as of October 2022.
+●​ Example: This article is outside of Ballotpedia's coverage scope and does not receive
+scheduled updates.
+●​ Related entries and documentation: Explanatory notes, Tooltips,
+Ballotpedia basics: Customized Disclaimers (Version 2.1) ;
+BP Basics Documentation: On-site disclaimers
+●​ Last Updated: October 2025
+
+District of Columbia
+Guidelines: On first reference, use Washington, D.C. On second reference, D.C. is acceptable.
+Use District of Columbia only when the full name seems necessary for context.
+●​ Example: The mayor of Washington, D.C., is the city's chief executive. The current
+mayor of D.C. is Muriel Bowser (D).
+●​ Related entries and documentation:
+●​ Last Updated: August 2025
+
+District
+Guidelines: Capitalize District when part of a proper name.
+●​ Examples: Ohio’s 3rd Congressional District, the district, congressional districts
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Dual heritage
+Guidelines: Do not hyphenate terms describing dual heritage.
+●​ Incorrect: Asian-American
+●​ Correct: Asian American
+●​ Related entries and documentation:
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+E
+Election, Election Day, election night
+
+37
+Guidelines: Reserve capitalization of Election Day only for the November general election (the
+first Tuesday after the first Monday in November). All other elections may be referred to as
+election day (lowercase). The phrase election night should be lowercase in all cases.
+●​ Example: This section includes articles covering events related to the presidential
+election that took place after Election Day.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Electoral College
+Guidelines: The Electoral College is the process by which the states and the District of
+Columbia elect the president of the United States. Each state and D.C. is represented by a
+number of electors equal to the size of its congressional delegation. There are 538 electors in
+total. To win the Electoral College, a candidate must receive a majority — at least 270 —
+electoral votes. Capitalize Electoral College; lowercase electoral votes.
+The president of the U.S. is elected by electoral votes, not by popular vote. When discussing
+vote totals, include the number of electoral votes and the total number of votes each candidate
+received when it is relevant.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+— Em dash
+Guidelines: Use an em dash to set off a list or phrase in a sentence. An em dash implies a
+longer pause than a comma, creating greater emphasis. Add a space both before and after an
+em dash.
+●​ Examples:
+○​ Kansas is one of six states — including Kentucky, Louisiana, Maryland,
+Massachusetts, and Vermont — with neither a trifecta nor a triplex.
+○​ The committee requested that the Big Three asset managers — BlackRock,
+State Street Global Advisors (State Street), and Vanguard — appear.
+●​ Related entries and documentation:
+Monthly style digest, December 2022, Hyphens and dashes
+●​ Last Updated: July 2025
+
+Ellipsis
+Guidelines: An ellipsis indicates an omission of words and consists of three periods with a
+space on both sides. Treat it as a single unit: [space]...[space].
+
+38
+Avoid using an ellipsis at the beginning or end of direct quotes whenever possible. If an ellipsis
+is necessary at the end of a sentence, use the following format: “TEXT ... .” If an ellipsis is
+necessary at the beginning of a sentence, use this format: “ ... TEXT.”
+Whenever possible, use full quotations instead of altered quotations. If you must use ellipses to
+shorten a quote, do not distort the speaker’s meaning.
+●​ Example: Senator Rand Paul (R-Ky.) said, “I think bombing a capital … is, by all
+definitions, war.”
+●​ Example: Justice Neil Gorsuch wrote, “Mr. Buffington’s case illustrates the impact on
+disabled veterans. Those who left active service before the VA changed its rule received
+all their promised benefits; those who served later do not. Not because of any change in
+law, only a change in an agency’s view. So many other individuals who interact with the
+federal government have found themselves facing similar fates … .”
+●​ Example: Former Vice President Harris (D) wrote, “... it was recklessness. The stakes
+were simply too high. This wasn’t a choice that should have been left to an individual’s
+ego, an individual’s ambition.”
+●​ Related entries and documentation:
+Monthly style email, October 2023, Apostrophes, brackets, and ellipses
+●​ Last Updated: May 2026
+
+Email
+Guidelines: Use email, not e-mail.
+●​ Example: Send the report via email.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Ensure, insure
+Guidelines: Use ensure to mean “to make certain.” Use insure for insurance contexts.
+●​ Examples: The law ensures voter access. The policy insures against flood damage.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+– En dash
+Guidelines: The en dash is slightly shorter than the em dash, and it is used when listing
+ranges, vote totals, and connections. There should be no spaces before or after an en dash.
+Note: On Ballotpedia, en dashes can be substituted with hyphens.
+●​ Examples:
+○​ The Senate confirmed the nomination on December 7, 2022, by a vote of 52–48.
+
+39
+○​ 2022–Present: Governor of Ohio
+○​ Eighty percent of the entire population lived along the I-25 corridor, the state's
+main north–south highway.
+●​ Related entries and documentation:
+Monthly style digest, December 2022, Hyphens and dashes
+●​ Last Updated: July 2025
+
+ESG (environmental, social, and governance)
+Guidelines: On first reference, spell out environmental, social, and governance (ESG). Avoid
+speech tribe terms such as woke investing or sustainable investing unless they are part of a
+quotation or attributed to a person or group.
+●​ Example: The environmental, social, and corporate governance (ESG) bill required
+asset managers to prioritize carbon emission reductions when investing pension funds.
+Supporters said the policy would ensure sustainable investing practices, while
+opponents described the investing approach as political.
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+Ex officio
+Guidelines: The word ex officio should not be italicized, hyphenated, or placed in quotation
+marks.
+●​ Example: He is an ex officio member of the committee.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Exclamation point (!)
+Guidelines: Exclamation points should never be combined with a comma or a period (whether
+in text or in footnotes).
+●​ Example: Supporters all carried signs reading “Jeb!” which they were handing out at the
+front door.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Explanatory notes
+Guidelines: Explanatory notes enhance the reader's knowledge by providing context or
+clarifying terminology to help the reader understand the content without interrupting the main
+narrative. Explanatory notes should be italicized and placed after closing punctuation unless
+doing so would cause confusion. Tooltips should be used rather than explanatory notes to
+define terms.
+
+40
+Use an explanatory note when:
+●​ A concept is unique to a specific time, place, or legal framework.
+●​ You need to note exceptions, caveats, or distinctions (but not lengthy analysis).
+
+●​ Example: In Arizona, all polling places are open from 6:00 a.m. to 7:00 p.m. local time.
+<ref>''Arizona generally observes Mountain Standard Time; however, the Navajo Nation
+observes daylight saving time. Because of this, Mountain Daylight Time is sometimes
+observed in Arizona.''</ref>
+●​ Example: As of September 30, 2025, 41 states restricted abortions after a certain point
+in pregnancy.<ref>''Note: Exceptions to these thresholds are generally provided when
+pregnancy threatens the mother's life or health.''</ref>
+●​ Related entries and documentation: Tooltips, Disclaimers
+●​ Last Updated: October 2025
+
+External links
+Guidelines: Do not capitalize links in External links.
+●​
+●​
+●​
+●​
+
+Incorrect: ==External Links==
+Correct: ==External links==
+Related entries and documentation:
+Last Updated: July 2025
+
+F
+Factive verbs
+Guidelines: Factive verbs are verbs of attribution that presuppose the truth of the claim they try
+to make. You can say, claim, or write something that isn't true. But you can't note, affirm, or
+realize something that isn't true. Factive verbs are fine to use when discussing verifiable facts,
+but they should be avoided when discussing opinions, narratives, or talking points. Use said,
+stated, or wrote to avoid introducing bias.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Bias basics: factive verbs
+
+Federal
+Guidelines: Capitalize Federal when part of a proper name or title.
+●​ Examples: Federal Election Commission, Federal Register, the federal government
+●​ Related entries and documentation: .
+
+41
+●​ Last Updated: July 2025
+
+Fewer, less
+Guidelines: Use fewer for countable items and less for uncountable quantities.
+●​ Examples: Fewer voters attended. Less support was evident.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Firearms, guns
+Guidelines: When writing about firearms-related policy, legislation, or ballot measures, use the
+term firearms or guns. Avoid using assault rifle or assault weapon; these are speech tribe terms.
+Additionally, avoid the speech tribe terms gun control and gun rights. Instead of using the
+speech tribe term constitutional carry, use some version of this: state law does/does not require
+citizens to have a permit to carry a firearm. Instead of Second Amendment rights, use the
+constitutional right to own a firearm. Do not use the speech tribe terms listed unless they appear
+in a direct quotation.
+●​ Example: Here is an example of how to handle speech tribe terms when writing about
+firearms from Massachusetts Firearm Regulations Referendum (2026) - Ballotpedia:
+“changing the law from a ban on people possessing, selling, or otherwise transferring
+assault weapons to a ban on assault-style firearms, except those registered by August 1,
+2024 (Note: The terms assault weapons and assault-style firearms are legal terms in
+Massachusetts with specific definitions.)”
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Fiscal year
+Guidelines: Use fiscal year, not FY, on first reference.
+●​ Examples: The fiscal year 2025 budget was approved. FY 2025 spending increased.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Front-runner
+Guidelines: Always include a hyphen in the term front-runner.
+●​ Example: Smith emerged as the front-runner in the presidential race after the debate.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+42
+
+G
+Global warming
+Guidelines: Generally, avoid using the speech tribe term global warming. It may appear in
+quotations or when part of the formal name of a law, agency, or program. Be specific about what
+policies are being debated.
+●​ Example: Supporters said the bill was needed to address global warming.
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+Governor
+Guidelines: Capitalize governor when used as a title before a name. Lowercase governor in
+general use or when separated by a comma.
+●​ Examples: Governor Wes Moore (D-Md.); Wes Moore (D), the governor of Maryland;
+The governor
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Greener
+Guidelines: {{Greener}} is a template used across Ballotpedia that allows writers to control the
+text that appears to the reader in date-dependent circumstances, preventing tense errors.
+●​ Examples: Five seats {{Greener|start=11/5/2025 8pm EST|before=are|after=were}} on
+the ballot.
+●​ Related entries and documentation: Template:Greener,
+{{Greener}} Training
+●​ Last Updated: September 2025
+
+Greenhouse gases, emissions
+Guidelines: Specify the gas you are writing about when possible (e.g., carbon dioxide,
+methane). Avoid terms such as carbon pollution or decarbonization unless they are part of a
+quotation or are attributed to a speaker or group.
+●​ Example: The EPA projected the rule would reduce carbon, methane, and other
+emissions by 30% by 2030.
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+43
+
+Gulf of America (formerly Gulf of Mexico)
+Guidelines: Ballotpedia uses Gulf of America when referring to the body of water bordered by
+the southern United States, eastern Mexico, and Cuba. On first reference, writers may include
+“formerly the Gulf of Mexico” when relevant to the context of the article or story. Ballotpedia
+follows the Geographic Names Information System (GNIS) designation maintained by the U.S.
+Geological Survey (USGS).
+●​ Example: The Gulf of America (formerly the Gulf of Mexico) is a major shipping and
+energy corridor.
+●​ Related entries and documentation: Geographic Names Information System (GNIS)
+●​ Last Updated: April 2026
+
+H
+Headers
+Guidelines: On a wiki-based site, headers can be as big as Level 1 (=Header=) and as small
+as Level 6 (======Header======). On Ballotpedia, normal headers should stay between Level
+2 and Level 5. Level 1 is the same size as the page title, and Level 6 is smaller than the normal
+page text, so these levels should be avoided under most circumstances. Note: Level 1 headers
+can be used to create tabs.
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Hiding content
+Guidelines: At times, we may want to hide content instead of deleting it. To do so, use the
+following code: <!--XXXX.--> Note: transclusion tags cannot be hidden without breaking the
+transclusion.
+●​ Example: <!--New York's 21st Congressional District voted for [[Barack Obama]] (D) in
+2008 and 2012 and [[Donald Trump|Trump]] in 2016 and
+2020.<ref>[https://www.cnn.com/2021/05/11/politics/elise-stefanik-district-voter-reaction/i
+ndex.html ''CNN'', "Voters in Elise Stefanik’s district have mixed reactions to her embrace
+of Trump and rise in the GOP," May 11, 2021]</ref>-->
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Healthcare
+Guidelines: Use one word for healthcare.
+
+44
+
+●​ Examples: the healthcare bill; her policy on healthcare
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Hispanic
+Guidelines: Hispanic refers to someone from any Spanish-speaking country. The terms
+Hispanic and Latino/Latina should not be used interchangeably, though both may be used to
+describe the same person in some cases. A person from Brazil would be Latino/Latina but not
+Hispanic. A person from Spain would be Hispanic but not Latino/Latina. A person from Cuba
+would be both Hispanic and Latino/Latina.
+In cases where either word would be appropriate, follow the person’s preference if known.
+Otherwise, Latino/Latina is preferred. When possible, be more specific (for example, Mexican
+American, Cuban, or Puerto Rican).
+●​ Example: Opponents of the recall argued that it was racially motivated, since Ebel is the
+first Hispanic woman to be elected to the board.
+●​ Related entries and documentation: Latino/Latina
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+However
+Guidelines: Writers are permitted to start sentences with the conjunctive adverb however, but
+this construction should not be overused.
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Hyphen
+Guidelines: The hyphen is used to connect two words and show that they convey a single idea.
+Hyphens are most often used in compound modifiers, such as “little-known” or “well-liked,” when
+they come directly before a noun. Hyphens should never be used when the first word is an
+adverb ending in -ly. When setting off a nonessential element from the rest of the text, use
+commas or em dashes, but never hyphens.
+Along with many aspects of the English language, rules for hyphen usage are complicated and
+allow for many exceptions. Sometimes, the best way to figure out whether or not a word should
+be hyphenated is to type it into a Google search and see what comes up. However, there are a
+few basic guidelines to remember when dealing with hyphens. The AP Stylebook gives us the
+
+45
+most important hyphen advice: “The fewer hyphens the better; use them only when not using
+them causes confusion.”
+●​ Use a hyphen to join words in a compound modifier when the modifier comes directly
+before the noun or when it follows a form of to be after the noun. In general, do not
+hyphenate a modifier that follows the noun without a form of to be.
+○​ Examples: a little-known candidate; he is well-liked
+●​ Do not hyphenate modifiers when the two words are strongly associated as one concept.
+○​ Examples: a vice presidential candidate; the U.S. Senate seat
+●​ Never use a hyphen to join two words in a compound modifier when the first word ends
+with -ly.
+○​ Examples: the highly partisan group; the rapidly increasing price tag
+●​ Hyphenate words starting with prefixes like re- or anti- only when the last vowel is
+repeated.
+○​ Examples: re-elect; renominate
+●​ Do not hyphenate words ending in -wide.
+○​ Examples: nationwide; statewide; citywide
+●​ Hyphenate numbers 21-99 when it is necessary to spell them out rather than using
+figures. This should only occur when a number is the first word of a sentence.
+○​ Examples: twenty-three; four hundred ninety-seven
+●​ Hyphenate all fractions less than one.
+○​ Examples: a two-thirds majority; nine-tenths of the voters
+●​ Hyphenate an age only if it is used as a noun or as an adjective preceding a noun.
+○​ Examples: the three-year-old laughed; his 16-year-old daughter; he is 50 years
+old
+●​ Most (but not all) nouns are either written as two words or compounded into one word
+without a hyphen.
+○​ Examples: a businessman; term limits
+
+46
+●​ Related entries and documentation:
+Monthly style digest, December 2022, Hyphens and dashes
+●​ Last Updated: July 2025
+
+I
+Immigration
+Guidelines: Immigration policy determines who may enter the country as a temporary worker,
+student, refugee, or permanent resident and who may become a new citizen of the United
+States. Immigration affects a variety of public policy areas, including national security, criminal
+justice, budgets, education, and healthcare. The federal government is responsible for setting
+and enforcing most immigration policy. States have a largely supportive role, enacting policies
+that may, for example, determine which public services immigrants can access, establish
+employee screening requirements, or guide the interaction between related state agencies and
+their federal counterparts.
+When writing about foreign nationals residing in the country without legal permission, who either
+illegally crossed a border without proper documentation or overstayed a visa, use the term
+individual(s) residing in the United States without legal permission.
+Avoid these speech tribe terms: illegal alien, illegals, unaccompanied alien children,
+undocumented noncitizen, undocumented immigrant, migrant, anchor baby, and irregular
+migrant.
+The term illegal immigration is acceptable; the term illegal immigrant is not.
+●​ Example: In 2024, Adams proposed a budget that included increased spending on
+education and police officers, and cuts to costs associated with housing individuals
+residing in the country without legal permission.
+●​ Related entries and documentation:
+Memo: Neutrality panel results on immigration terminology
+●​ Last Updated: July 2025
+
+Incumbent
+Guidelines: Use incumbent to refer to a current officeholder seeking re-election.
+●​ Example: The incumbent senator won by 12 percentage points.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Independent, political affiliation
+Guidelines: Do not capitalize independent when referring to a person’s political affiliation. An
+independent voter or politician is a person who is not affiliated with a political party.
+
+47
+●​ Examples: Angus King (independent) is a member of the U.S. Senate from Maine. Sen.
+Bernie Sanders (Vt.) is an independent member of Congress who caucuses with the
+Democratic Party.
+●​ Related entries and documentation:
+●​ Last Updated: August 2025
+
+Indian American
+Guidelines: The term Indian American is used to describe people who were born or have come
+from the South Asian nation of India and now live in the U.S. Do not use the term as a
+shorthand for Native Americans. Do not hyphenate Indian American.
+●​ Example: Haley's election in 2010 made her the first Indian American woman to become
+governor of South Carolina and the second Indian American governor in the United
+States after Louisiana Governor Bobby Jindal (R).
+●​ Related entries and documentation:
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Internal links
+Guidelines: An internal link is a link in the text of a Ballotpedia article that links to another
+Ballotpedia page. These links are created by placing two sets of square brackets around the
+page title, like this: [[Page title]]. In some cases, we may need to alter the linked text to make it
+fit with the surrounding text. To do this, we can use a pipe ( | ) after the page title, followed by
+the desired text. These changes may be necessary to change wording or capitalization.
+●​ Example: Wes Moore is the [[Governor of Maryland|governor of Maryland]].
+Internal links should be used with the first reference of that page name (or of a closely related
+concept) in any article. The internal link should generally be added again if the term is repeated
+on the page under a different Level 2 heading. Additional internal links may be used if they
+would add to the user experience, but they are not required.
+You do not need to alter the text of an internal link to include a person’s full title or to include ’s
+for a possessive name. It is not considered an error to do so, but it is more efficient to eliminate
+this extra step.
+●​ Incorrect: [[Donald Trump|President Donald Trump’s]] One Big Beautiful Bill Act became
+law on July 4, 2025.
+●​ Correct: President [[Donald Trump]]’s One Big Beautiful Bill Act became law on July 4,
+2025.
+
+Internet
+Guidelines: Always lowercase internet.
+
+48
+●​ Examples: Access to the internet is widespread.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Italics
+Guidelines:
+●​ Companies, organizations, and law firms: Write the names of companies and
+organizations in plain text, without italics.
+○​ Example: TikTok has vowed to wage a legal war after President Joe Biden
+signed a bipartisan bill that forces its Beijing-based parent company to sell the
+popular video-sharing app or face a U.S. ban.
+○​ Because law firms are simply companies, their names should be formatted in
+plain text like those of any other company. If the name of the law firm looks too
+confusing, try changing the phrasing of the sentence.
+○​ Example: He spent five years as an attorney at Pietragallo, Bosick & Gordon.
+●​ Court cases: Always italicize the names of court cases.
+○​ Example: City of Grants Pass, Oregon v. Johnson concerns laws regulating
+camping on public property and the Eighth Amendment.
+●​ For emphasis: Try to avoid using italics for emphasis. Draw attention to important text
+through phrasing rather than formatting.
+○​ Incorrect: Martinez said that women’s issues are really important to her.
+○​ Correct: Martinez, who is running on a platform she titled A Woman’s Agenda,
+said her plan is a “call to action for an MD-06 that prioritizes women’s issues and
+empowerment.”
+●​ Foreign words: Do not italicize foreign words that have been largely adopted by the
+English language, but do italicize words in other languages unfamiliar to most English
+speakers. One way to determine this is to see if the word is in the English dictionary.
+○​ Example: He hosted a party with drinks and hors d'oeuvres.
+○​ Example: She served as the committee’s de facto president.
+○​ Example: His melancholic attitude was caused by a strong sense of
+Weltschmerz.
+
+49
+
+○​ Latin species names are considered unfamiliar foreign words and should be
+italicized.
+○​ Example: Gray wolves (canis lupus) live in packs and hunt as a group.
+●​ Titles: Italicize the names of long artistic works and works that can be broken down into
+parts. These works include the following:
+○​
+○​
+○​
+○​
+○​
+○​
+○​
+○​
+○​
+○​
+○​
+○​
+○​
+
+Books
+Newsletters, including our own (Daily Brew, Hall Pass, etc.)
+Newspapers
+Magazines
+Academic journals
+Movies
+Television series
+Plays, operas, and musicals
+Music albums
+Long poems
+Blogs
+Podcasts
+Websites containing individual articles
+
+○​ Put quotation marks around the names of the smaller sections that
+comprise items in the list above. These smaller sections include the following:
+■​ Chapters of a book
+■​ Articles in a newspaper, magazine, or academic journal
+■​ Titles of episodes in a television series
+■​ Acts of a play
+■​ Songs in an album
+■​ Articles from a blog or website
+○​ Note that television and radio stations (including call signs) should not be
+italicized. These are treated as companies rather than as artistic works. If we
+need to cite the website of a television or radio station, the website title may be
+written in italics, but in these cases, the website domain should be added for
+clarity.
+■​ Example: Fox News reported that Biden said he wanted to debate
+Trump.
+■​ Example: The article on sending aid to Ukraine can be found on
+CNN.com.
+
+50
+●​ Words as words: When referring to a word as a word rather than as the object it
+represents, italicize the word rather than putting it in quotation marks. This rule also
+applies when referring to letters as letters.
+○​ Example: The word amnesty has a positive connotation for some and a negative
+connotation for others.
+○​ Example: The letter i appears four times in the word Mississippi.
+●​ Misc. rules: Italicize the names of specific ships, trains, airplanes, and spacecraft.
+Italicize titles of visual artwork, such as paintings and sculptures. Do not italicize the
+names of products, games, or computer/phone applications.
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Monthly style email, April 2024, Italics
+
+J
+Judge, justice
+Guidelines: Capitalize judge or justice when used as a title before a name. Lowercase judge or
+justice in general use or when separated by a comma.
+●​ Examples: Judge Judy Smith, Justice John Roberts, the judge, John Roberts, the chief
+justice
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Judgment
+Guidelines: Use judgment without the extra -e, which is more common in American English,
+while British English uses judgement.
+●​ Example: The judgment under review came from the United States District Court for the
+Western District of Texas.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Jungle primary/ Louisiana majority-vote system
+Guidelines: Louisiana's electoral system for certain state and local offices differs from those
+employed in the other 49 states. This system is sometimes referred to as a jungle primary or
+cajun primary. Ballotpedia refers to the state's electoral system as the Louisiana majority-vote
+system. Do not use jungle primary or cajun primary unless it is part of a direct quote.
+
+51
+●​ Example: Louisiana elections use the majority-vote system. All candidates compete in
+the same primary, and a candidate can win the election outright by receiving more than
+50 percent of the vote. If no candidate does, the top two vote recipients from the primary
+advance to the general election, regardless of their partisan affiliation.
+●​ Related entries and documentation: Louisiana majority-vote system
+●​ Last Updated: March 2026
+
+L
+Latino/Latina
+Guidelines: Latino/Latina refers to someone from Latin America (Mexico, Central America, or
+South America).The terms Latino/Latina and Hispanic should not be used interchangeably,
+though both may be used to describe the same person in some cases. A person from Brazil
+would be Latino/Latina but not Hispanic. A person from Spain would be Hispanic but not
+Latino/Latina. A person from Cuba would be both Hispanic and Latino/Latina.
+In cases where either word would be appropriate, follow the person’s preference if known.
+Otherwise, Latino/Latina is preferred. When possible, be more specific (for example, Mexican
+American, Cuban, or Puerto Rican).
+Avoid the terms Latinx and Latine. They are speech tribe terms.
+●​ Example: Cortez Masto, the first Latina elected to the U.S. Senate, took office in 2017
+after defeating Heck (R) 47.1% to 44.7%.
+●​ Related entries and documentation: Hispanic
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Left-wing, leftist, far-left
+Guidelines: Do not use left-wing, leftist, or far-left to describe a person’s political ideology and
+beliefs. Instead, describe the person's political affiliation by including details about voting history
+and issue stances.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Legislatively referred
+Guidelines: Do not hyphenate the modifier legislatively referred.
+●​ Example: It is a legislatively referred constitutional amendment.
+●​ Related entries and documentation:
+
+52
+●​ Last Updated: July 2025
+
+Legislature
+Guidelines: Capitalize the word legislature when it follows a state name. Do not capitalize it
+when it stands alone or when the word state is used in place of the state’s name. A full list of
+official state legislature names appears here.
+●​ Examples: the Washington Legislature; the Wyoming State Legislature; the state
+legislature; the legislature
+●​ Related entries and documentation: Official names of state legislatures
+●​ Last Updated: July 2025
+
+M
+Majority, plurality
+Guidelines: A majority is more than half the votes cast; a plurality is the largest number of
+votes, but less than a majority.
+●​ Examples: Lincoln won a plurality of the popular vote (about 40%) and a majority of
+electoral votes (180 of 303).
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Media
+Guidelines: The word media may be treated as singular or plural. When referring to multiple
+sources of mass communication, use media as a count noun and treat it as plural (the plural
+form of medium). On the other hand, when referring to mass communication as one collective
+unit, use media as a mass noun and treat it as singular. Do not use the speech tribe term fake
+news unless it is in a quotation.
+●​ Examples: The media have largely ignored the issue. The media is often considered
+biased.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Middle class, middle-class
+Guidelines: Use middle class (no hyphen) as a noun and middle-class (with a hyphen) as an
+adjective.
+●​ Examples: Politicians often appeal to the middle class for votes, promising to protect
+middle-class values and economic stability.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+53
+
+Middle initials
+Guidelines: Avoid using middle initials unless the person specifically requests or prefers them.
+This preference can be inferred if a candidate uses the initial in his or her campaign materials. If
+the middle initial is used, ensure that it appears in the page title, first reference, and infobox.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Midterm election
+Guidelines: Use midterm election, not mid-term election.
+●​ Example: In 2022, the previous midterm election year, the same 30 attorney general
+offices were on the ballot.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Months
+Guidelines: Do not abbreviate months in the text of an article. On BP News and in tables,
+charts, and graphs, months may be abbreviated in the following manner:
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+
+January (Jan.)
+February (Feb.)
+March (March)
+April (April)
+May (May)
+June (June)
+July (July)
+August (Aug.)
+September (Sept.)
+October (Oct.)
+November (Nov.)
+December (Dec.)
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Myriad
+Guidelines: Meaning “a great number” or “innumerable,” myriad may be used as a noun or as
+an adjective. The adjective form (without the word of) is more widely accepted. However, the
+phrase a myriad of is acceptable.
+●​ Examples: funding for myriad immigration programs; a myriad of state and federal laws
+
+54
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+N
+Names, individuals
+Guidelines: Use a person’s full name on the first mention. On subsequent mentions —
+including those in later sections of an article — use only the last name unless the first name is
+necessary for clarity. When text is being transcluded onto another page, be sure that no stray
+last names appear without clear context.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Nationwide
+Guidelines: Spell in accordance with the listing in this entry.
+●​ Example: Nationwide voter turnout increased.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Native Americans
+Guidelines: Use the term Native Americans when describing two or more people from different
+tribes or tribal nations. Do not use the terms Native American or Indigenous person when writing
+about an individual. Instead, include the name of the tribe. Do not use the term Indian American
+to describe an individual from a tribe or tribal nation.
+●​ Example: In an effort to promote tribal sovereignty, the Indian Self-Determination and
+Education Assistance Act (ISDA) was passed by Congress in 1975. The ISDA permits
+qualifying Native American tribes to administer healthcare programs.
+●​ Example: Cherokee Nation Principal Chief Chuck Hoskin Jr. signed legislation
+redistricting the tribe’s legislative council district map based on major population changes
+over the past decade.
+●​ Related entries and documentation:
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Nicknames, individuals
+Guidelines: Nicknames can be included in quotes on first reference, but they should generally
+not appear in page titles or in the infobox. When middle initials are used, the nickname should
+appear after the initial. If a person is known primarily by his or her nickname — as demonstrated
+by their campaign materials, references to him or her in media, etc. — a writer may substitute
+
+55
+the nickname for the first name in the page title and infobox. Additionally, a redirect page should
+be created using the legal name.
+●​ Examples:
+○​ Barbara “Bobbi” Petrungaro
+○​ Hyland “Buddy” Fowler Jr. (The page title is “Buddy Fowler,” which redirects from
+“Hyland Fowler Jr.”)
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Noncitizen
+Guidelines: Use the term noncitizen when writing about:
+1.)​ Individuals in the U.S. who are permanent residents with legal permission;
+2.)​ Temporary residents visiting the U.S. for a period of time as students, tourists, foreign
+workers, and foreign officials; and
+3.)​ Individuals in the U.S without legal permission.
+Do not use non-citizen.
+●​ Example: This article covers noncitizen voting in the United States.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+None
+Guidelines: The word none may be singular or plural depending on context. It is treated as
+singular when it means “not one” or when it refers to a mass noun (something that is
+uncountable). It is treated as plural when it means “not any.” In some cases, either form may be
+used because “not one” and “not any” both work in context. The easiest rule of thumb for using
+none is to use a plural verb whenever the noun following “none of” is plural and a singular verb
+whenever the noun is singular. Note: This sentence may also be written with a singular verb if
+the goal is to stress “not one,” but the plural form is more common.
+●​ Examples: None of the members have opposed the bill. None of the water is safe to
+drink.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Nonpartisan
+Guidelines: Write nonpartisan as one word without a hyphen.
+●​ Examples: a nonpartisan election; the nonpartisan organization
+●​ Related entries and documentation:
+
+56
+●​ Last Updated: July 2025
+
+Nonprofit
+Guidelines: Write nonprofit as one word without a hyphen.
+●​ Example: a 501(c)3 nonprofit organization
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Numerals
+Guidelines:
+●​ In general, spell out numbers up to nine.
+○​ There are three weeks until the general election.
+●​ Use numerals for 10 and above.
+○​ An average of 63 measures were certified for even-year ballots by this point from
+2010 through 2020.
+●​ Use numerals in the following cases:
+○​ Academic course numbers
+■​ American History 101
+○​ Addresses
+■​ 1600 Pennsylvania Ave. SE
+○​ Ages
+■​ She has a 6-year-old daughter. The building is 200 years old.
+○​ Aircraft, ships, and spacecraft designations and vehicle names
+●​ F-18f, QE 2, Apollo 9, Aston Martin DB5
+●​ Exception: Air Force One, the president’s plane
+○​ Court decisions, court districts
+■​ The Supreme Court ruled 5-4
+■​ 5th U.S. Circuit Court of Appeals
+○​ Decimals, percentages, and fractions
+■​ 5.6, 8%, 3 ½
+■​ Exception: Spell out simple fractions under one.
+●​ two-fifths, three-quarters
+○​ Dimensions
+■​ He is 5 feet 11 inches tall. The car is 17 feet long.
+○​ Military ranks, used as titles with names; military terms and weapons
+■​ Petty Officer Second Class Alan Smith; M16 rifle; 9 mm pistol; 6th fleet
+○​ Millions, Billions, and Trillions: For large round numbers, AP style suggests a mix
+of numerals and words.
+■​ 1 million people; $2 billion lawsuit
+
+57
+○​ Money
+■​ $8; £100
+○​ Odds and ratios
+■​ A 2-1 chance
+○​ Page numbers and sequential designations
+■​ Page 4; Chapter 2
+○​ Political districts
+■​ Ward 9; 3rd congressional district
+○​ School grades
+■​ Use figures for grades 10 and above
+●​ 10th grade
+■​ Spell out first through ninth grades
+●​ Second grade
+○​ Sports scores
+■​ The Cleveland Browns won the Super Bowl 31-21.
+○​ Times
+■​ 3:30 p.m.; 6 a.m.; 5 o’clock
+■​ Exception: Write out noon and midnight.
+○​ Votes
+■​ The bill passed by a vote of 96-4.
+●​ Spell out a number at the beginning of a sentence.
+○​ Two thousand people attended the rally.
+○​ Exception: In some cases, it is acceptable to use a numeral at the beginning of a
+sentence in a newsletter.
+○​ Exception: Write out the year in numbers at the beginning of a sentence.
+■​ 2021 saw a record number of school board recall elections.
+■​ In general, avoid beginning a sentence with a year.
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Monthly style email, February 2022, Numbers
+
+Numeric ranges
+Guidelines: When prefacing a range with a preposition (from or between), link the numbers with
+a written word (to or and) rather than with a hyphen. When displaying a range with a hyphen,
+use figures for all numbers, even if they are less than 10. When writing dollar ranges that
+include the word million, write million beside both the upper and lower bounds to avoid
+confusion. With percent ranges, no such repetition is required.
+●​ Examples: $14 million to $36 million (not $14 to $36 million); between 14 and 36%,
+between four and 12 vetoes per term; candidates who earned 9-15% of the vote; from
+50 to 60 cases a year
+
+58
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Monthly style email, February 2022, Numbers
+
+O
+Obamacare, Affordable Care Act
+Guidelines: On the first use, refer to Obama’s healthcare law as the Affordable Care Act (or the
+Patient Protection and Affordable Care Act) and mention that it is commonly called Obamacare.
+In subsequent references, use the word Obamacare or the abbreviation ACA. Do not use
+quotes when referring to Obamacare.
+●​ Example: President Barack Obama (D) signed the Patient Protection and Affordable
+Care Act, commonly known as Obamacare, into law on March 23, 2010. The ACA
+created a new type of nonprofit health insurance company. Under Obamacare, insurance
+companies cannot deny an individual coverage due to pre-existing conditions.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Officeholder
+Guidelines: Spell in accordance with the listing in this entry.
+●​ Example: The officeholder addressed the community’s concerns during the town hall
+meeting.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Opt-out/ opt out
+Guidelines: When using opt out as a verb, do not include a hyphen. When using opt-out as an
+adjective, use the hyphen.
+●​ Example: The senator decided to opt out of the controversial bill due to concerns raised
+by her constituents.
+●​ Example: The opt-out clause was included in the treaty to provide member states with
+the option to withdraw from certain provisions.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+P
+Pacific Islander
+
+59
+Guidelines: Use the term Pacific Islander to describe people from the Pacific Islands, which
+include the three major subregions of Oceania (Melanesia, Micronesia, and Polynesia). This
+term should only be used for people who are ethnically Pacific Islander. Be specific when
+possible (Hawaiian, Samoan, etc.).
+●​ Example: Samoan is the primary language, but English, Tongan, and other Pacific
+islander languages are also spoken.
+●​ Example: Tulsi Gabbard was the first American Samoan congresswoman.
+●​ Related entries and documentation:
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Parentheses
+Guidelines: Writers are welcome to use parentheses when doing so improves clarity and ease
+of reading. Parentheses may also be used to communicate a person’s party affiliation or to
+display an organization’s abbreviated name. Parentheses should not be used to add
+supplemental information to quoted material; use brackets for this purpose instead.
+●​ Examples: Read King (R); Federal Communications Commission (FCC)
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Parental Bill of Rights, parental rights
+Guidelines: A Parental Bill of Rights, also known as a Parents' Bill of Rights, is a set of state
+laws that grant parents specific rights regarding their children's education. Statewide Parents'
+Bills of Rights can constrain a school board's authority over school policies, including parental
+notification requirements and required curriculum, among others. However, the specific
+provisions of Parents' Bills of Rights vary by state. Writers should explain each law's specific
+provisions or quote from the law itself.
+Parental Bill of Rights and parental rights are borderline speech tribe terms; however, writers
+may use them, and versions of them, because both supporters and opponents commonly do.
+Ballotpedia does not currently have a preferred neutral alternative, and substituting another term
+would likely cause confusion, as Parental Bill of Rights and parental rights are the widely
+recognized phrases.
+●​ Example: Parents' Bills of Rights, though they vary across states, contain provisions
+related to parent involvement in public schools, sometimes including parental notification
+requirements or parental opt-out rights for specific curricular topics.
+●​ Example: At the time of the election, voters in at least one state, Colorado, had decided
+on a similar ballot measure to establish parental rights in the state constitution.
+●​ Related entries and documentation: Parents' Bill of Rights in education
+
+60
+●​ Last Updated: April 2026
+
+Passive voice
+Guidelines: The passive voice places emphasis on the object rather than on the subject of a
+sentence. In other words, it emphasizes the thing that is acted upon rather than the thing that is
+acting. The active voice is generally preferable because it is stronger than the passive voice.
+Furthermore, the passive voice can often leave out important details. For instance, “the lamp
+was broken” (passive) avoids placing blame on the actor, whereas “John broke the lamp”
+(active) adds an important detail to the story. While the passive voice can be overused, it is
+acceptable — and often preferable — when the actor isn’t important or is already known.
+●​ Examples: She was elected to the court in 2024. Each section of the report was given a
+separate scoring structure.
+●​ Related entries and documentation:
+Monthly style email, April 2023, Grammar rules you can break
+●​ Last Updated: July 2025
+
+Percentage points or less
+Guidelines: Use “percentage points or less” — not “percentage points or fewer” — when
+describing differences in percentages.
+●​
+●​
+●​
+●​
+
+Incorrect: Voter turnout was 10 percentage points or fewer in most counties.
+Correct: Voter turnout was 10 percentage points or less in most counties.
+Related entries and documentation:
+Last Updated: July 2025
+
+Percent
+Guidelines: Use the % sign when paired with a numeral, with no space, in most cases. For
+amounts less than 1%, place a zero to the left of the decimal. When writing about percentage
+points, use numerals.
+●​ Examples:
+○​ He won 56.2% of the vote.
+○​ Gas prices rose by 0.8% last month.
+○​ The party’s approval rating is up 4 percentage points.
+Monthly style email, February 2022, Numbers
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+61
+
+Person/people of color
+Guidelines: Avoid the term people of color. While some use this term, others avoid it because it
+groups all non-white people together who may not share the same experiences. Instead, be
+specific when writing about different racial and ethnic backgrounds.
+●​ Possible alternatives: people from various racial and ethnic backgrounds; people from
+different cultures
+●​ Related entries and documentation:
+Monthly style email, May 2024, Writing about race, ethnicity, and national heritage
+●​ Last Updated: July 2025
+
+Photo captions
+Guidelines: Photo captions may be written as complete sentences or as short phrases/clauses.
+Capitalize the first word in all cases. If a complete sentence is used to caption a photo, use
+proper grammar and punctuation. Do not end sentence fragments with a period.
+●​ Example: Feral swine in Michigan
+●​ Example: Parrot feather, an invasive aquatic species, has been found to threaten
+freshwater resources.
+When identifying members of a photo, list them from left to right (starting at the top row if
+applicable), prefacing the names with “from left” and a colon.
+●​ Example: From left: Sens. Robert Thompson (R), Tim Johnson (D), John Peterson (R)
+●​ Example: Top row, from left: Sens. Robert Thompson (R), Tim Johnson (D), John
+Peterson (R); middle row: Rep. Jim Swenson (D), Sen. Peter Robertson (R)
+
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Political affiliation
+Guidelines: Political affiliations after a candidate’s or official’s name should be written in
+parentheses, following the formats written below. If the party is anything other than Republican
+(R), Democratic (D), Libertarian (L), Green (G), or Constitution (C), write out the party’s full
+name. If the candidate is an independent candidate, his or her name should be followed by (I).
+In all cases, if the state or district is obvious in context, the party or affiliation alone may be
+used. If both the state/district and party are obvious, no parenthetical affiliation is necessary.
+Any party that is ballot-qualified in more than 10 states will be abbreviated in parentheses after
+a person’s name. For parties that are not on more than 10 state ballots, write out the name of
+the party in parentheses after the person’s name. See also: List of political parties in the United
+States.
+
+62
+
+●​ For candidates for any office, format as Firstname Lastname (party abbreviation).
+○​ Examples: Joe Biden (D); Donald Trump (R); Jo Jorgensen (L); Howie Hawkins
+(G); Don Blankenship (C); Kanye West (I)
+●​ For members of the U.S. Congress, format as Firstname Lastname (party abbreviation +
+hyphen + state abbreviation).
+○​ Examples: Sen. Marco Rubio (R-Fla.); Rep. Nancy Pelosi (D-Calif.)
+○​ Note: Remember to use the AP state abbreviation rather than the postal code
+abbreviation.
+●​ For members of a state legislature, format as State Firstname Lastname (party
+abbreviation + hyphen + district number).
+○​ Examples: Louisiana State Sen. Troy Brown (D-2); Alabama State Rep. Phil
+Williams (R-6)
+○​ Note: With state legislators, the state is not given in the parenthetical affiliation,
+so it must be made clear from the context of the article.
+
+●​ Related entries and documentation: List of political parties in the United States,
+Monthly style email, March 2022, Political titles and affiliations
+●​ Last Updated: July 2025
+
+Preschool
+Guidelines: Do not include a hyphen in preschool.
+●​ Examples: In April 2022, he signed a bill that funded 10 hours per week of free
+preschool.
+●​ Related entries and documentation:
+●​ Last Updated: August 2025
+
+President
+Guidelines: Capitalize president when used as a title before a name or when referring to the
+current U.S. president. Lowercase president in general use.
+●​ Examples: President Donald Trump (R), former President Barack Obama (D), the
+president, the president of the organization
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+63
+
+Profile pages, names
+Guidelines: The basic format for an individual’s profile page — regardless of whether that
+person is a candidate, an elected official, an influencer, etc. — is [First name] [Last name]. In
+cases where a candidate goes by a [First initial] [Middle name] [Last name] (example: K.
+Charles Reeves), use [[K. Charles Reeves]] as the profile page title. If you know the candidate’s
+full first name, add that to the first name field in the database. If you do not know the candidate’s
+full first name, add the initial to the first name field. Do not put the middle name in this field.
+In cases where a candidate goes by [Two initials] [Last name] (example: KC Reeves), group the
+two initials together with no space between them. Only add periods between them if that is how
+the candidate list displays the name. If you know the candidate’s full first name, add that to the
+first name field in the database. If you do not know the candidate’s full first name, add the first
+initial to the first name field.
+●​ Related entries and documentation:
+BP basics documentation: Titles and naming conventions
+●​ Last Updated: October 2025
+
+Profile pages, nicknames
+Guidelines: An individual’s nickname should only be used in a page title if a person is primarily
+known by that nickname. If campaign materials, other news sources, or official filing documents
+refer to an individual primarily by his or her nickname, then this nickname should be substituted
+for the individual’s legal first name in the page title. This guideline also applies to individuals who
+go by their initials.
+If a nickname is used in place of an individual’s legal first name in a page title, then a redirect
+page should be created with the person’s legal first and last name. For more information on how
+to create a redirect page, see
+BP Basics Documentation: Redirect policy .
+●​ Examples:
+○​ Main profile page: Bobby Jindal
+■​ Redirect page: Piyush Jindal
+○​ Main profile page: Buddy Fowler
+■​ Redirect page: Hyland Fowler Jr.
+○​ Main profile page: T.J. Donovan
+■​ Redirect page: Thomas Donovan
+●​ Related entries and documentation:
+BP basics documentation: Titles and naming conventions
+●​ Last Updated: October 2025
+
+Profanity
+
+64
+Guidelines: Include profanity in quotes only when essential. Use symbols (e.g., “f***”) to censor
+offensive words unless full spelling is required.
+●​ Example: This is complete bull****,” she said of the ruling.
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+Pronouns
+Guidelines: Avoid using pronouns in standardized language when possible. This prevents
+gender-related errors. Use a person’s last name in most cases.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Proper nouns with shared words
+Guidelines: When two or more proper nouns each end with a common word, the word does not
+need to be repeated unless failure to do so would cause confusion. The shared word — made
+plural in this construction — should not be capitalized. If the shared word comes at the
+beginning of the phrase, it may be appropriate to capitalize it. In these cases, the word can
+function as something of a title to the words that follow.
+●​ Examples: Polk and Miami-Dade counties; the Manchester and Mettawee school
+districts; the 14th and 15th circuits; the Republican and Democratic parties; Districts 1
+and 3; Circuits 5 and 6; Reps. Smith and Jones
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Proved, proven
+Guidelines: The words proved and proven are both forms of the verb to prove. The word
+proved is used for the simple past. As a past participle, proven is Ballotpedia’s preferred form.
+●​ Examples: She proved him wrong. He was proven wrong. It is a proven fact. There are
+proven gas reserves.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Public assistance programs
+Guidelines: Public assistance programs include measures regarding government-funded
+financial aid and support services for eligible individuals and groups, including age-based,
+disability-based, and income-based assistance, as well as restrictions or conditions on the
+services provided through such programs. This includes Medicaid, the Supplemental Nutrition
+
+65
+Assistance Program (SNAP), child care subsidies (CCDF and TANF), and public housing. Be
+specific about the program you are writing about. Do not use the terms welfare or food stamps.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Public servant
+Guidelines: Do not use public servant to describe an individual. Instead, use elected official,
+appointed official, or government employee, as appropriate. When referring to the field of work
+rather than a person, public service is acceptable. Ballotpedia prefers specific titles to the
+broader term public official whenever possible.
+●​ Incorrect: This is the second part of the Personal Gain Index (PGI), a two-part study
+that examines the extent to which members of the U.S. Congress have individually
+prospered during their tenures as public servants.
+●​ Correct: This is the second part of the Personal Gain Index (PGI), a two-part study that
+examines the extent to which members of the U.S. Congress have individually prospered
+during their tenures as elected officials.
+●​ Related entries and documentation:
+●​ Last Updated: July 2026
+
+Q
+Question mark (?)
+Guidelines: Question marks should never be combined with a comma or a period (whether in
+text or in footnotes).
+●​ Examples: The Washington Post, “Political insiders answer: Will there be a brokered
+convention in 2016?” January 31, 2016.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Quotations, Direct quotations
+Guidelines: Here are some basic guidelines for using quoted material:
+Start a quote that is a complete sentence following a form of “to say” or a similar word with a
+capital letter. Surround the exact words of the speaker or writer with quotation marks.
+●​ Example: “I have no intention of running for governor,” Smith said.
+Do not use a comma at the start of an indirect or partial quotation.
+
+66
+●​ Example: He said the victory put him “firmly on the road to a first-ballot nomination.”
+The period and comma always go within the quotation marks. The dash, semicolon, colon,
+question mark, and exclamation point go within the quotation marks when they apply to the
+quoted matter only. They go outside when they apply to the whole sentence.
+●​ Example: “Why should I run for governor?” he asked.
+Do not use quotation marks to report a few ordinary words that a speaker or writer has used.
+●​ Incorrect: The senator said that he would “go home to Michigan” if he lost the election.
+●​ Correct: The senator said that he would go home to Michigan if he lost the election.
+
+●​ Related entries and documentation:
+BP Basics Documentation: BP policy on quoted text
+●​ Last Updated: July 2025
+
+Quotations, Dialogue
+Guidelines: Each person’s words, no matter how brief, are placed in a separate paragraph, with
+quotation marks at the beginning and the end of each person’s speech.
+Example:
+“My sense, my take of today is that there was a huge display of unity amongst Europeans but
+also Europeans together with the Americans,” Dutch Foreign Minister Wopke Hoekstra said.
+Slovak Foreign Minister Ivan Korčok said, “There’s unity that if red lines are crossed, then we
+have to respond with a robust package of sanctions.”
+
+●​ Related entries and documentation:
+BP Basics Documentation: BP policy on quoted text
+●​ Last Updated: July 2025
+
+Quotations, Altering the text of a quote
+Guidelines: Observe the following guidelines when deciding whether or how to alter the text of
+a quotation:
+●​ Adding clarification using brackets
+
+67
+○​ You can add clarifications to quotes using square brackets, but the words in
+brackets should normally be added to the quoted text; under most circumstances,
+do not use brackets to replace words in the quoted text.
+■​ Example: Murphy said, “He [Smith] has no interest in running for
+governor.”
+○​ It is acceptable to replace a quoted word with a word in brackets in two
+situations:
+■​ (1) You can change a verb to a different tense of the same verb if
+necessary to fit the quote into the sentence, and
+■​ (2) You can change a pronoun if necessary to keep the quote referring to
+the correct person.
+○​ If you need to alter the capitalization of the original quote in order to fit with these
+guidelines, use square brackets around the letter that has been altered. However,
+it is generally preferable to alter the sentence structure to make the capitalization
+work as it exists in the quote.
+●​ Stylistic changes
+○​ Do not alter quotations to bring them into conformity with BP style. If the quote
+uses a hyphen where an em dash should be used, leave the hyphen. If the quote
+fails to italicize a newspaper title, leave it in plain text.
+
+●​ Related entries and documentation:
+BP Basics Documentation: BP policy on quoted text
+●​ Last Updated: July 2025
+
+Quotations, Quotes within quotes
+Guidelines: Always use single quotation marks (‘ ’) around a quote that appears within another
+quote. Use double quotation marks (“ ”) around the outer quote. This rule also applies to quotes
+that appear inside the {{quote}} template. The large, blue quotation marks count as the double
+quotation marks, so any quotes that appear within the larger quote should be surrounded by
+single quotation marks.
+●​ Example: The candidate stated, "Our campaign is focused on 'putting people first,'
+ensuring that every policy prioritizes the needs of our community."
+●​ Related entries and documentation:
+BP Basics Documentation: BP policy on quoted text
+●​ Last Updated: July 2025
+
+68
+
+Quotations, Splitting quotes
+Guidelines: Split quotes occur when a writer interrupts a quote with a phrase such as “he said”
+or “she continued.” Split quotes should generally be avoided, but they may be used in
+moderation, especially when the source you are quoting from has already split the quote. While
+the two parts of the split quote probably went together, we cannot be certain, so split quotes
+from other sources should not be combined.
+●​ Example: “I want to think seriously about it,” Clinton said. “I probably won’t begin
+thinking about it until sometime next year.”
+●​ Related entries and documentation:
+BP Basics Documentation: BP policy on quoted text
+●​ Last Updated: July 2025
+
+Quotations, Quote template use
+Guidelines: As a general rule, use the {{quote}} template for quotes longer than two sentences.
+Writers may use their discretion on this, however, keeping in mind that the {{quote}} template
+may alter the alignment of surrounding text.
+●​ Related entries and documentation:
+BP Basics Documentation: BP policy on quoted text
+●​ Last Updated: July 2025
+
+Quotations, Scare quotes
+Guidelines: In order to avoid bias errors, do not use scare quotes in your writing. Writers
+sometimes use quotation marks to distance themselves from a certain term, as if to say, “These
+are their words, not mine.” However, using quotes around short phrases or around just one word
+can often come across as sarcastic or skeptical. These are called scare quotes. When the
+quotation marks could be replaced by the phrase so-called, they are likely scare quotes and
+should be removed. It is never okay to use the phrase so-called.
+●​ Examples:
+○​ Once the law officially changes on January 1, marijuana “reform” will be in full
+effect in the state.
+○​ This is the central problem of any “content moderation” scheme: somebody has
+to do the judging.
+○​ The “core interest” of the Washington consensus is war.
+You can avoid scare quotes by paraphrasing a short quote or using a longer quote.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Bias basics: Scare quotes
+
+69
+
+R
+Re-elect, re-election
+Guidelines: Use a hyphen in re-elect and re-election.
+●​ Examples: She was re-elected. He lost his re-election bid.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Redirects
+Guidelines: A redirect is a page that automatically navigates a reader to a different page. A
+redirect page will contain only the following text, where pagename refers to the name of the
+page that you want the redirect page to link to. Here is a link to BP’s redirect policy.
+●​ Example: #REDIRECT [[pagename]]
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+BP Basics Documentation: Redirect policy
+
+Referendum
+Guidelines: Use referendum to refer to measures placed on the ballot by a legislature for voter
+approval.
+●​ Example: The referendum on tax increases was rejected.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Referring to other articles on BP
+Guidelines: When referring to other articles on Ballotpedia, use “click here.” Do not use "see
+here," "see this article," or "see Name of article."
+●​ Example: For more information regarding this dispute, [[2025 Minnesota legislative
+session#Changes in party control after the 2024 general elections|click here]].
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Republican, Republican Party
+Guidelines: Use Republican as a noun, and Republican Party as the proper name. Capitalize
+both when referring to the political party.
+●​ Example: The Republican candidate supports the Republican Party platform.
+●​ Related entries and documentation:
+
+70
+●​ Last Updated: July 2025
+
+Right-wing, rightist, far-right
+Guidelines: Do not use right-wing, rightist, or far-right to describe a person’s political ideology
+and beliefs. Instead, describe the person's political affiliation by including details about voting
+history and issue stances.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Runner-up, runners-up
+Guidelines: Spell in accordance with the listing in this entry.
+●​ Examples: The runner-up conceded the race. The runners-up were announced at the
+event.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Running mate
+Guidelines: Spell in accordance with the listing in this entry.
+●​ Example: The candidate chose a running mate for the election.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Runoff
+Guidelines: Write runoff as one word without a hyphen.
+●​ Example: The top two vote recipients advanced to a runoff.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+S
+Same-sex marriage
+Guidelines: Use the term same-sex marriage, not gay marriage. Use the traditional designation
+of wife or husband for those who are legally married. The term spouse may also be applied to
+either partner in any marriage, but do not use it simply to avoid applying the terms husband and
+wife to same-sex couples.
+●​ Example: The same-sex marriage law recognized them as husband and husband.
+
+71
+●​ Related entries and documentation: Sexuality and gender identity
+●​ Last Updated: July 2025
+
+Sample Ballot Lookup Tool
+Guidelines: Capitalize Ballotpedia’s Sample Ballot Lookup Tool.
+●​ Example: Our coverage scope for local elections continues to grow, and you can use
+Ballotpedia's Sample Ballot Lookup Tool to see what mayoral elections we are covering
+in your area.
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+Satellite spending
+Guidelines: Satellite spending refers to political spending not controlled by candidates or their
+campaigns; that is, any political expenditures made by groups or individuals that are not directly
+affiliated with a candidate. This includes spending by political party committees, super PACs,
+trade associations, and 501(c)(4) nonprofit groups. This type of spending includes express and
+issue advocacy. Do not use the terms outside spending or dark money.
+●​ Example: On March 12, WisPolitics reported that the candidates and satellite groups
+had spent nearly $59 million in the race, including $25.5 million supporting Crawford and
+$33.3 million supporting Schimel. Here's a breakdown of satellite spending mentioned in
+the report.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Seasons
+Guidelines: Lowercase all seasons — spring, summer, fall, winter — unless the season is part
+of a formal title.
+●​ Example: the 2026 Winter Olympics, the Arab Spring
+●​ Related entries and documentation:
+●​ Last Updated: August 2025
+
+See also
+Guidelines: In the text of an article, we may want to direct readers to another page on
+Ballotpedia without using an in-text internal link. Often, we do this through a “See also” link at
+the top of a section. Use the “See also” designation to direct readers to related topics. Note: The
+“See also” link is separate from the See also section at the bottom of the page. Such links
+should be italicized, and they should be indented by placing the code :: before the text.
+●​ Example: ::''See also: [[Voting in Washington]]''
+
+72
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Sexual commerce and exploitation
+Guidelines: When writing about sexual commerce and exploitation, distinguish clearly between
+consensual activity and coercion, and provide context when necessary. Commercial sexual
+solicitation, prostitution, and sex trafficking are all acceptable terms.
+Commercial sexual solicitation is offering or requesting sexual activity for payment. It is often
+illegal.
+Prostitution is the exchange of sexual activity for money. It is a legal term.
+Sex trafficking is coerced or forced sexual exploitation. It is always criminal and nonconsensual.
+Avoid ideologically loaded language like sex work. The term sex work, which emphasizes labor
+and agency, is commonly used by advocates for decriminalization.
+●​ Example: The law prohibits prostitution, including solicitation in public areas.
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+Sexuality and gender identity
+Guidelines: Be sensitive to issues of bias when writing about the sexuality and gender identity
+of an individual or group. In general, do not make references to one’s sexuality or gender
+identity unless that detail is pertinent to the story. Avoid references to sexual preference.
+●​ Example: The candidate’s gender identity was relevant to their advocacy for
+transgender legislation.
+●​ Related entries and documentation: Same-sex marriage, Transgender
+●​ Last Updated: July 2025
+
+[sic]
+Guidelines: From Merriam Webster: “In Modern English Usage, the grammarian H. W. Fowler
+wrote that sic ‘should only be used when doubt [about the intent behind another writer’s words]
+is natural; but reviewers and controversialists are tempted to pretend that it is; because sic
+provides them with a neat and compendious form of sneer’; The New Yorker’s Louis Menand
+describes sic as a ‘damning interpolation, combining ordinary, garden-variety contempt with
+pedantic condescension.’ Sometimes it may be better to paraphrase the text and avoid what
+seems like a haughty comment on another writer’s choices.” Following this advice, only use sic
+when a typo or other issue makes a sentence unclear. Do not add sic to candidate surveys, and
+do not make corrections to a candidate’s statements..
+
+73
+Use the {{sic}} template, which will properly format [sic] every time. In all cases, [sic] should be
+italicized and placed inside square brackets. Use [sic] directly after the error (not at the end of
+the sentence) to show that it is an error in the original source rather than our error.
+Use [sic] in inline quotes, but not in block quotes that use the {{quote}} template. Our quote
+template contains a footnote, stating, “Note: This text is quoted verbatim from the original
+source. Any inconsistencies are attributed to the original source.” This note is meant to take the
+place of [sic].
+●​ Example: They asked the court for an order that would prohibit election officials "from
+permitting invalidly submitted absentee and mail-in ballots to be 'cured' by the
+submission of provisions [sic] ballots."
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Signature filing deadline
+Guidelines: Do not hyphenate any words in the phrase signature filing deadline.
+●​ Example: The signature filing deadline is on June 13, 2024.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Singular proper nouns ending in -s
+Guidelines: Use only an apostrophe for singular proper nouns ending in -s.
+●​ Examples: Kansas’ schools, Jones’ campaign
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Split infinitives
+Guidelines: An infinitive is a verb form consisting of the word to plus the most basic form of a
+verb. For instance, to run, to eat, and to work are all infinitives. A split infinitive occurs when an
+adverb is placed between the word to and the verb, such as in “to quickly run” or “to diligently
+work.” Split infinitives can normally be avoided by moving the adverb to a different location in the
+sentence. Some grammarians hold that split infinitives constitute a grammatical error, so it’s
+often best to avoid them. However, split infinitives are almost necessary in some cases, and
+they will not be considered errors on Ballotpedia.
+●​ Examples:
+○​ The group failed to explicitly request a special election.
+○​ It should be easy for anyone to quickly locate the budget on the website.
+
+74
+●​ Related entries and documentation:
+Monthly style email, April 2023, Grammar rules you can break
+●​ Last Updated: July 2025
+
+Spokesman, spokeswoman, spokesperson
+Guidelines: Use spokesman or spokeswoman when the gender of the individual is known. Use
+the term spokesperson if the gender is unknown or if making a generic reference to the position.
+None of these terms function as official titles, so they should not be capitalized even if they
+directly precede a person’s name.
+●​ Examples: Spokeswoman Jane Doe addressed the media. The campaign sought a
+spokesperson for the event.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+State
+Guidelines: Capitalize the word state when it is used (1) between a state name and a
+governmental body or (2) between a state name and an official title used directly before an
+official's name.
+●​ Examples:
+○​ He won election to the state Senate.
+○​ He won election to the Connecticut State Senate.
+○​ The state representative is running for re-election.
+○​ In North Carolina, state Representative James Dixon is running for re-election.
+○​ North Carolina State Representative James Dixon is running for re-election.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+State names, abbreviations for
+Guidelines: Do not abbreviate state names in the text of an article. In tables, charts, and
+graphs, state names may be abbreviated. Use the Associated Press’ abbreviations for state
+names rather than the two-letter postal code abbreviations. Note: If you have difficulty
+remembering the AP abbreviations, use the {{abbr}} template. For instance, {{abbr|mi}} will show
+up as "Mich." and {{abbr|ok}} will show up as "Okla."
+●​ Ala. (Alabama)
+●​ Ariz. (Arizona)
+●​ Ark. (Arkansas)
+●​ Calif. (California)
+●​ Colo. (Colorado)
+
+75
+●​ Conn. (Connecticut)
+●​ Del. (Delaware)
+●​ Fla. (Florida)
+●​ Ga. (Georgia)
+●​ Ill. (Illinois)
+●​ Ind. (Indiana)
+●​ Kan. (Kansas)
+●​ Ky. (Kentucky)
+●​ La. (Louisiana)
+●​ Md. (Maryland)
+●​ Mass. (Massachusetts)
+●​ Mich. (Michigan)
+●​ Minn. (Minnesota)
+●​ Miss. (Mississippi)
+●​ Mo. (Missouri)
+●​ Mont. (Montana)
+●​ Neb. (Nebraska)
+●​ Nev. (Nevada)
+●​ N.H.: (New Hampshire)
+●​ N.J.: (New Jersey)
+●​ N.M.: (New Mexico)
+●​ N.Y.: (New York)
+●​ N.C.: (North Carolina)
+●​ N.D.: (North Dakota)
+●​ Okla. (Oklahoma)
+●​ Ore. (Oregon)
+●​ Pa. (Pennsylvania)
+●​ R.I.: (Rhode Island)
+●​ S.C.: (South Carolina)
+●​ S.D.: (South Dakota)
+●​ Tenn. (Tennessee)
+●​ Vt. (Vermont)
+●​ Va. (Virginia)
+●​ Wash. (Washington)
+●​ W.Va. (West Virginia)
+●​ Wis. (Wisconsin)
+●​ Wyo. (Wyoming)
+
+76
+
+●​ Examples: California voters, not CA voters; Gov. Gavin Newsom (D-Calif.)
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Statehouse, State House
+Guidelines: Always capitalize statehouse or state house when used in conjunction with a
+specific state, but lowercase when it appears alone. Different states have different names for the
+buildings where their legislatures conduct business. Depending on the state, these buildings
+may be referred to as a state capitol, a state house, a statehouse, or even a legislative hall.
+●​ Example: the Vermont Statehouse, the statehouse
+●​ Related entries and documentation: Official names of state legislatures - Ballotpedia
+●​ Last Updated: July 2025
+
+State nicknames
+Guidelines: In general, use state nicknames sparingly and only when the context of the article
+is informal enough to support such usage. Be conscientious of readers' relative familiarity with
+certain state nicknames as opposed to others.
+●​ Example: Ohio is the Buckeye State.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+State of the Union, State of the State, State of the City
+Guidelines: Capitalize State of the Union, State of the State, and State of the City when
+referring to the addresses given by a president, governor, or mayor, respectively. Do not
+capitalize the words address or speech when used with these terms.
+●​ Example: The president delivered the State of the Union address.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Statewide
+Guidelines: Spell in accordance with the listing in this entry.
+●​ Examples: The statewide election saw record turnout.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Supreme Court of the United States
+
+77
+Guidelines: Always capitalize the full proper name Supreme Court of the United States. Retain
+capitalization when shortened to Supreme Court, but do not capitalize when shortened further to
+court.
+●​ Examples: the Supreme Court of the United States; the Supreme Court; the court
+●​ Related entries and documentation: supreme courts of the states
+●​ Last Updated: July 2025
+
+Supreme courts of the states
+Guidelines: Capitalize full proper names of state supreme courts, but lowercase supreme court
+when the state name is dropped. Do not capitalize when shortened to court, and do not
+capitalize when referring generically to supreme courts across the states. Note that in New York,
+the courts known as supreme courts are trial courts rather than courts of last resort. This should
+be clarified if the fact is unclear from the context. Conversely, not all courts of last resort are
+known as supreme courts (e.g., the Oklahoma Court of Criminal Appeals).
+●​ Examples: the Wisconsin Supreme Court; the supreme court; the court; eight state
+supreme courts have ruled
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Swearing in, swear in, sworn in
+Guidelines: When using the term as a noun, use "swearing-in" with a hyphen. When using it as
+a verb, use "swear in" (base form) or "sworn in" (past participle), without a hyphen.
+●​ Examples: The senator's swearing-in will take place on Monday. The senator was sworn
+in today.
+●​ Related entries and documentation:
+●​ Last Updated: August 2025
+
+T
+Teachers union
+Guidelines: Treat teachers union as a descriptive noun phrase referring to a labor organization
+representing educators. Do not treat it as a possessive noun by including an apostrophe (e.g.,
+teacher’s union, teachers’ union).
+●​ Examples: In 2024, three candidates aligned with the business community and one
+candidate backed by the teachers union won.
+●​ Related entries and documentation:
+●​ Last Updated: October 2025
+
+Telephone numbers
+
+78
+Guidelines: Format telephone numbers as follows: (XXX) XXX-XXXX. Do not preface area
+codes with a 1, even if the number is toll-free.
+●​ Examples: Contact the office at (202) 555-1234.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+The, usage with proper nouns
+Guidelines: Some proper nouns (political organizations, universities, newspapers, school
+districts, etc.) are normally preceded by the word the, while others are not. If the word the is
+improperly included or omitted, our writing will sound unnatural to those familiar with that
+particular subject. There are not always solid rules as to when the is needed and when it is not.
+The most general rule is that proper nouns containing a preposition (usually of) are almost
+always preceded by the. However, there are also many proper nouns that do not contain a
+preposition but that should still be preceded by the. Often, the best way to determine whether or
+not to include the is to run a Google News search and see how a majority of other news sources
+format the name. There are a few constructions that apply almost universally. In all cases, the
+word the should be capitalized only if it is part of the noun's proper name. For most
+organizations, universities, and school districts, the word the should be left lowercase.
+●​ Examples: the University of ...; University ...; the Times/Journal/Post; the School Board;
+the Board of Education; the Association; the Center; the Center for ...; the Department of
+...; the Foundation
+●​ Related entries and documentation: Capitalization
+●​ Last Updated: July 2025
+
+They/them, as a singular pronoun
+Guidelines: They and their can be used as singular pronouns to refer to a person whose
+gender is unknown or unspecified. This usage has become more acceptable in recent years. He
+or she is also acceptable.
+●​ Examples: Each candidate submitted their platform. Each candidate submitted his or
+her platform.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+They/them/their, nonbinary
+Guidelines: The third-person pronouns they, them, and their are used by some transgender,
+nonbinary, and gender-fluid people. When this is the case, use these pronouns when referring to
+the individual. The use of they/them can be confusing to a reader when writing about a singular
+person. To avoid confusion, write the sentence without the pronoun or explain that the individual
+uses they/them pronouns.
+
+79
+●​ Examples: Smith, who uses the pronouns they/them, said they will run for re-election.
+●​ Related entries and documentation: Transgender
+●​ Last Updated: July 2025
+
+Think tank
+Guidelines: Do not hyphenate the term think tank.
+●​ Examples: The Heritage Foundation is a conservative think tank.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Third party/third-party
+Guidelines: Use minor party without a hyphen when writing about people running as
+candidates in parties other than the major parties (Democratic, Republican).
+●​ Incorrect: Twenty-two candidates were on the regular primary ballot: nine undeclared or
+nonpartisan candidates, nine Republicans, one Democrat, and three third-party
+candidates.
+●​ Incorrect: Twenty-two candidates were on the regular primary ballot: nine undeclared or
+nonpartisan candidates, nine Republicans, one Democrat, and three minor-party
+candidates.
+●​ Correct: Twenty-two candidates were on the regular primary ballot: nine undeclared or
+nonpartisan candidates, nine Republicans, one Democrat, and three minor party
+candidates.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Tilde
+Guidelines: Use a tilde in names that normally include them. Never use ~ or ≈ to indicate
+approximations; instead, use about or approximately.
+●​ Examples: Marisela Saldaña; La Nueva España
+●​ Related entries and documentation: Accent Marks
+●​ Last Updated: July 2025
+
+Time
+Guidelines: Use a.m. and p.m. with lowercase letters and periods. Include a space between the
+number and a.m./p.m. For time zones, use abbreviations such as EST, CDT, PST, etc., only
+when paired with a clock time. Do not set off time zone abbreviations with commas. Apply time
+zone abbreviations only for locations within the continental United States, Canada, and Mexico.
+
+80
+●​ Examples: 11 a.m., 1 p.m., 3:30 p.m. PST
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Titles, courtesy
+Guidelines: Use courtesy titles (Mr., Mrs., Ms.) only in direct quotations. Avoid courtesy titles in
+narrative text.
+●​ Examples: She said, “Mr. Smith voted yes.”
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Today, tomorrow, tonight
+Guidelines: Even in news articles that include datelines, write out the date instead of using a
+relative marker of time, such as today, tomorrow, or tonight, or a day of the week, such as
+Wednesday.
+●​ Example: The event occurred on June 20, 2018.
+●​ Related entries and documentation: Dates
+●​ Last Updated: July 2025
+
+Tooltips
+The <CustomTooltip> tags allow you to define text to display as a user hovers over some text. It
+allows the writer to put wikitext content between <CustomTooltip> tags, and the text will appear
+when you hover over a link.
+●​ Example: Template:Writ: ''<CustomToolTip linktext="writ">A court's written order
+commanding the recipient to either do or refrain from doing a specified
+act.</CustomToolTip>''
+●​ Related entries and documentation: Disclaimers, Explanatory notes
+●​ Last Updated: July 2025
+
+Toward
+Guidelines: Use toward, not towards.
+●​ Examples: The campaign moved toward reform.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Transclusion
+Guidelines: At its most basic level, transclusion refers to the inclusion of code from one page
+onto another via a coding shortcut, rather than copying and pasting text that would be the same
+
+81
+between two pages. Transclusion is usually desirable because there is standard language or
+phrasing that will be used over and over again on many different pages, or because there is
+language that needs frequent updating that is repeated over several pages. While different
+methods of transclusion exist in other markup coding languages, the methods used on
+Ballotpedia rely on wiki markup, primarily through templates. Two other options exist: labeled
+section transclusion and transclusion by section headers. You can find an example of each
+option in this sandbox. To learn more about transclusion, please review this document.
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+BP Intermediate Documentation: Transclusion
+
+Transgender
+Guidelines: An adjective, transgender is a term for people whose gender identity and/or
+expression differs from what is typically associated with their sex. Though some transgender
+people may take hormones prescribed by doctors or undergo surgery to change their bodies, a
+transgender identity is not dependent upon medical procedures.
+Use the terms transgender boy or transgender man to describe a person who transitions from a
+girl to a boy or a woman to a man. Use the terms transgender girl or transgender woman to
+describe a person who transitions from a boy to a girl or a man to a woman. Avoid the one-word
+compounds transman and transwoman. Do not use the term transgender as a noun (e.g., a
+transgender); it is a speech tribe term. Do not use the following speech tribe terms:
+transgendered, transgenderism, transsexual, or cross-dresser.
+Do not use the term gender-affirming care unless it is in a direct quote. It is a speech tribe term.
+Instead, use social, psychological, and medical services for transgender individuals.
+Avoid using the term anti-trans legislation or pro-woman and girls legislation. Instead, use
+legislation about transgender issues, and then describe the legislation in detail.
+Avoid the terms sex assigned at birth and sex observed at birth. They are speech tribe terms.
+Instead, use sex.
+●​ Examples: In March of 2023, the board voted 3-2 against a resolution supporting the
+Ohio Board of Education’s opposition to proposed changes to Title IX regarding
+transgender students.
+●​ Related entries and documentation: Sexuality and gender identity
+●​ Last Updated: July 2025
+
+Transgender, name change
+Guidelines: If a person changes their name while transitioning genders, follow our normal
+process for a name change. Fill out the prior name field in the database. On the site, add a
+sentence that states, “LAST NAME transitioned from a man to a woman/a woman to a man.”
+Avoid pronouns and instead use the last name when possible.
+
+82
+●​ Example: Erik Thorson (formerly Sara Agne) is a judge of the Maricopa County Superior
+Court in Arizona. Thorson transitioned from a woman to a man.
+●​ Related entries and documentation: Transgender,
+BP basics documentation: Titles and naming conventions
+●​ Last Updated: November 2025
+
+Transgender, sports participation
+Guidelines: When writing about transgender athletes, sex, and laws or ballot measures related
+to participation in sports, avoid the speech tribe term biological sex. BP prefers sex. Use
+phrasing such as "laws requiring athletes to compete in the category that matches their sex" or
+similar variations that preserve the meaning. If the original legal language uses biological sex,
+quote the language verbatim to show that it is not BP’s terminology.
+Avoid framing sports eligibility laws and proposals as bans on transgender athletes. Calling it a
+ban is using one side's framing. Use phrasing such as "laws requiring athletes to compete in the
+category that matches their sex."
+●​ Example: The initiative would require student athletes' healthcare providers to verify
+their sex by "relying only on one or more of the following: The student's reproductive
+anatomy, genetic makeup, or normal endogenously produced testosterone levels."
+●​ Example: According to the Movement Advanced Project, a nonpartisan think tank that
+opposes blanket prohibitions on transgender youth participation in sports, 27 states have
+laws requiring athletes to compete in the category that matches their sex.
+●​ Related entries and documentation: Transgender
+●​ Last Updated: February 2026
+
+Travel, traveled, traveling, traveler
+Guidelines: Spell in accordance with the listing in this entry.
+●​ Examples: The candidate traveled to the event, traveling across the state as a traveler.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+U
+United States
+Guidelines: Use United States as a noun, and U.S. as an adjective. Abbreviate to U.S. with
+periods in text and headlines.
+●​ Examples: The United States economy, U.S. policy, U.S. Senate
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+83
+
+V
+Vote-getters, vote recipients
+Guidelines: The term vote-getters should be written with a hyphen. In contrast, vote recipients
+should not be hyphenated. Both terms may be used interchangeably.
+●​ Examples: The top vote-getters were also referred to as vote recipients in the election
+results.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Votes counted, votes cast
+Guidelines: When describing election returns, it is often most accurate to describe totals as a
+subset of votes counted and not votes cast. The total and final number of votes cast is usually
+not available until several days or weeks after an election.
+●​ Example: Hernandez had a lead of about 500 votes, of more than 1.1 million votes
+counted.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Vote totals
+Guidelines: Do not use spaces before and after the hyphen when listing vote totals.
+●​ Example: The bill passed by a vote of 269-151.
+●​ Related entries and documentation: Hyphens
+●​ Last Updated: July 2025
+
+W
+White
+Guidelines: When used as an indicator of race, BP’s preferred term is White. Capitalize White
+when used as an adjective in a racial, ethnic, or cultural sense.
+●​ Example: White voters accounted for nearly half of all ballots cast in the statewide
+election, according to official turnout data.
+●​ Related entries and documentation:
+●​ Last Updated: September 2025
+
+Who, whom
+
+84
+Guidelines: Use who as the subject of a sentence or clause, whom as the object.
+●​ Examples: Who voted? To whom was the award given?
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Y
+Year
+Guidelines: Use numerals for years, even at the start of a sentence. Do not use apostrophes
+for plural years.
+●​ Examples: 2024 was a pivotal year. The 1990s.
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Z
+Zero
+Guidelines: Spell out zero when used alone. Use 0 in numerical contexts or tables.
+●​ Examples: The vote was zero. 0% (in a table)
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+85
+
+Footnotes
+Academic journal articles
+Follow the format recommended by the Chicago Manual of Style.
+EDIT
+VIEW
+
+<ref>Last name, First name. "Article title.'' ''Journal Title'' Volume, Issue no.
+(Year): page range.</ref>
+
+READ
+VIEW
+
+Last name, First name. ''Article title.'' Journal Title Volume, Issue no. (Year):
+page range.
+
+EXAMPLE
+
+<ref>Christens, Brian, and Paul W. Speer. "Predicting Violent Crime Using
+Suburban Densities." Behavior and Social Issues, 14, 2. (2005):
+113-27.</ref>
+
+Note: Include a URL if one is available.
+
+Amicus curiae briefs
+EDIT
+VIEW
+
+<ref>Court, "Case name", "Brief name," Date decision is handed
+down</ref>
+
+READ
+VIEW
+
+Court, Case name, "Brief name," Date filed
+
+EXAMPL
+E
+
+<ref>Supreme Court of the United States, DIRECTV, Inc. v. Imburgia,
+"Brief Amicus Curiae of DRI: The Voice of the Defense Bar in support of
+petitioner," filed June 4, 2015</ref>
+
+Archived links
+In order to prevent our links from going out of date, writers may choose to archive the current
+version of a page and provide the URL of the archive rather than that of the original site. Most
+often, this is done through the Wayback Machine (https://archive.org/web/). In these cases, the
+citation should be formatted the same as if you were citing the original source, but rather than
+giving the publication or accessed dates, you should include the "archived" date.
+●​ Example: <ref>[URL ''San Francisco Elections Office website'', "Proposition J
+Simplification Digest," archived September 9, 2014]</ref>
+
+86
+
+Article titles ending in punctuation marks
+If an article title ends in a question mark, exclamation point, or period, do not place an additional
+comma after the final punctuation mark. If an article title ends in a quotation mark, change the
+inner quotation marks to single quotation marks (‘ ’) and place the comma inside both sets of
+quotation marks.
+
+Ballotpedia articles
+Avoid using the <ref></ref> tags to cite Ballotpedia pages. Instead, use double-bracketed
+internal links or a "See also"/"Main article" line at the top of the section. (Such notes should be
+italicized, and they should be indented by placing the code :: before the text.)
+
+BP links in footnotes section
+Try to avoid using links to other Ballotpedia pages (wiki links) as footnotes. Wiki links can be
+used in the See also section or in the text itself. They can also be used at the top of a section
+(directly underneath the header) as a see also. If possible, try to find an external source to use
+in the footnotes section.
+
+Books
+EDIT
+VIEW
+
+<ref>Last name, First initial. (YEAR). ''Title''. Location: Printing Press.
+(pages #-#)</ref>
+
+READ
+VIEW
+
+Last name, First initial. (YEAR). Title. Location: Printing Press. (pages #-#)
+
+87
+
+EXAMPL
+E
+
+<ref>Cohen, R., et al. (2015). ''The Almanac of American Politics 2016''.
+Bethesda, MD: Columbia Books Inc. (pages 78-85)</ref>
+
+●​ Include a URL if one is available.
+●​ If there are two authors, put both names in the same format, separated by an ampersand
+(&).
+●​ If there are three or more authors, use a comma and the term et al. (no italics) after the
+first name.
+
+Campaign websites
+EDIT
+VIEW
+
+<ref>[URL ''NAME YEAR campaign website'', "Page name," accessed
+DATE]</ref>
+
+READ
+VIEW
+
+NAME YEAR campaign website, "Page name," accessed DATE
+
+EXAMPL
+E
+
+<ref>[http://www.coleforcolorado.com/about-tj/ TJ Cole 2016 campaign
+website, "About TJ," accessed March 9, 2016]</ref>
+
+●​ Examples of common page names include "Meet NAME," "The Issues," and
+"Endorsements."
+●​ Since campaign websites often expire the year after an election, writers may wish to
+archive these URLs.
+
+Court cases
+EDIT
+VIEW
+
+<ref>Court, ''Case name'', Date decision is handed down</ref>
+
+READ
+VIEW
+
+Court, Case name, Date decision is handed down
+
+EXAMPL
+E
+
+<ref>Supreme Court of Kansas, ''United States v. Nixon'', July 24,
+1974</ref>
+
+Note: The court name should be the same as the Ballotpedia page name for that court. Include
+a URL if one is available.
+
+88
+
+Case of article titles
+Article titles may be copied and pasted directly into footnotes in their original format, so some
+article titles may be written in title case (where all words other than articles, conjunctions, and
+prepositions are capitalized), while other titles will be written in sentence case (where only the
+first word and proper nouns are capitalized). Ballotpedia’s preference is that articles written in all
+caps be changed to sentence case. This can be done manually or by using a browser extension
+such as Convert Case for Google Chrome.
+
+Footnotes with ending punctuation
+If an article title ends in a question mark, exclamation point, or period, do not place an additional
+comma after the final punctuation mark. If an article title ends in a quotation mark, change the
+inner quotation marks to single quotation marks (‘ ’) and place the comma inside both sets of
+quotation marks. The most frequent style mistakes occur with article titles ending with a
+question mark.
+●​ Incorrect:
+<ref>[https://www.desmoinesregister.com/story/news/politics/2018/05/05/iowa-legislature
+-adjourns-bills-passed-2018-session-water-quality-obamacare-abortion-mental-health/45
+6079002/ ''Des Moines Register'', "Iowa Legislature adjourned: How will this year's
+session change Iowa?," May 5, 2018]</ref>
+●​ Correct:
+<ref>[https://www.desmoinesregister.com/story/news/politics/2018/05/05/iowa-legislature
+-adjourns-bills-passed-2018-session-water-quality-obamacare-abortion-mental-health/45
+6079002/ ''Des Moines Register'', "Iowa Legislature adjourned: How will this year's
+session change Iowa?" May 5, 2018]</ref>
+●​ Related entries and documentation:
+●​ Last Updated: July 2025
+
+Original interviews and correspondence
+EDIT
+VIEW
+
+<ref>''Ballotpedia staff OR [[Ballotpedia:Name|Name]]'', "Method of
+correspondence with Interview Subject," DATE</ref>
+
+READ
+VIEW
+
+Ballotpedia staff or Name, "Method of correspondence with Interview
+Subject," DATE
+
+EXAMPL
+E
+
+<ref>''[[Ballotpedia:Abbey Smith|Abbey Smith]]'', "Email communication
+with Jean McHatton," October 20, 2015</ref>
+
+89
+
+Placement of footnotes in text
+Place each reference immediately after the ending punctuation mark of the sentence it follows
+(i.e., no extra space).
+●​ Example: The chief judge of a circuit court is selected by peer vote and serves a
+three-year term.[1]
+When citing multiple sources in a row, arrange them roughly in the order in which the cited
+information appears; do not spend extra time arranging footnotes in numerical order within the
+text. Footnotes do not need to be placed only at the end of a paragraph.
+
+Search results in a reference
+On some websites, running a search for a particular term will not yield a new URL. In these
+cases, the URL will simply take readers to the main search page rather than to the page
+containing the cited information. Since we cannot provide a direct link to the desired page,
+writers are encouraged to include a search term at the end of the reference instead. These
+search terms should be placed in parentheses and italicized.
+Example:
+EDIT
+VIEW
+
+<ref>[http://thomas.loc.gov/home/nomis.html ''The Library of Congress'',
+"Search Presidential Nominations," accessed October 29, 2015] ''(Search
+term PN1786-103)''</ref>
+
+READ
+VIEW
+
+The Library of Congress, "Search Presidential Nominations," accessed
+October 29, 2015 (Search term PN1786-103)
+
+[sic] in footnotes
+When quoted text contains a typo, we may want to draw attention to the fact that it isn’t our
+error. In these cases, we would normally use the {{sic}} template, which would appear as [sic].
+Unfortunately, this doesn’t work for article titles in footnotes because the brackets in the
+template break the code of the reference. An HTML workaround accomplishes the same thing.
+Instead of the normal {{sic}} template, simply type in this text, starting with the ampersand and
+ending with the semicolon: &#91;''sic''&#93;
+You can see an example of how this appears on the page here. Failure to include [sic] for typos
+in footnotes will not be counted as an error, but this tip can make our footnotes section even
+more polished.
+
+90
+
+Spelling out website names
+In footnotes, remember to write out the website’s formal name rather than copying and pasting
+from the URL.
+●​ Incorrect: <ref>[http://www.opensecrets.org/pres16/ ‘’opensecrets.org/’’, “2016
+Presidential Race,” accessed October 1, 2015]</ref>
+●​ Correct: <ref>[http://www.opensecrets.org/pres16/ ‘’OpenSecrets’’, “2016 Presidential
+Race,” accessed October 1, 2015]</ref>
+
+Social media
+EDIT
+VIEW
+
+<ref>[URL ''Name of Social Media Platform'', "Page name," accessed
+MONTH DAY, YEAR]</ref>
+
+READ
+VIEW
+
+Name of Social Media Platform, "Page name," accessed MONTH DAY,
+YEAR
+
+Facebook, X, Instagram, etc.: When referencing general user pages, use the person’s official
+social media name (if available) rather than the “@” handle.
+Examples:
+●​ X, "@JDVance," accessed August 28, 2025
+●​ Facebook, "JD Vance," accessed August 28, 2025
+●​ LinkedIn, "JD Vance," accessed August 28, 2025
+When referencing content from a specific social media post, link to that specific post rather than
+to the general user account (e.g., rather than linking to the "JD Vance" page on Facebook, link
+to the post in question). On Facebook and X, this unique URL can be found by clicking the
+timestamp of the post. Format those footnotes as follows:
+●​ Example: X, "JD Vance on August 27, 2025," accessed August 28, 2025
+●​ Example: Facebook, "JD Vance on August 27, 2025," accessed August 28, 2025
+
+Websites
+EDIT
+VIEW
+
+<ref>[URL ''Name of Website'', "Article or page name," accessed MONTH
+DAY, YEAR]</ref>
+
+91
+
+READ
+VIEW
+
+Name of Website, "Article or page name," accessed MONTH DAY, YEAR
+
+EXAMPL
+E
+
+<ref>[https://thebaynet.com/maryland-approves-13m-for-community-center
+s-playgrounds-and-land-conservation-in-16-counties/ ''The BayNet'',
+"Maryland Approves $13M For Community Centers, Playgrounds, And
+Land Conservation In 16 Counties," August 28, 2025]</ref>
+
+●​ If the publication date is known, a publication date may be given instead of an accessed
+date. If a publication date is given, simply omit the word accessed.
+●​ When linking to any website’s main page, writers may leave out the “Article or page
+name” part of the reference.
+
+YouTube
+When referencing YouTube videos, use YouTube as the source and the video title as the page
+name. Date the reference using the upload date.
+●​ Example: YouTube, "Remarks by Senator Warren on Citigroup and its bailout provision,"
+February 26, 2016
+
+92
+
+Additional resources
+Ballotpedia’s Comprehensive Bias Document
+Ballotpedia style guide for BP News posts
+Capitalization guidelines for political terms
+Election policy project reference examples
+How to properly tense election language
+Preventing tense errors
+Proofreading checklist & tips
+Terminology book
+Tensing legislation and regulation articles
+Titles and naming conventions
+
+

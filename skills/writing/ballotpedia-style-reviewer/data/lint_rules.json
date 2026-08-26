@@ -1,0 +1,497 @@
+[
+  {
+    "id": "email-spelling",
+    "pattern": "\\be-mail\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Email",
+    "message": "Ballotpedia uses 'email', not 'e-mail'.",
+    "suggestion": "email"
+  },
+  {
+    "id": "bipartisan-spelling",
+    "pattern": "\\bbi-partisan\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Bipartisan",
+    "message": "Ballotpedia uses 'bipartisan', not 'bi-partisan'.",
+    "suggestion": "bipartisan"
+  },
+  {
+    "id": "healthcare-spelling",
+    "pattern": "\\bhealth care\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Healthcare",
+    "message": "Ballotpedia uses 'healthcare' as one word in narrative text.",
+    "suggestion": "healthcare",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "judgment-spelling",
+    "pattern": "\\bjudgement\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Judgment",
+    "message": "Ballotpedia prefers 'judgment'.",
+    "suggestion": "judgment",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "midterm-spelling",
+    "pattern": "\\bmid-term election\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Midterm election",
+    "message": "Use 'midterm election', not 'mid-term election'.",
+    "suggestion": "midterm election",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "noncitizen-spelling",
+    "pattern": "\\bnon-citizen(s)?\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Noncitizen",
+    "message": "Write 'noncitizen' without a hyphen.",
+    "suggestion": "noncitizen",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "nonpartisan-spelling",
+    "pattern": "\\bnon-partisan\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Nonpartisan",
+    "message": "Write 'nonpartisan' as one word.",
+    "suggestion": "nonpartisan",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "nonprofit-spelling",
+    "pattern": "\\bnon-profit\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Nonprofit",
+    "message": "Write 'nonprofit' as one word.",
+    "suggestion": "nonprofit",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "toward-spelling",
+    "pattern": "\\btowards\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Toward",
+    "message": "Ballotpedia uses 'toward', not 'towards'.",
+    "suggestion": "toward",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "runoff-spelling",
+    "pattern": "\\brun-off\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Runoff",
+    "message": "Write 'runoff' as one word.",
+    "suggestion": "runoff",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "comprised-of",
+    "pattern": "\\b(is|are|was|were|be|been|being) comprised of\\b",
+    "severity": "MUST FIX",
+    "category": "Clarity",
+    "source": "Ballotpedia Style Guide: Comprised of, composed of",
+    "message": "Ballotpedia recommends 'composed of', 'made up of', or a correct 'comprises' construction rather than 'comprised of'.",
+    "suggestion": "Use 'composed of', 'made up of', or '[whole] comprises [parts]'.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "advisor-preference",
+    "pattern": "\\badviser(s)?\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Adviser, advisor",
+    "message": "Ballotpedia prefers 'advisor', but an official title may retain its official spelling.",
+    "suggestion": "Use 'advisor' unless reproducing an official title.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "percent-word",
+    "pattern": "\\b\\d+(?:\\.\\d+)?\\s+percent\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Percent",
+    "message": "Use the % sign with a numeral, with no space.",
+    "suggestion": "Replace 'N percent' with 'N%'.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "ordinal-date",
+    "pattern": "\\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\\s+\\d{1,2}(?:st|nd|rd|th)\\b",
+    "severity": "MUST FIX",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Dates, basic format",
+    "message": "Do not use ordinal suffixes with dates.",
+    "suggestion": "Use 'Month D, Year' rather than 'Month Dth, Year'.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "relative-date",
+    "pattern": "\\b(today|tomorrow|tonight|yesterday)\\b",
+    "severity": "SHOULD FIX",
+    "category": "Clarity",
+    "source": "Ballotpedia Style Guide: Today, tomorrow, tonight; BP News best practices",
+    "message": "Ballotpedia prefers specific dates to relative time markers because content may be read later.",
+    "suggestion": "Replace the relative time marker with the specific date when known.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "so-called",
+    "pattern": "\\bso-called\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Quotations, Scare quotes",
+    "message": "The guide says never to use 'so-called'; it often functions as a scare-quote signal.",
+    "suggestion": "State the term neutrally, attribute it, or describe the underlying concept.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "passed-away",
+    "pattern": "\\b(passed away|lost (?:his|her|their) life)\\b",
+    "severity": "MUST FIX",
+    "category": "Clarity",
+    "source": "Ballotpedia Style Guide: Death",
+    "message": "When reporting a death, Ballotpedia uses direct phrasing with 'died' rather than euphemisms.",
+    "suggestion": "Use 'NAME died on DATE' when reporting the death.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "public-servant",
+    "pattern": "\\bpublic servants?\\b",
+    "severity": "MUST FIX",
+    "category": "Clarity",
+    "source": "Ballotpedia Style Guide: Public servant",
+    "message": "Do not use 'public servant' to describe an individual; use the specific role category or title.",
+    "suggestion": "Use 'elected official', 'appointed official', 'government employee', or the specific title.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "gay-marriage",
+    "pattern": "\\bgay marriage\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Same-sex marriage",
+    "message": "Use 'same-sex marriage', not 'gay marriage', in Ballotpedia's own voice.",
+    "suggestion": "same-sex marriage",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "ideological-left",
+    "pattern": "\\b(left-wing|leftist|far-left)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Left-wing, leftist, far-left",
+    "message": "Ballotpedia says not to use these labels to describe a person's political ideology; describe affiliation, voting history, and issue stances instead.",
+    "suggestion": "Replace the label with specific, sourced political affiliation or issue-position information.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "ideological-right",
+    "pattern": "\\b(right-wing|rightist|far-right)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Right-wing, rightist, far-right",
+    "message": "Ballotpedia says not to use these labels to describe a person's political ideology; describe affiliation, voting history, and issue stances instead.",
+    "suggestion": "Replace the label with specific, sourced political affiliation or issue-position information.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "bipoc",
+    "pattern": "\\bBIPOC\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: BIPOC",
+    "message": "The guide says to avoid BIPOC and be specific about the racial and ethnic backgrounds being discussed.",
+    "suggestion": "Use the specific racial/ethnic groups relevant to the sentence.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "people-of-color",
+    "pattern": "\\bpeople of color\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Person/people of color",
+    "message": "The guide says to avoid this umbrella term and be specific about racial and ethnic backgrounds.",
+    "suggestion": "Name the specific racial/ethnic groups or use a contextually supported alternative.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "latinx-latine",
+    "pattern": "\\b(Latinx|Latine)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Latino/Latina",
+    "message": "The guide treats Latinx and Latine as speech-tribe terms and directs writers to use its preferred Latino/Latina terminology or greater specificity.",
+    "suggestion": "Use the Ballotpedia-preferred term appropriate to the person's identity/context, or be more specific.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "mixed-race",
+    "pattern": "\\bmixed-race\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Biracial, multiracial",
+    "message": "The guide says to avoid 'mixed-race'; use biracial/multiracial when relevant and be specific when possible.",
+    "suggestion": "Use 'biracial', 'multiracial', or specific heritage information as appropriate.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "disability-disfavored-terms",
+    "pattern": "\\b(handicapped|differently abled|physically challenged)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Disabled, disability",
+    "message": "The guide says not to use these terms when describing disability.",
+    "suggestion": "Use 'disabled people' or 'people with disabilities' as appropriate, following known preference when possible.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "immigration-speech-tribe",
+    "pattern": "\\b(illegal aliens?|illegals|undocumented noncitizens?|undocumented immigrants?|anchor babies?|irregular migrants?)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Immigration",
+    "message": "The guide identifies this immigration terminology as speech-tribe language in Ballotpedia's own voice.",
+    "suggestion": "Use the guide's specific descriptive phrasing for the person's legal-residency context.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "immigration-migrant",
+    "pattern": "\\bmigrants?\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Immigration",
+    "message": "The guide lists 'migrant' among terms to avoid in the specified immigration-policy context; the word can have other meanings, so verify context.",
+    "suggestion": "If describing people residing in the U.S. without legal permission, use the guide's specific descriptive phrasing.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "abortion-speech-tribe",
+    "pattern": "\\b(pro-life|pro-choice|pro-abortion|anti-abortion|abortion rights|heartbeat bill|fetal cardiac activity|late-term abortion)\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Abortion",
+    "message": "The guide treats several common abortion-debate terms as speech-tribe or disfavored shorthand; source attribution and greater specificity may be required.",
+    "suggestion": "Describe the specific policy position or use the guide's neutral alternatives; retain/attribute source terminology when the guide permits it.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "abortion-family-planning",
+    "pattern": "\\b(family planning|reproductive health)\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Clarity",
+    "source": "Ballotpedia Style Guide: Abortion",
+    "message": "The guide says these terms can function as speech-tribe shorthand; specify what the phrase means in the relevant policy context.",
+    "suggestion": "Name the actual policy/service being discussed, such as contraception or abortion, when supported by the source.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "firearms-speech-tribe",
+    "pattern": "\\b(assault rifles?|assault weapons?|gun control|gun rights|constitutional carry|Second Amendment rights)\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Firearms, guns",
+    "message": "The guide identifies these firearms-policy phrases as speech-tribe or disfavored shorthand, subject to quotation/legal-term context.",
+    "suggestion": "Describe the specific firearm policy or legal requirement; quote legal/source terminology when necessary.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "fake-news",
+    "pattern": "\\bfake news\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Media",
+    "message": "The guide treats 'fake news' as speech-tribe terminology unless it appears in a quotation.",
+    "suggestion": "Describe the alleged inaccuracy or misinformation specifically, or attribute the phrase to its source.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "clean-green-energy",
+    "pattern": "\\b(clean energy|green energy)\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Clarity",
+    "source": "Ballotpedia Style Guide: Clean energy, green energy",
+    "message": "The guide prefers specific energy sources and says to avoid or attribute these broad terms unless they are part of a formal name.",
+    "suggestion": "Specify wind, solar, hydropower, or the actual energy source/policy when supported.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "global-warming",
+    "pattern": "\\bglobal warming\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Global warming",
+    "message": "The guide generally avoids this speech-tribe term outside quotations or formal names and prefers specific policy descriptions.",
+    "suggestion": "Describe the policy or attribute the phrase to its source.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "carbon-pollution-decarbonization",
+    "pattern": "\\b(carbon pollution|decarbonization)\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Greenhouse gases, emissions",
+    "message": "The guide says to avoid these terms unless quoted or attributed and to specify the gas/emissions when possible.",
+    "suggestion": "Specify carbon dioxide, methane, or the relevant emissions/policy when supported.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "gender-affirming-care",
+    "pattern": "\\bgender-affirming care\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Transgender",
+    "message": "The guide treats 'gender-affirming care' as a speech-tribe term outside direct quotations.",
+    "suggestion": "Use the guide's descriptive phrasing for social, psychological, and medical services for transgender individuals, adjusted to the actual services at issue.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "transgender-speech-tribe",
+    "pattern": "\\b(transgendered|transgenderism|transsexual|cross-dresser)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Transgender",
+    "message": "The guide identifies these terms as speech-tribe/disfavored terminology in Ballotpedia's own voice.",
+    "suggestion": "Use the guide's transgender terminology appropriate to the person and context.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "biological-sex",
+    "pattern": "\\bbiological sex\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Transgender, sports participation",
+    "message": "For transgender sports coverage, the guide prefers 'sex' and says to quote 'biological sex' when it is the original legal language.",
+    "suggestion": "Use 'sex' in Ballotpedia's own voice in the covered context; quote the legal wording when needed.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "sex-assigned-observed",
+    "pattern": "\\b(sex assigned at birth|sex observed at birth)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Transgender",
+    "message": "The guide treats these phrases as speech-tribe terms and prefers 'sex' in Ballotpedia's own voice.",
+    "suggestion": "Use 'sex' unless direct quotation or source-specific context requires otherwise.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "anti-trans-ban-framing",
+    "pattern": "\\b(anti-trans(?:gender)? (?:law|laws|legislation|bill|bills)|ban on transgender athletes|transgender athlete ban)\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Transgender; Transgender, sports participation",
+    "message": "The guide cautions against partisan framing such as anti-trans legislation or describing sports eligibility rules as a ban on transgender athletes.",
+    "suggestion": "Describe the legislation's operative requirements in neutral, specific terms.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "sex-work",
+    "pattern": "\\bsex work(?:er|ers)?\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Sexual commerce and exploitation",
+    "message": "The guide treats 'sex work' as ideologically loaded language in Ballotpedia's own voice.",
+    "suggestion": "Use the specific applicable term, such as commercial sexual solicitation, prostitution, or sex trafficking, based on the facts.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "welfare-food-stamps",
+    "pattern": "\\b(welfare|food stamps)\\b",
+    "severity": "MUST FIX",
+    "category": "Clarity",
+    "source": "Ballotpedia Style Guide: Public assistance programs",
+    "message": "The guide says to be specific about the public-assistance program and not to use 'welfare' or 'food stamps'.",
+    "suggestion": "Name the specific program, such as SNAP, Medicaid, or the relevant benefit program.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "outside-dark-money",
+    "pattern": "\\b(outside spending|dark money)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Satellite spending",
+    "message": "The guide prefers 'satellite spending' for the defined category and says not to use 'outside spending' or 'dark money' in Ballotpedia's own voice.",
+    "suggestion": "Use 'satellite spending' if the spending fits the guide's definition.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "assisted-death-terms",
+    "pattern": "\\b(euthanasia|physician-assisted suicide|right to die|medically assisted suicide|death with dignity)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Assisted death",
+    "message": "The guide says not to use these terms in Ballotpedia's own voice for the covered issue.",
+    "suggestion": "Use 'physician-assisted death' or 'medical aid-in-dying' as appropriate.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "courtesy-title",
+    "pattern": "\\b(Mr|Mrs|Ms)\\.\\s+[A-Z][A-Za-z'’-]+",
+    "severity": "NEEDS CONTEXT",
+    "category": "Consistency",
+    "source": "Ballotpedia Style Guide: Titles, courtesy",
+    "message": "Courtesy titles are reserved for direct quotations; avoid them in narrative text.",
+    "suggestion": "Use the person's last name or appropriate political title in narrative text.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "factive-attribution",
+    "pattern": "\\b(noted|affirmed|realized)\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia Style Guide: Factive verbs; Ballotpedia bias taxonomy: Factive verbs",
+    "message": "This verb can presuppose the truth of the attributed claim. It is acceptable for verifiable facts but may bias disputed opinions or narratives.",
+    "suggestion": "If the claim is disputed/opinion, consider 'said', 'stated', or 'wrote'."
+  },
+  {
+    "id": "weasel-many-experts",
+    "pattern": "\\bmany experts (?:say|said|believe|argue|claim)\\b",
+    "severity": "MUST FIX",
+    "category": "Credibility",
+    "source": "Ballotpedia bias taxonomy: Weasel words",
+    "message": "This is vague attribution. Identify the experts/source and provide evidence.",
+    "suggestion": "Name the source(s) and attribute the claim specifically."
+  },
+  {
+    "id": "weasel-research-shows",
+    "pattern": "\\b(research|studies) (?:has |have )?(?:shown|showed|shows|found|finds)\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia bias taxonomy: Weasel words",
+    "message": "This construction can become a weasel claim when no study or source is identified.",
+    "suggestion": "Name and cite the research if the sentence is not already clearly sourced."
+  },
+  {
+    "id": "loaded-obviously-clearly",
+    "pattern": "\\b(obviously|clearly|undeniably)\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Credibility",
+    "source": "Ballotpedia bias taxonomy: Editorializing / Loaded language / Inappropriate descriptors",
+    "message": "This adverb may insert the writer's judgment rather than letting the sourced facts establish the point.",
+    "suggestion": "Remove it or replace it with the specific evidence that makes the conclusion supportable.",
+    "allow_in_quotes": true
+  },
+  {
+    "id": "descriptor-overwhelmingly",
+    "pattern": "\\boverwhelmingly\\b",
+    "severity": "NEEDS CONTEXT",
+    "category": "Clarity",
+    "source": "Ballotpedia bias taxonomy: Inappropriate descriptors",
+    "message": "Ballotpedia's bias guidance warns that evaluative adverbs can substitute interpretation for facts.",
+    "suggestion": "Give the numerical margin or underlying fact when available.",
+    "allow_in_quotes": true
+  }
+]

@@ -74,6 +74,7 @@ cd "$LOCALAPPDATA/hermes/sync" && bash hermes-sync.sh
 - **Pets** (petdex mascots — including hatched/generated pets like Mackenzie) — `pets/<slug>/` with `pet.json` + `spritesheet.webp`
 - **Scripts** (`academic_digest.py`, `mail.py`, `setup_digest.py`, `cron_config.json`) — copied to `~/.hermes/scripts/`
 - **Cron jobs** — academic digest cron created automatically if missing
+- **Custom skills** — full SKILL.md + references, scripts, data, and source files for custom skills under `skills/<category>/<name>/` (e.g. `skills/career/resume-builder/`, `skills/writing/ballotpedia-style-reviewer/`); installed into `~/.hermes/skills/` on each machine
 - **Synced skills** — curated skills under `profiles/synced/skills/<category>/` (see below)
 
 ### Synced Skills (Bionic Desktop)

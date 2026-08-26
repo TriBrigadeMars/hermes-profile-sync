@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Career Evidence Profile",
+  "type": "object",
+  "required": ["schema_version", "candidate", "evidence"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "candidate": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "location": {"type": "string"},
+        "email": {"type": "string"},
+        "phone": {"type": "string"},
+        "links": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "text", "status"],
+        "properties": {
+          "id": {"type": "string"},
+          "type": {"type": "string"},
+          "text": {"type": "string"},
+          "tags": {"type": "array", "items": {"type": "string"}},
+          "source": {"type": "string"},
+          "status": {"enum": ["confirmed", "user-supplied", "document-derived", "needs-confirmation"]},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "preferences": {"type": "object", "additionalProperties": true}
+  },
+  "additionalProperties": true
+}
