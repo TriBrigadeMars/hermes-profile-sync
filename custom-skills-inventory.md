@@ -131,3 +131,53 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 - **Installed from zip (2026-08-25):** `security-safety-codebase-auditor`, `ai-guardrails-codebase-auditor`, `excalidraw-chart-reconstructor`, `davinci-resolve-free-local`, `gimp-local`, `krita-local`.
 - **Installed from zip (2026-08-26):** `ballotpedia-style-reviewer` (v0.1.0), `hermes-career-application-suite` (v0.1.0 — 9 career writing skills + 1 market intelligence skill), `professional-reframer` (v0.1.0).
 - This list is a snapshot; skills are added/removed over time. Re-derive by running the diff against `.bundled_manifest` when it needs refreshing.
+
+## Inventory-only entries (not shipped in this repo)
+
+The following 41 skills are listed above but have no `skills/` folder in this repository. Verified on 2026-08-27 from the second workstation (`cruzmars` desktop): they are not installed there either, so they exist only on the machine that authored this inventory. If their code still exists, it needs to be pushed from the source machine; otherwise these entries are stale and can be pruned.
+
+- `ai-guardrails-codebase-auditor`
+- `album-media-downloader`
+- `apa-7-style-agent`
+- `ap-stylebook-agent`
+- `azure-ad-app-registration`
+- `batch-web-gallery-download`
+- `compliant-markdown-converter`
+- `davinci-resolve-free-local`
+- `docx-accessibility-agent`
+- `email-accessibility-agent`
+- `evaluation-method-selector`
+- `excalidraw-chart-reconstructor`
+- `gimp-local`
+- `job-board-rss-monitor`
+- `krita-local`
+- `ml-venv-package-conflicts`
+- `outlook-mcp-server`
+- `outlook-mcp-server-project`
+- `paralegal-assistant`
+- `pdf-accessibility-agent`
+- `powerpoint-style-agent`
+- `pptx-accessibility-agent`
+- `prisma-review-harassment-minority-students`
+- `prisma-review-output`
+- `prisma-systematic-review`
+- `public-health-evaluation-planning`
+- `qualitative-literature-review`
+- `research-design-orchestrator`
+- `research-literature-monitor`
+- `research-question-framer`
+- `research-report-packaging`
+- `rss_feed_monitoring`
+- `security-safety-codebase-auditor`
+- `social-media-accessibility-agent`
+- `study-measures-and-sampling`
+- `study-protocol-builder`
+- `web-content-monitor`
+- `web-media-download`
+- `website-accessibility-agent`
+- `workflow-orchestrator`
+- `writing-style-agent`
+
+## Bundled skills (not custom)
+
+All other skills on the desktop machine (82 of 97 installed) are Hermes bundled defaults (e.g., `creative/*`, `research/*`, `software-development/*` minus the custom ones above). They are intentionally not synced — any Hermes installation ships them. Custom skills are identified by diffing installed skills against `$HERMES_HOME/skills/.bundled_manifest`.

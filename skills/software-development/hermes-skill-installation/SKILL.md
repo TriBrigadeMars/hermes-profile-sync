@@ -119,11 +119,49 @@ Update `custom-skills-inventory.md` in the sync repo to reflect the new skills.
 
 4. **Zip extractors may create nested directories.** A zip like `ballotpedia-style-reviewer-v0.1.0.zip` may extract to `ballotpedia-skill/ballotpedia-style-reviewer/` — check the actual depth before running the installer.
 
-5. **PDF source files can be large.** The Ballotpedia skill was 15.3 MB because of 3 PDFs. Consider `.gitattributes` LFS for the sync repo if committed file sizes become a problem, or warn the user about KB impact in the sync push.
+5. **Multi-skill suite installers create inconsistent nesting.** The `hermes-career-application-suite` installed skills to `career/resume-builder/resume-builder/SKILL.md` (double-nested). Always verify the actual directory structure after running `install_all.py`:
+   ```bash
+   find "$LOCALAPPDATA/hermes/skills/<category>" -name SKILL.md | head -20
+   ```
+   If you see `<skill>/<skill>/SKILL.md` doubling, the install worked but the structure is non-canonical — Hermes still finds it via max-depth search.
 
-6. **Empty files in archives.** The `bp_style_lint.py` was 0 bytes in the source zip itself. Always run `wc -c` on key scripts after extraction to catch packaging errors before troubleshooting runtime failures.
+6. **PDF source files can be large.** The Ballotpedia skill was 15.3 MB because of 3 PDFs. Consider `.gitattributes` LFS for the sync repo if committed file sizes become a problem, or warn the user about KB impact in the sync push.
 
-7. **Humanize your workflow.** When scanning a new skill package, authenticate yourself into its tone and authorial intent before running install steps. Makes technical, logistical matter into easy, matter of fact writing done decision.
+7. **Empty files in archives.** The `bp_style_lint.py` was 0 bytes in the source zip itself. Always run `wc -c` on key scripts after extraction to catch packaging errors before troubleshooting runtime failures.
+
+8. **Identifying custom vs bundled skills.** Use `$LOCALAPPDATA/hermes/skills/.bundled_manifest` to diff installed skills against the bundled set:
+   ```bash
+   cut -d: -f1 "$LOCALAPPDATA/hermes/skills/.bundled_manifest" | sort > /tmp/bundled.txt
+   find "$LOCALAPPDATA/hermes/skills" -maxdepth 4 -name SKILL.md | \
+     grep -v '\.hub/' | xargs -I{} basename "$(dirname {})" | sort -u > /tmp/installed.txt
+   comm -23 /tmp/installed.txt /tmp/bundled.txt
+   ```
+
+## Sync Repo Conventions
+
+When syncing custom skills across machines via a git-backed sync repo (e.g., `hermes-profile-sync`), use this structure:
+
+```
+skills/
+  <category>/              # career/, writing/, data-science/
+    <skill-name>/
+      SKILL.md
+      references/
+      ...
+  _standalone/
+    <skill-name>/          # Skills with no category prefix
+      SKILL.md
+      ...
+```
+
+**Standalone skills** (like `ocr-redaction-local`) go in `skills/_standalone/<skill-name>/`. The sync script handles these separately since they install to `$HERMES_HOME/skills/<name>/` not `$HERMES_HOME/skills/<category>/<name>/`.
+
+**Category-level stray files:** When `cp -r` copies a single-file skill into a category dir, it may land as `<category>/SKILL.md` instead of `<category>/<name>/SKILL.md`. Verify directory structure after batch-copying and restructure if needed.
+
+**Sync script update checklist:** After adding new skills:
+- Verify `hermes-sync.sh` handles both categorized and `_standalone` skills
+- Update `custom-skills-inventory.md` with new entries and updated counts
+- Update `README.md` if new sync patterns were introduced
 
 ## Verification
 
