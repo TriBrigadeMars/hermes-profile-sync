@@ -4,7 +4,7 @@ Generated: 2026-08-26
 
 Inventory of all skills that are **custom to this agent** (i.e., *not* bundled with Hermes). Determined by diffing every `SKILL.md` on disk against the bundled manifest (`.bundled_manifest` inside the platform-appropriate Hermes home — see AGENTS.md §1: `$LOCALAPPDATA/hermes` on Windows, `~/.hermes` on macOS/Linux). Verify parity with `python3 scripts/verify_inventory.py --local`.
 
-- **Total custom skills:** 56
+- **Total custom skills:** 59
 - **Bundled (shipped with Hermes):** 82
 - **Total on disk:** 138
 
@@ -13,6 +13,7 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 ## 🔬 Research & Academic Writing
 | Skill | Purpose |
 |---|---|
+| `academic-research-suite-hermes` | End-to-end research assistant: scoping, bibliography, synthesis, drafting, peer-review simulation, integrity checks (CC-BY-NC-4.0) |
 | `prisma-systematic-review` | Run PRISMA systematic reviews with a 6-agent pipeline |
 | `prisma-review-output` | Store PRISMA scoping-review pipeline output files |
 | `prisma-review-harassment-minority-students` | Scoping review of harassment of minority US students |
@@ -119,6 +120,8 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 | Skill | Purpose |
 |---|---|
 | `compliant-markdown-converter` | Batch-convert PDF/DOCX/EPUB → 508-compliant markdown |
+| `hermes-model-management` | Add, remove, or alias LLM models in Hermes config |
+| `static-site-audit-remediation` | Audit a live deployed site and apply fixes to its local repo |
 | `ml-venv-package-conflicts` | Diagnose ML venv import errors |
 | `hermes-skill-installation` | Install custom skills from zip/folder + verify |
 
@@ -134,7 +137,7 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 
 ## Formerly inventory-only entries — now shipped (2026-08-27)
 
-All 56 custom skills documented in this inventory now have their code in this repository under `skills/`.
+All custom skills documented in this inventory now have their code in this repository under `skills/` (59 as of 2026-08-27).
 
 - The 39 skills previously listed here as inventory-only were recovered from the local Hermes installation on the `cruzmars` desktop at `AppData/Local/hermes/skills/` (the sync script's `~/.hermes/skills` check does not resolve on Windows, which is why they were previously reported as missing everywhere).
 - `security-safety-codebase-auditor` and `ai-guardrails-codebase-auditor` were shipped earlier on 2026-08-27.
