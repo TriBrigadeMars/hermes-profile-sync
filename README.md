@@ -2,6 +2,10 @@
 
 Syncs Hermes Agent profiles, scripts, and cron jobs across multiple machines via a private GitHub repo.
 
+> **AI agents:** read [AGENTS.md](AGENTS.md) before working in this repo. Before
+> committing changes to `custom-skills-inventory.md` or `skills/`, run
+> `python3 scripts/verify_inventory.py` — CI fails on documented-vs-actual drift.
+
 ## Setup (run on each machine)
 
 ```bash

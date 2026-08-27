@@ -2,7 +2,7 @@
 
 Generated: 2026-08-26
 
-Inventory of all skills that are **custom to this agent** (i.e., *not* bundled with Hermes). Determined by diffing every `SKILL.md` on disk against the bundled manifest (`~/.hermes/skills/.bundled_manifest`).
+Inventory of all skills that are **custom to this agent** (i.e., *not* bundled with Hermes). Determined by diffing every `SKILL.md` on disk against the bundled manifest (`.bundled_manifest` inside the platform-appropriate Hermes home — see AGENTS.md §1: `$LOCALAPPDATA/hermes` on Windows, `~/.hermes` on macOS/Linux). Verify parity with `python3 scripts/verify_inventory.py --local`.
 
 - **Total custom skills:** 56
 - **Bundled (shipped with Hermes):** 82
