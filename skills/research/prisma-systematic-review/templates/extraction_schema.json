@@ -1,0 +1,364 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PRISMA Data Extraction Schema",
+  "description": "Standardized data extraction template for systematic reviews. Customize fields per your PECOS framework.",
+  "type": "object",
+  "properties": {
+    "study_metadata": {
+      "type": "object",
+      "description": "Bibliographic and methodological identifiers",
+      "properties": {
+        "study_id": {
+          "type": "string",
+          "description": "Unique identifier (e.g., AuthorYear)"
+        },
+        "first_author": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        },
+        "country": {
+          "type": "string"
+        },
+        "study_design": {
+          "type": "string",
+          "enum": [
+            "RCT",
+            "quasi-experimental",
+            "cohort-prospective",
+            "cohort-retrospective",
+            "case-control",
+            "cross-sectional",
+            "interrupted-time-series",
+            "difference-in-differences",
+            "regression-discontinuity",
+            "ecological",
+            "other"
+          ]
+        },
+        "setting": {
+          "type": "string",
+          "description": "Clinical, community, population-based, etc."
+        },
+        "data_source": {
+          "type": "string",
+          "description": "Primary data collection, administrative claims, survey, registry, etc."
+        },
+        "funding_source": {
+          "type": "string"
+        },
+        "conflicts_of_interest": {
+          "type": "boolean"
+        },
+        "doi": {
+          "type": "string"
+        },
+        "registration_id": {
+          "type": "string",
+          "description": "PROSPERO, ClinicalTrials.gov, etc."
+        }
+      },
+      "required": ["study_id", "first_author", "year", "study_design"]
+    },
+    "population": {
+      "type": "object",
+      "description": "P - Population characteristics",
+      "properties": {
+        "n_total": {
+          "type": "integer"
+        },
+        "n_exposed": {
+          "type": "integer",
+          "description": "Exposure/intervention group size"
+        },
+        "n_comparator": {
+          "type": "integer",
+          "description": "Comparator/control group size"
+        },
+        "age_mean": {
+          "type": "number"
+        },
+        "age_sd": {
+          "type": "number"
+        },
+        "age_range": {
+          "type": "string"
+        },
+        "sex_pct_female": {
+          "type": "number",
+          "description": "Percentage female"
+        },
+        "race_ethnicity": {
+          "type": "object",
+          "description": "Key demographic breakdown"
+        },
+        "geographic_location": {
+          "type": "string"
+        },
+        "income_level": {
+          "type": "string",
+          "description": "Low, middle, high income; or specific measure"
+        },
+        "comorbidities": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "inclusion_criteria": {
+          "type": "string"
+        },
+        "exclusion_criteria": {
+          "type": "string"
+        },
+        "baseline_characteristics_notes": {
+          "type": "string"
+        }
+      },
+      "required": ["n_total"]
+    },
+    "exposure": {
+      "type": "object",
+      "description": "E - Exposure or Intervention",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Tax, policy, program, clinical intervention, etc."
+        },
+        "definition": {
+          "type": "string",
+          "description": "Precise operational definition"
+        },
+        "dose": {
+          "type": "string",
+          "description": "Amount, intensity, or magnitude"
+        },
+        "duration": {
+          "type": "string",
+          "description": "Length of exposure or follow-up"
+        },
+        "implementation_details": {
+          "type": "string",
+          "description": "How the exposure was implemented or measured"
+        },
+        "measurement_method": {
+          "type": "string",
+          "description": "Self-report, objective measure, administrative data, etc."
+        },
+        "timing": {
+          "type": "string",
+          "description": "When exposure occurred relative to outcome measurement"
+        }
+      },
+      "required": ["type", "definition"]
+    },
+    "comparator": {
+      "type": "object",
+      "description": "C - Comparator or Control",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Pre-intervention, no tax, lower tax rate, different geography, etc."
+        },
+        "definition": {
+          "type": "string"
+        },
+        "details": {
+          "type": "string",
+          "description": "Any relevant details about the comparison"
+        }
+      },
+      "required": ["type"]
+    },
+    "outcomes": {
+      "type": "array",
+      "description": "O - Outcomes (primary and secondary)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "outcome_name": {
+            "type": "string"
+          },
+          "outcome_type": {
+            "type": "string",
+            "enum": ["primary", "secondary", "safety", "subgroup"]
+          },
+          "definition": {
+            "type": "string",
+            "description": "How the outcome was defined/measured"
+          },
+          "measurement_tool": {
+            "type": "string",
+            "description": "ICD codes, lab values, validated scale, etc."
+          },
+          "timepoint": {
+            "type": "string",
+            "description": "When outcome was measured"
+          },
+          "effect_measure": {
+            "type": "string",
+            "enum": [
+              "OR", "RR", "HR", "RD", "SMD", "MD",
+              "IRR", "PR", "beta_coefficient", "other"
+            ],
+            "description": "Type of effect measure reported"
+          },
+          "effect_size": {
+            "type": "number",
+            "description": "Reported effect estimate"
+          },
+          "se": {
+            "type": "number",
+            "description": "Standard error of effect size"
+          },
+          "ci_lower": {
+            "type": "number"
+          },
+          "ci_upper": {
+            "type": "number"
+          },
+          "p_value": {
+            "type": "number"
+          },
+          "events_exposed": {
+            "type": "integer",
+            "description": "Events in exposure group (binary outcomes)"
+          },
+          "events_comparator": {
+            "type": "integer",
+            "description": "Events in comparator group (binary outcomes)"
+          },
+          "mean_exposed": {
+            "type": "number",
+            "description": "Mean in exposure group (continuous outcomes)"
+          },
+          "sd_exposed": {
+            "type": "number"
+          },
+          "mean_comparator": {
+            "type": "number"
+          },
+          "sd_comparator": {
+            "type": "number"
+          },
+          "adjusted": {
+            "type": "boolean",
+            "description": "Whether effect estimate is adjusted for confounders"
+          },
+          "adjustment_variables": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "numerator": {
+            "type": "string"
+          },
+          "denominator": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "required": ["outcome_name", "effect_measure", "effect_size"]
+      }
+    },
+    "risk_of_bias": {
+      "type": "object",
+      "description": "Risk of bias assessment",
+      "properties": {
+        "tool_used": {
+          "type": "string",
+          "enum": [
+            "ROBINS-I",
+            "RoB 2",
+            "Newcastle-Ottawa Scale",
+            "JBI Critical Appraisal",
+            "ACROBAT-NRSI",
+            "GRADE",
+            "other"
+          ]
+        },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "domain_name": {
+                "type": "string",
+                "description": "e.g., Confounding, Selection, Intervention, Missing data, Measurement, Reporting"
+              },
+              "rating": {
+                "type": "string",
+                "enum": [
+                  "low risk", "some concerns", "moderate risk",
+                  "serious risk", "critical risk", "no information",
+                  "low", "moderate", "serious", "critical"
+                ]
+              },
+              "support_for_judgment": {
+                "type": "string",
+                "description": "Quote or summarize the evidence supporting this judgment"
+              }
+            },
+            "required": ["domain_name", "rating"]
+          }
+        },
+        "overall_risk": {
+          "type": "string",
+          "enum": ["low risk", "some concerns", "moderate risk", "serious risk", "critical risk"]
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": ["tool_used", "domains", "overall_risk"]
+    },
+    "study_quality": {
+      "type": "object",
+      "properties": {
+        "sample_size_adequacy": {
+          "type": "string",
+          "enum": ["adequate", "inadequate", "unclear"]
+        },
+        "follow_up_duration_adequacy": {
+          "type": "string",
+          "enum": ["adequate", "inadequate", "unclear"]
+        },
+        "loss_to_followup_pct": {
+          "type": "number"
+        },
+        "attrition_bias_concern": {
+          "type": "boolean"
+        },
+        "generalizability": {
+          "type": "string",
+          "description": "How generalizable are the findings?"
+        }
+      }
+    },
+    "extractor_notes": {
+      "type": "object",
+      "properties": {
+        "key_findings": {
+          "type": "string"
+        },
+        "limitations": {
+          "type": "string"
+        },
+        "conflicts_of_interest": {
+          "type": "string"
+        },
+        "reviewer_notes": {
+          "type": "string"
+        },
+        "extraction_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "extractor_name": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": ["study_metadata", "population", "exposure", "comparator", "outcomes", "risk_of_bias"]
+}

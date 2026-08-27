@@ -1,0 +1,589 @@
+How to Create, Test and Remediate PDFs for Section 508 Conformance Using Adobe Acrobat DC Pro 
+Module 0:  Background and Introduction
+Background:
+In October 2012 subject matter experts from several federal agencies established the Accessible Electronic Document Community of Practice (AED COP) with the goal of improving accessible content, advancing the field of accessibility, and creating testing and authoring artifacts that are reusable across many agencies.
+As a part of this effort, this course was created to assist individuals in creating, testing and remediating Portable Document Format, or PDFs, for Section 508 conformance.  The guidance provided in this course is based on the Section 508 Baseline Test Guide for PDFs, and the Section 508 PDF Checklist authored by the AED COP.  For more information on the AED COP, to download the latest AED COP guidance, or gain access to a detailed test process visit www.Section508.gov. 
+Please note:  This course does not support the process of evaluating or remediating Life Cycle documents for Section 508 Conformance nor does it apply to documents that contain scripts.
+Introduction: 
+Federal agencies create millions of documents each year to post to online.  One of the most popular document formats used to publish documents to the web is Portable Document Format, or PDF.  The PDF file type is a popular choice as these documents maintain a common look and feel regardless of the electronic device used to view them.  Unfortunately, the majority of PDFs created do not comply with Section 508 of the Rehabilitation Act, which is a Federal Law stating that all Information and Computer Technology must be accessible to persons with disabilities.  If a PDF is not Section 508 conformant, persons with disabilities who utilize assistive technology such as screen readers or speech-to-text tools may find it difficult or impossible to access essential or critical information.  Therefore, it is each author’s responsibility to ensure that their PDFs are fully Section 508 conformant.
+When you follow the accessibility requirements provided in this course, you are providing a document that allows individuals with disabilities:
+1) To access the important information that you are publishing. 
+2) To gain access to information in a comparable way as their non-disabled peers.
+The modules in this course have been created to assist document creators in evaluating and converting both non-scanned and scanned documents into Section 508 conformant PDFs.  Individuals will learn how to discover accessibility issues by manually examining different components of PDFs such as the Content layer, Tags layer, and Logical Reading Order. They will also learn to utilize Adobe Acrobat’s Accessibility Checker to validate and remediate identified accessibility problems.  
+The course has been broken down into the following modules to make it easier to learn how to create, test and remediate Section 508 conformant PDFs.  
+Module 0: Background and Introduction 
+Module 1: PDF Overview
+Module 2: Testing a PDF for Accessibility
+Module 3: Remediating PDFs for Accessibility
+Module 4: Converting Scanned Documents into Section 508 Conformant PDFs
+By the end of this series, you will be able to:
+Identify a PDF document 
+Test a PDF document for Section 508 conformance 
+Remediate a PDF to ensure that it is Section 508 conformant
+Module 1: PDF Overview
+Learning Objectives
+Upon conclusion of module 1: PDF Overview students will be able to:
+Identify the various elements that make up a PDF document
+Describe the 37 different tags and their functions
+Use the Accessibility PDF Checklist 
+Convert documents into PDFs 
+Test a PDF for accessibility via a visual check 
+Use the Accessibility Full Check tool in Adobe Acrobat DC Pro
+What is a PDF?
+So, what is a PDF? The Portable Document Format, or PDF, is an electronic document file type that can be viewed, printed, and electronically submitted. It is made up of three key components:
+Physical view - which is the physical representation of text and graphics 
+Content view - which is the layer of the PDF where the actual document content resides
+Tags Structure Tree - which establishes the PDF content structure and logical reading order
+The Physical view is a visual representation of the text and graphics. You can also think of this as the Print view, or what the document would look like when printed. 
+The Content view displays the actual textural and graphical information that is displayed on the page.  To access the content view of the document, access the Content Pane by going to the View menu item and selecting Show/Hide > Navigational Panes > Content. Expand the document name to view pages and objects. 
+Lastly, the Tags layer displays the Tags Structure Tree which establishes the logical structure of the document, as well as the logical reading order for assistive technology.  This will display tags used such as Headers, Paragraphs, Lists, and tables.  To view the Tags Structure Tree, access the Tags Pane by selecting the View menu and then selecting Show/Hide > Navigational Panes > Tags. Selecting the arrow symbol to the left of the tag, will expand the tag and its child element, which is the content on the page that the tag is associated with.  
+PDF Tag Types
+Most PDFs are comprised of a few basic tags; however, authors can utilize up to 37 different tags to fully convey a document’s formatting and structure. Depending on the source file used to create the PDF, the tags that appear in the PDF’s Tags Structure Tree may not display the same name of a tag created by tools within Acrobat. If the tags map to standard Acrobat tags, the tags are considered valid. To verify that custom tags generated from products such as HTML, XML and Microsoft Office correctly map to standard Acrobat PDF tags, you must view the Role-Map of the tag by first selecting the custom tag from the Tags Pane and then select Options > Edit Role Map in the Tags Pane. To gain access to the Tags Structure Tree, select the Tags Pane icon to open the Tags Pane
+Once the Tags Structure Tree is displayed, press Shift 8 (*) to expand all tags.  To display the tags map or full name of a tag, right click on a tag and select Properties.  The full name of the tag will appear in the Tags Type field.  To view a full list of PDF tags, from the Tags Pane, select Options>New Tags.  
+Container elements 
+Container elements are the highest level of element and provide hierarchical grouping for other block-level elements. 
+Tag
+Description
+<Part>
+Part element is a large division of a document; it can be used to group smaller units of content together, such as division elements, article elements, or section elements.
+<Div>
+Division element is a generic block-level element or group of block-level elements.
+<Art>
+Article element is a self-contained body of text considered to be a single narrative.
+<Sect>
+Section element is a general container element type, comparable to Division (DIV Class= “Sect” in HTML, which is usually a component of a part element or an article element.
+Heading and paragraph elements 
+Heading and paragraph elements are paragraph-like, block-level elements that include specific level heading and generic paragraph tags. A heading (H) element should appear as the first child of any higher-level division. Six levels of headings (H1 to H6) are available for applications that don’t hierarchically nest sections.
+Tag
+Description
+<H>
+Header (Not recommended for use in structured PDF documents)
+<H1>
+Heading level 1 (Recommended for the title and highest section level of a document)
+<H2>
+Heading level 2
+<H3>
+Heading level 3
+<H4>
+Heading level 4
+<H5>
+Heading level 5
+<H6>
+Heading level 6
+<P>
+Paragraph 
+Label and list elements 
+ 
+Tag
+Description
+<L>
+List element is any sequence of items of similar meaning or other relevance; immediate child elements should be list item elements.
+<LI>
+List item element is any one member of a list; may have a label element (optional) and a list body element as a child.
+<LB>
+Label element is a bullet, name, or number that identifies and distinguishes an element from others in the same list.
+<LBody>  
+List item body element is the descriptive content of a list item.
+Special text elements 
+Special text elements identify text that isn’t used as a generic paragraph. 
+Tag
+Description
+<BlockQuote>
+Block quote element is one or more paragraphs of text attributed to someone other than the author of the immediate surrounding text.
+<Caption>
+Caption element is a brief portion of text that describes a table or a figure.
+<Index>
+Index element is a sequence of entries that contain identifying text and reference elements that point out the occurrence of the text in the main body of the document.
+<TOC>
+Table of contents element is an element that contains a structured list of items and labels identifying those items; has its own discrete hierarchy.
+<TOCI>
+Table of contents item element is an item contained in a list associated with a table of contents element.
+Table elements 
+Table elements are special elements for structuring tables. 
+Tag
+Description
+<Table>  
+Table element is a two-dimensional arrangement of data or text cells that contains table row elements as child elements and may have a caption element as its first or last child element.
+<TR>: 
+Table row element is one row of headings or data in a table; may contain table header cell elements and table data cell elements.
+<TH>:
+Table header cell element: is a table cell that contains header text or data describing one or more rows or columns of a table.
+<TD>
+Table data cell element is a table cell that contains non-header data.
+Inline-level elements 
+Inline-level elements identify a span of text that has specific formatting or behavior. They are differentiated from block-level elements. Inline-level elements may be contained in or contain block-level elements.
+Tag
+Description
+<BibEntry> 
+Bibliography entry element is a description of where some cited information may be found.
+<Quote>
+Quote entry element is an inline portion of text that is attributed to someone other than the author of the text surrounding it; different from a block quote, which is a whole paragraph or multiple paragraphs, as opposed to inline text.
+<Span>
+Span entry element is any inline segment of text; commonly used to delimit text that is associated with a set of styling properties.
+Special inline-level elements 
+Similar to inline-level elements, special inline-level elements describe an inline portion of text that has special formatting or behavior.
+Tag
+Description
+<Code>
+Code entry element is computer program text embedded within a document.
+<Figure> 
+Figure entry element is a graphic or graphic representation associated with text.
+<Form>
+Form entry element is a PDF form annotation that can be or has been filled out.
+<Formula>
+Formula entry element is a mathematical formula.
+< Link>
+Link entry element is a hyperlink that is embedded within a document. The target can be in the same document, in another PDF document, or on a website.
+<Note>
+Note entry element is explanatory text or documentation, such as a footnote or endnote that is referred to in the main body of text.
+<Reference>
+Reference entry element is a citation to text or data that is found elsewhere in the document.
+Accessibility PDF Checklist
+When creating an accessible PDF, or when reviewing a PDF for Section 508 conformance, the following conditions must be considered.  The answers to all of the conditions should be Yes or Not Applicable.  If a No response is selected, the issue must be resolved before the document can be considered accessible.  Each of these conditions can be tested by visually examining the document’s Physical View, Content layer, and Tags layers. An additional resource is Adobe’s Accessibility Full Check tool located on Acrobat’s main menu under Advanced > Accessibility > Full Check.
+Element to Check
+Yes/No/NA
+Document Properties 
+The PDF has a descriptive file name which identifies the document, or its purpose and the Initial View is set to show Document Title
+Security settings is set to Allowed for Content Copying for AccessibilityUnder the Advanced>Reading Options, the primary language is set correctly in the Language field. 
+The document contains renderable content
+The document’s content appears in the Content Pane
+Optical Corrector Recognition (OCR) was performed on all scanned pages.  
+The PDF is Tagged
+When viewing the Tags Pane, tags are visible.
+The tags follow the visual/logical reading order of the document
+All meaningful content is associated with the correct tag.
+All tags follow the visual/logical reading order of the page.
+The document has decorative content
+All decorative content (text and objects) are tagged as <Artifact>
+Repeated content such as repeated headers and footers are tagged as <Artifact>
+Vital information in headers, footers, and watermarks is duplicated in the document’s text at least once
+Vital information is duplicated as tagged content.
+Headings are tagged with a <H>-<H6> Heading tag 
+Heading tags match document headings and follow the visual outline.
+All non-standard heading tags map to standard heading tags.
+Lists are tagged correctly
+Lists have a parent tag and have one or more nested list item tags.  Example <L> and <LI>. 
+Sections in different languages have a corresponding language attribute
+The tag’s property associated with the language change shows the selection’s language or corresponding two-letter code.
+Images and other objects have alternative text
+All “Figures” have alternative text that describes its purpose/function. 
+All captions describe the purpose/function of associated images/objects.
+Descriptive text conveys the purpose and/or function of the image/object.
+The document contains data tables
+Tables are identified with a <Table> tag.
+Table header cells have a <TH> tag and data cells have a <TD> tag.
+Row/column span match the layout, and cells have scope and unique IDs.
+Data cells are associated with corresponding header cells.
+The document contains links and/or controls
+Link names describe destination/purpose or describe context.
+Links have unique names.
+Tab order matches the visual/logical order of interactive elements.
+The document contains fillable form elements
+Each form field has a tooltip that matches the label or instruction.
+Tab order matches the visual/logical order of form fields.
+The document contains color and/or Sensory characteristics
+Meaning of color or other sensory characteristics is duplicated in text.
+Color contrast 
+Text and Large Text (including images of text) pass with the 
+Color Contrast Analyzer.
+The PDF contains meaningful audio-only, video-only, or Synchronized media objects.
+Audio-only objects have a transcript that is accurate and complete
+Video-only objects have text description that is accurate and complete
+Synchronized media (audio and video) have synchronized captions and audio
+ description that are accurate and complete
+The document has no flashing objects.
+Flashing objects are excluded from the document.
+An alternative accessible version is provided is the PDF cannot be made fully Section 508 conformant.
+Alternate versions are equivalent and up to date.
+Converting a Document into PDF 
+There are two methods for converting a source document into a PDF.  Method A allows you to convert a document using Adobe Acrobat DC tools.  Method B is recommended for converting Microsoft Office files into a PDFs by using the Adobe PDF plug-in located on the Office main menu bar.  
+Method A:  Converting scanned and non-scanned documents into PDF using Adobe DC
+To convert a non-Microsoft Office document into a PDF, first open Acrobat and from the File menu select Create PDF.  Next select File > Open and your selected file will automatically convert into a PDF.  This method may generate either a tagged or an untagged PDF.  Untagged or poorly tagged PDFs are not accessible.  To verify that the PDF is accessible, use Adobe’s Content Pane, Tags Pane, Order Pane and Accessibility Full Checker tool to test the PDF.  Instructions on how to use these tools are located in Module 2:  Testing PDFs for Accessibility.
+If the document you are converting has been scanned, you must first perform Optical Character Recognition, or OCR, on the document before it can be made accessible. If you are unable to highlight or select text in a document, or if the text is blurry or hand-written, it is likely a scanned document. OCR will translate words from the scan into text that can be read by a screen reader and other assistive technologies. Go to module 4: Converting Scanned Documents into Section 508 Conformant PDFs for more information on making scanned documents Section 508 conformant.
+Method B:  Converting files into PDF within Microsoft Office applications
+Before converting a Microsoft Office document into a PDF, it is important to first verify the document is as accessible as possible.  By doing so, the generated PDF will have fewer accessibility issues that will need to be remediated.  For guidance on creating and testing Microsoft Office documents for Section 508 conformance, visit www.Section508.gov\refresh-toolkit\test.   
+To begin converting an Office document into PDF, first open the desired Office file.
+Next, from the Office applications menu bar, select Adobe PDF > Preferences and from the Preferences properties box, set the desired conversion settings.  
+Note: If the Adobe PDF menu item does not appear on the applications bar as shown below, the Adobe PDF plug-in has not been installed.  If this is the case, convert the Office file using the instructions in method A.
+From the Settings tab, under Applications Settings check the following checkboxes.
+View Adobe PDF Results 
+Prompt for Adobe PDF File Name
+Convert Document information
+PDF/A Compliance set it to None  
+Create Bookmarks
+Add links, and
+Enable Accessibility and Reflow with tagged Adobe PDF
+Next select the Advanced Settings button.  Once the new window opens, change the Compatibility combo box selection to Acrobat 8.0-1.7.  This setting will ensure that the latest accessibility features are applied to the newly created PDF. 
+Now select OK to save conversion settings.  Once the settings have been saved, they will remain set unless changed by the user.
+Lastly, select Adobe PDF > Convert to PDF from the Office applications menu to create a tagged PDF. When prompted, name the file and save it.  Once the conversion process is completed, Adobe DC will launch and display the newly created PDF file.  
+If the Office document was created using Formatting and Style elements, located on the Office toolbar, a well-tagged document will be generated.  In most cases, PDF files created using this method are 90% accessible.  To verify that the PDF is accessible, use Adobe’s Content Pane, Tags Pane, Order Pane and Accessibility Full Checker tools to test the PDF.  Instructions on how to use these tools are found in Module 2:  Testing PDFs for Accessibility.      
+Testing PDFs for Accessibility
+Before a PDF can be considered accessible, many factors must be considered. It must contain actual content, be properly tagged, have a logical reading and tab order, and alternative text must be added to all images and objects.  Additionally, the Properties of the document must contain a descriptive file name, a specified language and Content Copying for Accessibility should be set to Allowed. 
+This concludes Module One. In the next module, we will dive into how to fully evaluate and test a PDF for Section 508 conformance. As there is a lot of valuable information in this module, we encourage you to read and re-read sections to obtain a mastery of its content. 
+Module 2: Testing a PDF for Accessibility
+Welcome to Module 2, part 3 of the course How to Create, Test and Remediate PDFs for Section 508 Conformance Using Adobe Acrobat DC Pro. In this Module we will review steps for testing a PDFs accessibility including:
+How to set up the document’s properties
+How to manually evaluate accessibility of the document’s content
+How to use Acrobat’s Accessibility Full Check tool
+How to use Adobe’s Read Out Loud text to speech tool to read the PDF
+Before utilizing Acrobat’s accessibility check tools, the PDF must be visually verified to identify issues that cannot be detected by the automated testing tool. For example, visually ensuring proper Heading level structures were used, or verifying that descriptive alternative text was applied to images and objects.  
+Please Note:  In order to perform the visual checks in Adobe Acrobat you must be able to view the screen and use a mouse.  Additionally, if the PDF contains attachments or is a portfolio, each individual document must be evaluated for accessibility using the correct testing methodology.  For guidance on how to test MS Office documents, visit www.Section508.gov.  
+Document Properties
+The PDF’s document properties should contain a few key pieces of information such as a descriptive title, tags, allow copying content for accessibility, and have a specified language.
+To view the document properties, 
+First open the PDF and select File > Properties > Description.  In the Title field, verify that a descriptive title appears. Next navigate to the Initial View tab and from the Show dropdown box verify that Document Title is selected.  If the Title field is missing a descriptive title and Document Title is not selected, the PDF is considered not accessible.  A   descriptive title will need to be added and the Show field will need to be set to Document Title before the PDF can be considered accessible. [Provide examples of a descriptive title]
+While on the Descriptive tab, verify that the Tagged PDF option is set to “Yes”.  If the Tagged PDF option is set to “No”, the document may not be tagged and therefore it is not accessible.  The document will need to be tagged before it can be made accessible.
+From the Properties window select the Security tab and verify Content Copying for Accessibility is set to Allowed.  If the option is set to Not Allowed, Assistive Technology will not be able to access the PDF’s content rendering the PDF not accessible.  Change the Security settings to allow content copying for accessibility.  Do this by selecting a different security option from the Security Method dropdown box or by selecting Change Settings and then set the security settings as needed. If the Security Method has been set to No Security, then no restrictions for content copying have been applied.  
+Lastly, ensure a primary language is assigned. From the Properties window select Advanced > Language and verify that the proper primary language is assigned to the document.  If the language is not set correctly, screen readers will be unable to reliably read the PDF, rendering the PDF not accessible.  The correct language will need to be assigned before the document can be considered accessible. If the document contains multiple languages, the language will need to be set as a property of the tag associated with the content that contains a language change before the document can be considered fully accessible.   
+Document Contents
+Physical View
+The Physical View of the document may contain specially formatted text that may represent Heading levels, list, tables, figures and form field elements. Having a clear understanding of the elements that were used to create the document will help you identify what document elements need to be tested for Section 508 conformance.  
+If content within the PDF appears blurry or contains hand-written information, the document was most likely scanned.  Scanned documents may or may not contain actual content.  Without actual content, assistive technology will be unable to read or interact with the PDF.  To verify that the PDF contains actual content:
+First Go to Acrobat’s View menu and select Show/Hide > Navigation Panes > Content
+Next, expand the Content tree by pressing CRTL + Shift + 8
+Use the Up and Down arrow keys to navigate the Content Pane
+As you navigate the Content Pane, the content of the physical view of the PDF should highlight.  If pages in the PDF do not contain renderable content, the document is not accessible and Optical Character Recognition, or OCR, will need to be performed.  For more guidance, go to Module 4: Converting Scanned Documents into Section 508 Conformant PDFs
+After verifying that the PDF contains renderable content, The Tags Structure Tree will need to be examined to ensure all document elements such as Headers, Paragraphs, List, Data Tables, Figures, and Form Field elements are associated with the correct tag. Note: All elements in a PDF must be tagged. If the element is not tagged, it will not be accessible by assistive technology such as screen readers.  Elements that are tagged as <Artifacts>, otherwise known as decorative images or repetitive content, will not show up in the Tags Structure Tree; however, the tag will be visible in the Content Pane.   
+Go to Acrobat’s View menu and select Show/Hide > Navigation Panes > Tags
+Next expand the Tags tree by pressing CRTL + Shift + 8
+Use the Up and Down arrow keys to navigate the Tags tree.  
+As you navigate the Tags tree, the content on the physical view of the PDF will highlight.  If the Tag does not properly represent the element on the physical view, the document is considered not accessible, and the tags will need to be modified.  If you are uncertain of what type of tag is being used, right click on the tag and select Properties.  The Type field will display the Tag’s name.  To modify the tag, simply select the correct tag type from the list of tags.  
+Logical Reading Order
+Next use the Tags Structure Tree to verify the documents Logical Reading Order.  Tags must follow the visible logical layout of the page.  Without a proper Logical Reading Order, assistive technology users will find it difficult or impossible to follow the natural flow of the document’s content.    
+First open the Tags Pane and expand the Tags Structure Tree
+Use the Up and Down arrow keys to navigate the Tags Structure Tree
+As you navigate the Tags tree, the content on the physical view of the document will highlight.  If the Tags are arranged in such a way that they follow the visible logical layout of the page, the document has a Logical Reading Order.  If the tags appear out or order, the Tags Structure Tree will need to be rearranged before the PDF can be considered accessible.  
+Logical Tab Order
+Now let’s evaluate the Logical Tab Order. If the PDF contains links or form field elements such as test boxes or button controls, The PDF must be evaluated for a Logical Tab Order.  The Tab Order must follow the visible logical layout of the page.
+To evaluate the Tab Order,
+First press the Tab Key to navigate the document
+Then verify that the keyboard focus follows the visible logical layout of the page.
+When pressing the Tab key, if the keyboard focus does not follow the visible logical layout of the page then the document is not accessible, and the Tab Order will need to be adjusted.  
+Figure Elements
+If the PDF includes figure elements that are not decorative, the figures must contain alternative text.  Alternative text is descriptive text that describes the purpose of the image.  Without alternative text, users that are unable see the images in the document will not be able to access all the information provided in the document.  
+To verify that useful alternative text was used for images:
+View Figures by navigating to Tools > Accessibility > Touchup Reading Order. Then check “Show tables and figures.”
+Next look for text descriptions placed on meaningful images and objects.
+For images marked by “Figure”, right click and select “Edit Alternate Text.”
+Examine all captions associated with images for a text description, and 
+Examine the surrounding content for text that describes the image and other objects.
+Next check that the descriptive text conveys the purpose and/or function of the image or object.
+For images of text, check that the descriptive text matches the text contained in the image verbatim.
+If the alternative text descriptions are not correct, the document is not accessible, and the alternative text will need to be corrected.  
+Data Tables
+If the PDF contains Data Tables, the data table must be tagged using the <Table> tag. Additionally, all Column and Row header cells must be tagged with the Table Header, or <TH> tag.  Complex tables containing more than one set of Column headers or that have data cells which span across multiple columns or rows must contain proper Scope. Scope denotes which data cells are Row Headers or Column Headers, and Span identifies the number of columns or rows a data cell extends across.  Images of data tables are not considered assessable and must be converted into proper data tables that contain actual content.  
+To evaluate simple data tables for accessibility:
+First navigate through the document and identify the first data table.
+Next go to the Tags Pane.
+From Acrobat’s toolbar, from the menu select the Selection tool and then select the first data cell in the data table.
+From the Tags Pane, select Options > then Find Tag from Selection.
+Expand the <Table> tags and identify each Table Row, or <TR> tag that is associated with a Column or Row header. 
+Expand the <TR> tag and verify each data cell is tagged as a Table Header.
+After verifying that Table Header cells are identify properly, make sure that all non-Table Header cell are tagged as Table Data <TD>. 
+If any of the table data cells are not associated with the correct tag, such as Table Header tag, or Table Data tag, then the data table is not accessible. The tags will need to be modified before the table can be made accessible. 
+If you are validating a complex data table for accessibility, in addition to these steps you will also need to check the Scope for Column and Row headers as well as the Span for data cells.
+To evaluate the Scope and Span in a complex table, 
+First open the Order Pane
+Select Options > then Show Reading Order Pane
+ Select the reading order number associated with the data table.
+From the Reading Order Pane tool select Table Editor
+Right click on each Column and/or Row header cell and select Cell Properties
+Verify that Scope is set to Column Header for Column Header data cells, and that Row Header is set for Row Header data cells. For Column Headers that also represent a Row Header, make sure both Column Header and Row Header are selected. 
+Next identify any data cells that span more than one column or row and right click on the cell then select Cell Properties.
+Verify that the Span identifies the proper number of columns or rows and cell spans.  
+If the Scope and Span are not properly identified, the complex table is considered not accessible and the data cell’s properties will need to be properly set before the data table can be considered accessible. 
+Note: The Table Editor tool may not always function properly; therefore, you will have to use the Tags Structure tree to verify the table tags are set properly and assistive technology to ensure the table reads correctly. 
+Form Field Elements
+If the PDF contains form field elements, it is important each form field element contain a tooltip and appears in a logical Tab Order.  In order to correctly and accurately complete a form, it is necessary to follow instructions, directions and cues, and also be able to enter information in the correct fields.
+Note: if the PDF Producer is Adobe LiveCycle, then this test process will not be sufficient.  Until the AED COP publishes the Harmonized Processes for Section 508 Testing: Baseline Tests for Accessible Electronic Documents—Adobe LiveCycle testers should rely on user testing with assistive technologies. To see if the PDF was created using LiveCycle exam the document’s properties by going to Acrobat’s File menu and select Properties > then PDF Producer. 
+To evaluate Form Field Elements for accessibility, 
+First press the Tab key to find form fields (such as text fields, radio buttons, checkboxes, combo boxes, etc.).
+Next hover over each form field to reveal the tooltip.
+Now check that the tooltips match the label or instructions, and
+Check that the tab order matches the visual and logical order of form fields. 
+Note:  When evaluating tooltips for radio buttons and checkboxes, the tooltip must include both the question/statement associated with the group of radio button sand checkboxes as well as the form field label associated with the radio button and checkbox. 
+Links
+If the PDF contains links, the links must be uniquely identified, the purpose or destination of the link must be clear, and it must appear in a logical Tab Order.  
+To verify that links are being used properly,
+Press the Tab key to find links and user controls.
+Now check that each link has an unambiguous name that it describes the destination, function, and/or that the purpose of the link is discernable within context.
+If an image is a link or user control, then the alt-text of the image can state the link purpose, function or destination.
+Lastly, check that the tab order matches the visual and logical order of links.
+If the link is not unique, even though it has a clear destination and appears in a logical Tab Order, then the PDF is not accessible, and the link will need to be adjusted.
+Sensory Characteristics
+If PDF content uses sensory characteristics such as color, size, shape, and location, it must include text to convey meaning.  Without text, individuals who are blind, low vision, or color blind will not have access to comparable information. 
+To evaluate sensory characteristics,
+Find color and other sensory characteristics in your PDF.
+Check that there is text that conveys the meaning of color or sensory characteristics.
+If the full meaning of the document is not conveyed without relying on sensory characteristics, the PDF is not accessible. The original source document will need to be redesigned before the PDF can be made accessible. 
+In addition to providing information for items conveyed by color or sensory characteristics, readability must also be evaluated. Having a high level of contrast between foreground and background results in more people being able to see and use the content.  The required standards are listed in the table below.
+Type or Size of Text 
+Contrast Ratio
+Standard
+4.5:1
+Large Text (14 pt bold or 18 pt regular)
+3:1
+Incidental text, text overlaid on images, and logotypes
+Excluded from requirement
+To evaluate color contrast ratios, 
+First download the Color Contrast Analyzer.  You can run the application without installing it onto your computer. (See Baseline test document for link)
+Drag the Foreground eyedropper icon over a sample of your text or image of text. 
+Then drag the Background eyedropper icon over a sample of your background color. 
+Check that the color contrast ratio passes (AA) in the Color Contrast Analyzer.
+If the document does not contain a strong color contrast, the document is not accessible.  The original source document will need to be adjusted before the PDF can be made accessible. 
+Using Acrobat Accessibility Full Check
+Now that the document has been manually tested, it is important to run Acrobat’s Accessibility Full Check tool to identify any issues not found when manually testing the document.  
+To access Adobe’s Accessibility Full Check:
+Select Tools > Accessibility > Full Check
+Select the Select All button to check all the check boxes.  This will ensure that the PDF is tested for full accessibility. 
+Then select Start Checking button.  
+The Full Check Accessibility report indicates all errors with bold text and a red circle with an “x”. 
+Expand each category in the report to see the full list of errors.
+Right click on an error and select Fix to repair the error.  Note that not all errors will have this option.
+If the Fix option does not appear, select the Show in Tags Pane option.  This will allow you to manually correct any tags by right clicking on the tag and selecting Properties > Type and setting the correct tag type. 
+When using the Accessibility Full Check tool to repair errors, if you select the Check Again menu option by right clicking on the repaired error, the error will disappear if it was fixed properly.  
+Adobe’s Read Out Loud Text to Speech Tool
+To get an idea of how a text to speech may sound when reading a PDF, take advantage of Adobe’s built-in text to speech tool.  
+To access the text to speech tool,
+First navigate to the View menu and select Read Out Loud > then Activate Read Out Loud.
+Then Select View > Read Out Loud > and Start.
+Note:  The Read Out Loud text to speech tool does not function the same as dedicated screen readers such as JAWS; therefore, the Read Out Loud tool must not be used for testing the document for Section 508 conformance.
+This completes module 2, Testing a PDF for Accessibility. In the next module, we will dive into how to remediate any errors found in a PDF after testing has concluded. 
+Module 3:  Remediating PDFs for Accessibility
+Welcome to Module 3, part 4 of the training How to Create, Test and Remediate PDFs for Section 508 Conformance Using Adobe Acrobat DC Pro. 
+In this module, we will review:
+How to fix the document’s properties
+How to add and adjust PDF tags
+How to adjust the logical reading order
+How to adjust the logical tab order
+How to add alternative text
+How to set the language properties for sections of the document
+Document Properties
+The PDF’s document properties must have a descriptive file name, allow copying content for accessibility, and have a specified primary language set.  If you discover that the document properties are not set properly when testing the PDF for accessibility, then do the following to fix the document’s properties: 
+Select File > Properties > then Description.  In the Title field, add a descriptive title if the field is empty or if the title is not useful.  Next, select the Initial View tab and from the Show dropdown box make sure Document Title is selected.  
+In the Security tab of the Properties window, if Content Copying for Accessibility is set to Not Allowed, change the Security settings to allow content copying for accessibility by selecting a different security option from the Security Method dropdown box or by selecting Change Settings and then set the security settings as needed. 
+If the documents primary language was not set properly, from the Properties window select Advanced from the Language dropdown box, select the correct language.  If the primary language of the document is not supported, you may need to download a language pack from Adobe.   Setting the proper document language enables screen readers to choose the correct synthesizer for reading the document.  If the wrong synthesizer is chosen, the document will not read correctly.   
+Document Contents
+If when testing the document, you discover that the document is a scanned image, OCR the document to create searchable text.  For detail instructions on how to OCR the PDF go to Module 4: Converting Scanned Documents into Section 508 Conformant PDFs. 
+Auto Tagging A PDF
+If the PDF is not tagged, quickly tag the PDF by going to Acrobat’s main menu and selecting View > Navigation Panes > Tags.  From the Tags Pane select Options>Add Tags to Document.  Although the document will be tagged it might not be tagged correctly.  The tags will need to be examined and if any of the tags do not properly represent the document’s content structure, the tag will need to be manually corrected.  
+Manually Adjusting PDF Tags 
+Improper tags can quickly be converted to a more appropriate tag by following these steps.  
+First, open the Tag Pane.    
+Next, right click on the desired tag, and select Properties.  This will open the Touchup Properties window. 
+From the Type combo box, select the correct tag and then close the window.  The updated tag will appear in the Tags tree.  
+Manually Tagging a PDF Using the Touchup Reading Order Tool
+If several document elements have been improperly tagged, it may be easier to delete the Tags Structure Tree and use the Touchup Reading Order tool to manually tag the document.
+ First navigate to Acrobat’s File menu.
+Next select Print and from the list of printers select Acrobat PDF
+Lastly, save the PDF.  By doing this, you will create a new PDF with a cleared page structure and empty tags tree.  You will now be able to create a new page structure and Tags tree by using the Touchup Reading Order tool. 
+To access the Touchup Reading Order tool,
+In the Order Pane select Options>Show Reading Order Pane.     
+Next create a container around the first document element by holding down the left mouse button and draw a container box around the first document element that needs to be tagged.  Headers, Paragraphs, Figures, Tables, and Form fields etc. need to receive individual tags.  
+After drawing a container around an element, select the appropriate tag type from the Touchup Reading Order tool.  If the correct tag cannot be created via the Touchup Reading Order tool, you will have to use the Create Tag from Selection tool.  This tool is discussed in the next section.  
+Continue tagging the document until the entire document is tagged. 
+This table demonstrates the type of tags created by each button on the Touchup Reading Order tool.  Because this tool only creates a few basic tags, the Create Tag from Selection tool will need to be used to create more detailed tags.
+Touchup Reading Order Tool Buttons
+Tags Generated 
+Text/Paragraph Button:  Used to markup Paragraphs  
+<P>
+Form Field Button:  Used to markup form field elements
+<Form>
+Heading 1 Button:  Used to mark up the Title or main document sections 
+<H1>
+Heading 2, Heading 3 Heading 4 Heading 5 and Heading 6 Buttons:  Used to markup Sub-headings of a document
+<H2>, <H3>, <H4>, <H5>, <H6>
+Figure Button:  Used to markup Images and Objects
+<Figure>
+Figure/Caption Button:  Used to markup figures with captions
+<Caption> 
+Table Button:  Used to markup Data Tables
+<Table>, <TR>, <TH>, <TD> 
+Cell Button:  Used to markup Table Data Cell.  This will only need to be used if the <Table> tag does not properly identify each table data cell as a data cell. 
+<TD>
+Formula Button:  Used to markup Equations in a document. 
+<Formula>
+Reference Button: Used to markup references in a document. 
+<Reference>
+Note Button: Used to markup notes in a document.
+<Note>
+Background Button: Used to markup repeated content and decorative images as Artifacts.
+<Artifact>
+Using the Create Tag from Selection Tool
+The Create Tag from Selection tool can be used to tag document elements, such as list and links, which cannot be tagged via the Touchup Reading Order tool. 
+ First Open the Touchup Reading Order tool
+Next navigate to the Tags Pane
+Then draw a container around the content you want to create a tag for
+Now, select the Options menu from the Tags Pane and select Create Tag from Selection.
+Lastly, select the appropriate tag type from the list of tags and select Ok. 
+Using the New Tag tool
+When tagging complex content which requires a parent tag with nested tags, such as list, it might be necessary to use a combination of the New Tag tool and Create Tag from Selection tool. Follow the steps below to see how to properly use this combination of tools to create a parent tag with nested tags.  For this example, we will demonstrate how to create a list of items; however, this technique can be used anytime it is necessary to create a parent tag with nested tags.   
+ Navigate to the Tags Pane and select the tag where you want the new tag to appear.  The newly created tag will appear directly beneath the selected tag.   
+Next from the Tags Pane Options menu select New Tag
+From the list of tags, select the desired tag.  In this example select List to create a List <L> tag.  
+Next use the Touchup Reading Order Pane tool to draw a container around each individual list item and then use the Create Tag from Selection to tag each list item as a List Item <LI>.  
+Lastly in the Tags Pane, select the first <LI> tag and then hold down the CTRL key to select all remaining <LI> tags.  Once all <LI> tags have been selected, drag them directly below and slightly to the right of the <L> tag.  This will make the <LI> tags nested tags of the parent <L> tag.  
+Manually Tagging Links
+To manually tag a link, do the following:
+Select the text that needs to be linked and use the Text/Paragraph button on the Touchup Reading Order tool to create a <P> tag. 
+Select the text to be linked, right click and select Create Link, or choose Link from the tools menu, Add/Edit Web or Document Link, and draw a selection box around the text to be linked.
+Create the link
+Select the text to be linked, open the Tags Pane. Choose Find tag from selection
+Change the <P> tag to <Link> tag
+Next, Nest the <Link> tag inside the previous <P> tag, and nest any following text that belongs to that same paragraph.
+Select the text inside the <Link> tag
+From the Tags Pane’s Options menu select Find. 
+From the Find: drop down menu select Unmarked Links or Unmarked Annotations (either one will work), check Search page, 
+Next, choose Find Next and choose Tag Element. 
+Do not use Search Document to tag individual missing links/annotations. You must select the linked text for each annotation, otherwise it will put all the annotations (Link-OBJR tags) at your cursor location.
+Tagging Untagged Annotations
+Some documents might contain untagged annotations.  Untagged annotations could be associated with bookmarks, comments, footnotes etc.   To quickly tag untagged annotations:
+Go to the Tags Pane
+From the Options menu select Find
+Then select Untagged Annotations from the dropdown box. 
+Next, choose Find Next and choose appropriate Tag Element. 
+Do not use Search Document to tag individual missing annotations. You must select the untagged annotation text for each annotation, otherwise it will put all the annotations at your cursor location.
+Remediating Data Tables
+When running the Accessibility Checker to validate a Data Table, two errors might appear.  The Table Header error will appear if the Data Table lacks Table Headers <TH> tags and the Table Regularity error will appear if the data table contains content that does not belong in the table structure, such as the caption for the table, or if Scope and Span is not set properly for table cells. When remediating data tables, first make sure that content that does not belong in the table structure such as table title or captions are not tagged as part of the table.  If these elements are part of the table, retag them as something else.  Now that only the proper data elements are tagged as <Table>, follow these steps to fix Colum and Row Headers as well as Scope and Span.  
+First open the Order Pane
+Select Options > then Show Reading Order Pane
+Select the reading order number associated with the data table that needs remediating.
+From the Reading Order Pane tool select Table Editor
+Right click on each Column and/or Row header cell and select Cell Properties
+From the Cell Properties box, set Colum and Row headers to Table Header
+Next set Scope to Column Header for Column Header cells and set scope for Row Header to Row Header cells. For Column Headers that also represent a Row Header, make sure both Column Header and Row Header are selected. 
+Next identify any data cells that span more than one column or row and right click on the cell then select Cell Properties.
+Set Span to the proper number of columns or rows a cell spans. 
+Once these steps are completed, the Header and Regularity errors will disappear when rerunning the Accessibility Checker.  
+Remediating Form Field Elements
+When remediating PDF forms, remember that these steps only apply to forms created using Acrobat Pro products.  Just as important as ensuring that all form fields are tagged as <Form>, you must also ensure that all form fields have a descriptive tooltip and appear in a logical tab order.  If when testing the form, you discovered problems related to incorrect tooltips or logical tab order, you can repair these issues by using Acrobat’s Prepare Form tool.  
+To access the form field properties so that tooltips can be added or modified, do the following:
+ Go to Acrobat’s Tools menu and select Prepare Form to enter Form Edit mode. 
+Next, select the from field that needs a proper tooltip added
+Once the form field has been selected, right click on the form field and select Properties
+Lastly on the General tab, add the proper tooltip to the Tooltip field.
+To adjust the logical tab order for form field elements:
+ While in the Forms Edit mode, select the More>Show Tab Numbers which is located on the right-side toolbar. 
+Next, look at the list of form fields located under the Fields section of the right-side toolbar. 
+Lastly select on each form field that is not in the proper tab order and drag and drop them into the correct order. 
+Deleting Empty Tags
+When creating new tags or adjusting tags, from time to time an empty tag, a tag not associated with any document content, may be left in the tags structure tree.  Empty tags will trigger accessibility error when running the Accessibility Checker in Acrobat. To remove empty tags:
+Open the Tags Pane and navigate through the tags structure tree until you discover a tag that does not contain a child element
+Next, select the tag and press the Delete key to remove the tag from the tags structure tree. 
+It the Tags tree contains a lot of empty tags, and it does not contain any empty <TD> tags that properly represents the data table structure, you can quickly remove all empty tags by:
+Going to the Tags Pane and select the root <Tag>
+Next go to the Options menu and select Delete All Empty Tags.
+If you accidently remove the wrong tag, simply press CRTL+Z to undo the deletion.  
+Setting Tag Properties
+Once all tags correctly represent the documents structure, it may be necessary to add special properties to individual tags such as adding alternative text to Figure <Figure> tags and setting a specified language for Paragraph <P> tags. 
+Adding Alternative Text
+Alternative text is used to convey the purpose of images and objects embedded in documents.  Without alternative text, valuable information is lost, and the document may not be completely understood by users accessing the document with assistive technology.  To add alternative text to tagged elements:
+Select the desired tag in the tags tree and select Properties. 
+Go to the Alternative Text field located on the Touchup Properties window and add the appropriate alternative text. 
+Close the window.  Once the document is saved, the alternative text will be applied.  
+Setting a Specified Language for a Tag
+If a tag is associated with a language that differs from the primary language set in the document’s properties, it will be necessary to set the correct language for the element associated with the tag in the tag’s properties. 
+ Go to the tags tree and select the tag that is associated with content that has a language that differs from the document’s primary language
+Right click on the tag and select Properties
+From the Language dropdown box, select the appropriate language.  If the desired language does not appear in the list of supported languages, a language pack may need to be purchased from Adobe. 
+Once the document has been tagged properly and all tag properties have been set, it is time to set the document’s logical reading order. 
+Adjusting the Logical Reading Order 
+The logical reading order determines the order in which assistive technology should access the document’s content.  In some cases, the Content View, which presents the content of the document, and the Tags Tree, which establishes the logical reading order for assistive technology, are not aligned or should not be aligned.   Therefore, the logical reading order needs to be adjusted to reflect the correct logical reading order.   
+To change the reading order via the Order Pane:
+Navigate to Acrobat’s main menu and select View > Navigation Pane > then Order.  As shown here, once the Order Pane is displayed, numbers will appear on the document.  The numbers indicate elements that can be rearranged.   
+Identify the first element that is out of place in the Order Pane and click on the box to the left of the element and then drag the element to the proper location. Continue this process until all elements are in the proper order.  When using the Order Pane to set the logical reading order, the tags in the tags tree will rearrange to match the order set by the Order Pane. Remember it is the order of the tags in the Tags Tree that defines the proper logical reading order and although the tags can be rearranged in the tags tree, using the Order Pane tends to be easier in most cases.
+To adjust the reading order via the Tags Pane:
+ Navigate to Acrobat’s main menu and select View>Navigation Pane> then Tags
+Identify the tag that is not in the correct logical reading order, left click on the tag and drage it to the proper location. 
+Note:  When adjusting the logical reading order via the Tags Pane, the order of elements in the Order Pane will not update; however, the logical reading order will still be considered correct. 
+Logical Tab Order
+If the PDF contains elements such as links or form fields, then it will be necessary to set the logical tab order to ensure that individuals that are using assistive technology can navigate between areas of the document that receive focus when using the keyboard.  
+ Open the Page Thumbnails Pane located on the left toolbar. 
+Next select the first thumbnail and then press CTRL+A to select all pages. 
+Then select Options from the Page Thumbnail Pane and select Page Properties.
+From the list to Tab Order options select Use Document Structure.  
+Sensory Characteristics
+If the full meaning of the document cannot be understood without using sensory Characteristics, such as color, size, shape and location, it will be necessary to redesign the original source file to ensure that it is not reliant on sensory Characteristics and then convert the source file into a PDF so that it can be made fully accessible. 
+Scanned Documents
+If your document has been scanned, then you will need to take additional steps to make the PDF’s content 
+Accessible to persons utilizing assistive technology. To learn how to make scanned document accessible proceed to Module 4: Converting Scanned Documents into Section 508 Conformant PDFs.
+Module 4: Converting Scanned Documents into Section 508 Conformant PDFs
+Learning Objectives
+Upon conclusion of module 4 : Converting Scanned Documents into Section 508 Conformant PDFs:
+How to identify scanned pages
+How to perform Optical Character Recognition
+How to correct recognized text
+How to enhance scanned pages
+How to evaluate the OCR results
+How to edit the textual content of the PDF
+How to make the PDF fully accessible
+How to support signed memorandums as Section 508 conformant PDFs
+How to Identify Scanned Pages:
+PDFs that contain scanned pages are problematic for individuals that utilize assistive technology.  If a PDF does not contain searchable content, otherwise known as renderable text, individuals who rely on assistive technology such as screen readers will be unable to read or interact with the content of the PDF.  To quickly identify if the PDF contains scanned pages, navigate through the document and look for pages that appear blurry or contains hand-written information. If any pages appear blurry or contain hand-written information, use Acrobat’s Content Pane to see if the pages have renderable text.     
+First go to Acrobat’s View menu and select Show/Hide>Navigation Panes>Content
+Next expand the Content tree by pressing CRTL +Shift+8
+Lastly use the Up and Down arrow keys to navigate the Content Pane
+As you navigate the Content Pane, the Content Pane should contain strings of text.  As each string of text is selected, the corresponding string of text should appear in a container box on the physical view of the PDF.  Because Optical Character Recognition (OCR) software is not perfect, the text strings in the Content Pane may not fully match the text strings that appear on the physical view of the page.   If the Content Pane only contains information related to figures, the scanned pages lack renderable text and therefore OCR will need to be performed before the document can be made accessible.  
+How to Perform Optical Character Recognition
+Acrobat Pro DC contains Optical Character Recognition (OCR) software.  The software has the ability to convert scanned content into searchable text.  However; the software will not be able to OCR the document’s content if the quality of the scanned page is too low or if the page already contains renderable text.  Adobe recommends that when scanning documents, the dpi setting for grayscale content is set to 300dpi and for color content the dpi is set to 600 dpi.  To access the OCR software, do the following:
+From Acrobat’s main toolbar select Tools>Enhance Scans
+Next from Acrobat’s sub toolbar select Recognize Text>In This File
+Then select Settings from the Recognize Text toolbar   
+Once the Recognize Text Settings properties box appears, identify the pages that need to be OCR'd in the Page section.
+In the Settings section of the Recognize Text Settings properties box, set the Document’s Language to the proper language, Output to Searchable Images and Down sample to 300dpi for grayscale content and 600dpi for color content.  
+Lastly select Ok to close Settings and then select Recognize Text to run OCR.
+How to Correct Recognized Text 
+Based on the quality of the scanned document, the document’s pages may contain OCR Suspects.  An OCR Suspect is renderable text or images that may have not been recognized properly by the software.  To identify and repair OCR suspects do the following:
+From the Recognize Text toolbar option select Correct Recognized Text.  The first OCR suspect will appear in a box.
+If the OCR suspect was recognized correctly, select Accept from the Recognized Text sub toolbar   
+If the OCR suspect was not correct, type the correction in the Recognized As text box and then select Accept from the Recognized Text sub toolbar. 
+Complete this process until all OCR suspects have been corrected. 
+How to Enhance Scanned Pages
+If you receive a poorly scanned document that has contrast issues, speckles on the page, or the page is skewed, you may need to optimize the scanned document before attempting to recognize the text.  To enhance the scanned pages, do the following:  
+From the Enhance Scans toolbar select Enhance>Scanned Document
+Next select Settings
+After selecting Settings, set all settings as desired and select OK
+Lastly select Enhance from the sub toolbar.  
+How to Evaluate the OCR Results
+Once the PDF has been OCR’d and all OCR suspects have been corrected, the quality of the OCR will need to be inspected.  Although you can navigate the Content Pane to review the OCR’d content, an easier way to validate the content is to export it to MS Word. To evaluate OCR’d content in Microsoft Word do the following:
+From Acrobat’s menu bar select Tools>Export PDF
+Make sure the Word Document radio button is selected
+Lastly select Export to export the PDF to Microsoft Word.
+Once the PDF has been exported to Microsoft Word, compare the content of the Word file to the PDF file.  Make a note of any OCR errors so that they can be either edited directly in the PDF file or addressed via the Tags Properties menu.
+How to Edit Textual Content of a PDF
+If the PDF contains several OCR errors, it is possible to make minor edits to the PDF by using the Edit PDF tool.  Keep in mind, Acrobat is not a word processor; therefore, content edited in the PDF may not maintain the proper formatting or style.  If the PDF has large blocks of text that was not recognized properly, it will be best to retype the paragraph content in the Actual Text field located in the Tags Properties menu.  To make minor edits to the content, do the following:
+ From Acrobat’s menu bar select Tools>Edit PDF.  All of the content that can be edited will appear in boxed. 
+Next use the individual Edit tools located on the sub toolbar to correct the document
+Lastly, close the Edit tools. 
+How to Make the PDF Fully Accessible
+Once the PDF has been OCR’d, all OCR suspects have been corrected, and OCR errors have been edited, the PDF will need to be tagged, alternative text will need to be added to images and the PDF will need to be tested for Section 508 conformance.
+If large blocks of text contained OCR errors and the errors could not be corrected via the Edit tools, it will be necessary to use the Actual Text properties field to replace the OCR errors to ensure that screen readers read the PDF correctly.  Because the corrected text is applied to the properties of a Paragraph <P> tag, the visual content on the screen will not be modified, nor will it be read by assistive technology.  Instead, the assistive technology will read the text added to the Actual Text field.  To add correction text to the Actual Text field, do the following:
+Open the Tags Pane
+Select the Selection tool located on the menu bar 
+Use the Selection tool to select the first OCR error by holding down the left mouse button and drag it across the content that contains the OCR error
+In the Tags Pane select Options>Find Tag from Selection
+Next right click on the highlighted tag and select Properties
+From the Properties box add the corrected text to the Actual Text field
+Lastly, select Close to close the Properties box. 
+How to support signed memorandums as Section 508 conformant PDFs
+Agencies often struggle with ensuring that signed memorandums and other hardcopy signed Agency Directives and official communications are 508 compliant. 
+Since many Agencies do not yet support a secure e-signature solution for all PDF documents and staff, often you are presented with a Word document that needs to be printed out into hardcopy and signed in ink before being scanned and sent out electronically. In these cases, you have a Word document that already contains the markup and supports for 508 conformance, but you are printing it out for signature and then scanning it back up into a PDF, losing all structure and markup.
+Instead of having to re-structure an entire scanned PDF, start by looking at the Word version. Is the document already set up for Section 508 conformance? How many pages contain a signature block? 
+If you have a Word document and only one or two pages with signature blocks, consider merging the document pages to save time while ensuring Section 508 conformance. 
+Print out the document for signature. 
+Once it comes back to you signed, take the page (or pages) with the signature and scan to PDF. 
+Perform OCR and markup support as outlined in Modules 2-4.
+Next, merge this page (or pages) with the rest of the document.
+Check the Word document to make sure that it has been made as accessible as possible and then convert it into PDF by following the instructions in Module 1. You will then have two PDF documents – the main piece of the document and the signed scanned page.
+To Merge:
+Choose Tools > Organize Pages or choose Organize Pages from the right Pane.
+The Organize Pages toolset is displayed in the secondary toolbar, and the page thumbnails are displayed in the Document area.
+Right click with your mouse on the page thumbnail you wish to delete. Select Delete from the drop-down menu.
+Tip: You cannot delete all pages; at least one page must remain in the document.
+Position your mouse between the page thumbnails where you would like to place the scanned signed page. 
+Merge the new signed page into the main document. From the Organize pages window that you are still in, select Insert>From File and choose the file that is the scanned page that you have saved as a PDF with markup and OCR support already done.
+If you need to reposition the new page within the document, drag it with the mouse to the correct location.
+Save the newly merged document with the document title as the title. Scanned PDFs will not have a robust document title as the scanner generates a random title, so make sure you save the document with the appropriate title. 
+Lastly, use visual verification and the Accessibility Full Check tool to review the completed document for Section 508 conformance.  Once all issues have been resolved, you have an fully accessible 508 conformant Signed Memorandum.
+Tip: After you delete or replace pages, it’s a good idea to use the Reduce File Size command to rename and save the restructured document to the smallest possible file size.
+This concludes the course How to Create, Test and Remediate PDFs for Section 508 Conformance Using Adobe Acrobat DC Pro We are hopeful you have enjoyed it and we encourage you to review this training as often as necessary.  To keep up on the latest developments on electronic document accessibility, please frequently visit www.Section508.gov.   

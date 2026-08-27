@@ -1,0 +1,77 @@
+Section 508 Basic Checklist-MS PowerPoint 2016
+Document Formatting
+1. The file name is descriptive and saved as a PowerPoint (.pptx) Presentation.
+Yes
+No
+NA
+The filename is descriptive and identifies the document or its purpose. 
+The file type is in a PowerPoint Presentation (.pptx) format.
+2. The reading order matches the visual layout.
+Yes
+No
+NA
+Objects match the visual reading order on each slide.
+Text Formating 
+3. Lists are correctly formatted. 
+Yes
+No
+NA
+One of the built-in list features ("Bullets" or "Numbering") is highlighted.
+4. Columnar Content is correctly formatted.
+Yes
+No
+NA
+The correct number of columns are highlighted.
+5. Text is formatted for the correct language.
+Yes
+No
+NA
+The text language matches the PowerPoint Presentation's proofing language.
+6. Link names are descriptive
+Yes
+No
+NA
+Link names meaningful, describing the destination, function or purpose.
+Object Formating 
+7. Vital information in background is duplicated in document.
+Yes
+No
+NA
+Vital information in the Selection pane can be selected.
+8. Data Tables created with built-in features.
+Yes
+No
+NA
+Data tables are not pictures.
+Data tables do not have merged/split cells.
+9. Images and other objects have alternative text. 
+Yes
+No
+NA
+Images/objects/shapes have descriptive text as alternative text, or in surrounding text.
+Decorative images or objects have at least one spaces between quotes as "Description"
+Color Formating 
+10. Colors and other visual information (such as size, shape and location) is also described textually.
+Yes
+No
+NA
+Text duplicates the meaning of the color or other sensory characteristics.
+11. The color contrast between text and the background is sufficient.
+Yes
+No
+NA
+The color contrast ratio passes (AA).
+Miscellaneous 
+12. Descriptions of embedded audio, video and multimedia files correct. 
+Yes
+No
+NA
+For audio-only, the transcript is accurate and complete.
+For video-only, the text description is accurate and complete.
+For multimedia, the synchronized captions and audio description are accurate and complete.
+13. The PowerPoint Presentation has no flashing objects.
+Yes
+No
+NA
+All flashing objects are excluded in the document.
+Comments

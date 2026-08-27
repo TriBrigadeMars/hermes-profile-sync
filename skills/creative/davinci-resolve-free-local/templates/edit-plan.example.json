@@ -1,0 +1,26 @@
+{
+  "title": "Interview Rough Cut",
+  "fps": 24,
+  "events": [
+    {
+      "reel": "CAM_A",
+      "track": "V",
+      "transition": "C",
+      "source_in": "00:00:10:00",
+      "source_out": "00:00:18:00",
+      "record_in": "01:00:00:00",
+      "record_out": "01:00:08:00",
+      "comment": "Opening answer"
+    },
+    {
+      "reel": "CAM_A",
+      "track": "V",
+      "transition": "C",
+      "source_in": "00:01:02:12",
+      "source_out": "00:01:10:12",
+      "record_in": "01:00:08:00",
+      "record_out": "01:00:16:00",
+      "comment": "Second answer"
+    }
+  ]
+}

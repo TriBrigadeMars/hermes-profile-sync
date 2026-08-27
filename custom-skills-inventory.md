@@ -132,51 +132,13 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 - **Installed from zip (2026-08-26):** `ballotpedia-style-reviewer` (v0.1.0), `hermes-career-application-suite` (v0.1.0 — 9 career writing skills + 1 market intelligence skill), `professional-reframer` (v0.1.0).
 - This list is a snapshot; skills are added/removed over time. Re-derive by running the diff against `.bundled_manifest` when it needs refreshing.
 
-## Inventory-only entries (not shipped in this repo)
+## Formerly inventory-only entries — now shipped (2026-08-27)
 
-The following 39 skills are listed above but have no `skills/` folder in this repository. Verified on 2026-08-27 from the second workstation (`cruzmars` desktop): they are not installed there either, so they exist only on the machine that authored this inventory. If their code still exists, it needs to be pushed from the source machine; otherwise these entries are stale and can be pruned.
+All 56 custom skills documented in this inventory now have their code in this repository under `skills/`.
 
-- `album-media-downloader`
-- `apa-7-style-agent`
-- `ap-stylebook-agent`
-- `azure-ad-app-registration`
-- `batch-web-gallery-download`
-- `compliant-markdown-converter`
-- `davinci-resolve-free-local`
-- `docx-accessibility-agent`
-- `email-accessibility-agent`
-- `evaluation-method-selector`
-- `excalidraw-chart-reconstructor`
-- `gimp-local`
-- `job-board-rss-monitor`
-- `krita-local`
-- `ml-venv-package-conflicts`
-- `outlook-mcp-server`
-- `outlook-mcp-server-project`
-- `paralegal-assistant`
-- `pdf-accessibility-agent`
-- `powerpoint-style-agent`
-- `pptx-accessibility-agent`
-- `prisma-review-harassment-minority-students`
-- `prisma-review-output`
-- `prisma-systematic-review`
-- `public-health-evaluation-planning`
-- `qualitative-literature-review`
-- `research-design-orchestrator`
-- `research-literature-monitor`
-- `research-question-framer`
-- `research-report-packaging`
-- `rss_feed_monitoring`
-- `social-media-accessibility-agent`
-- `study-measures-and-sampling`
-- `study-protocol-builder`
-- `web-content-monitor`
-- `web-media-download`
-- `website-accessibility-agent`
-- `workflow-orchestrator`
-- `writing-style-agent`
-
-(`security-safety-codebase-auditor` and `ai-guardrails-codebase-auditor` were shipped to this repo from the source machine on 2026-08-27, closing part of the gap.)
+- The 39 skills previously listed here as inventory-only were recovered from the local Hermes installation on the `cruzmars` desktop at `AppData/Local/hermes/skills/` (the sync script's `~/.hermes/skills` check does not resolve on Windows, which is why they were previously reported as missing everywhere).
+- `security-safety-codebase-auditor` and `ai-guardrails-codebase-auditor` were shipped earlier on 2026-08-27.
+- Category folders mirror the source installation's layout (`research/`, `creative/`, `automation/`, `mlops/`, etc.); skills that live top-level in the source installation are under `_standalone/`.
 
 ## Bundled skills (not custom)
 

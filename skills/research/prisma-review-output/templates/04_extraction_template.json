@@ -1,0 +1,341 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PRISMA Scoping Review Data Extraction Schema — Disability & Pregnancy Discrimination in Higher Education",
+  "description": "Customized data extraction template for scoping review on disability and pregnancy-related discrimination among minority students in U.S. higher education (2010-2026). Based on JBI scoping review methodology and PEO framework.",
+  "type": "object",
+  "properties": {
+    "study_metadata": {
+      "type": "object",
+      "description": "Bibliographic and methodological identifiers",
+      "properties": {
+        "study_id": {
+          "type": "string",
+          "description": "Unique identifier (e.g., AuthorYear)"
+        },
+        "first_author": { "type": "string" },
+        "year": { "type": "integer" },
+        "additional_authors": { "type": "string" },
+        "country": {
+          "type": "string",
+          "default": "United States"
+        },
+        "state_region": {
+          "type": "string",
+          "description": "State or geographic region within the U.S."
+        },
+        "study_design": {
+          "type": "string",
+          "enum": [
+            "cross-sectional-survey",
+            "longitudinal-survey",
+            "semi-structured-interviews",
+            "focus-groups",
+            "case-study",
+            "ethnography",
+            "narrative-inquiry",
+            "phenomenology",
+            "grounded-theory",
+            "mixed-methods",
+            "secondary-data-analysis",
+            "quasi-experimental",
+            "content-analysis",
+            "legal-case-analysis",
+            "policy-analysis",
+            "participatory-action-research",
+            "other"
+          ]
+        },
+        "institution_type": {
+          "type": "string",
+          "enum": [
+            "community-college",
+            "4-year-public",
+            "4-year-private",
+            "HBCU",
+            "HSI",
+            "Tribal-college",
+            "AANAPISI",
+            "MSI",
+            "multiple-types",
+            "not-specified"
+          ],
+          "description": "Type of postsecondary institution(s) studied"
+        },
+        "sample_size_total": { "type": "integer" },
+        "sample_size_disabled": { "type": "integer" },
+        "sample_size_pregnant_parenting": { "type": "integer" },
+        "sample_size_minority": { "type": "integer" },
+        "data_source": {
+          "type": "string",
+          "description": "Primary data collection, secondary dataset (e.g., NCES, BPS), OCR records, etc."
+        },
+        "funding_source": { "type": "string" },
+        "conflicts_of_interest": { "type": "boolean" },
+        "doi": { "type": "string" },
+        "url": { "type": "string" }
+      },
+      "required": ["study_id", "first_author", "year", "study_design"]
+    },
+    "population": {
+      "type": "object",
+      "description": "P — Population characteristics",
+      "properties": {
+        "n_total": { "type": "integer" },
+        "age_mean": { "type": "number" },
+        "age_range": { "type": "string" },
+        "sex_gender_distribution": {
+          "type": "object",
+          "properties": {
+            "female_pct": { "type": "number" },
+            "male_pct": { "type": "number" },
+            "nonbinary_pct": { "type": "number" },
+            "transgender_pct": { "type": "number" }
+          }
+        },
+        "race_ethnicity": {
+          "type": "object",
+          "description": "Racial/ethnic composition",
+          "properties": {
+            "black_african_american_pct": { "type": "number" },
+            "hispanic_latino_pct": { "type": "number" },
+            "native_american_pct": { "type": "number" },
+            "asian_american_pct": { "type": "number" },
+            "pacific_islander_pct": { "type": "number" },
+            "white_pct": { "type": "number" },
+            "multiracial_pct": { "type": "number" },
+            "other_pct": { "type": "number" }
+          }
+        },
+        "disability_type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "learning-disability",
+              "ADHD",
+              "autism-spectrum",
+              "physical-disability",
+              "mobility-impairment",
+              "visual-impairment",
+              "hearing-impairment",
+              "psychiatric-disability",
+              "chronic-health-condition",
+              "intellectual-disability",
+              "traumatic-brain-injury",
+              "multiple-disabilities",
+              "unspecified-disability"
+            ]
+          }
+        },
+        "pregnancy_parenting_status": {
+          "type": "string",
+          "enum": [
+            "currently-pregnant",
+            "recently-gave-birth",
+            "parenting",
+            "pregnant-or-parenting-mixed",
+            "pregnancy-related-condition",
+            "not-applicable"
+          ]
+        },
+        "enrollment_level": {
+          "type": "string",
+          "enum": ["undergraduate", "graduate", "professional", "mixed", "not-specified"]
+        },
+        "enrollment_status": {
+          "type": "string",
+          "enum": ["full-time", "part-time", "mixed", "not-specified"]
+        },
+        "first_generation": { "type": "boolean" },
+        "ses_background": { "type": "string" },
+        "intersectional_identities": {
+          "type": "string",
+          "description": "Description of intersecting identities held by participants"
+        },
+        "inclusion_criteria": { "type": "string" },
+        "exclusion_criteria": { "type": "string" }
+      },
+      "required": ["n_total"]
+    },
+    "exposure": {
+      "type": "object",
+      "description": "E — Exposure: Disability and/or pregnancy-related discrimination",
+      "properties": {
+        "discrimination_type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "disability-discrimination",
+              "pregnancy-discrimination",
+              "combined-disability-pregnancy",
+              "racial-discrimination-compounded",
+              "intersectional-discrimination",
+              "ableism",
+              "sexism",
+              "racism",
+              "accommodation-denial",
+              "hostile-climate",
+              "microaggressions",
+              "institutional-bias",
+              "implicit-bias"
+            ]
+          }
+        },
+        "discrimination_source": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "institutional-policy",
+              "faculty",
+              "staff",
+              "administrators",
+              "peers",
+              "institutional-environment",
+              "systemic-structural",
+              "multiple-sources"
+            ]
+          }
+        },
+        "discrimination_domain": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "academic-accommodations",
+              "enrollment-registration",
+              "housing",
+              "financial-aid",
+              "extracurricular-activities",
+              "social-environment",
+              "campus-facilities",
+              "technology-access",
+              "internship-fieldwork",
+              "student-services"
+            ]
+          }
+        },
+        "measurement_method": {
+          "type": "string",
+          "description": "Self-report scales, interviews, case analysis, complaint records, etc."
+        },
+        "measurement_tool": {
+          "type": "string",
+          "description": "Name of validated instrument if used (e.g., Everyday Discrimination Scale, Perceived Disability Discrimination Scale)"
+        },
+        "definition": { "type": "string" },
+        "duration_of_exposure": { "type": "string" }
+      },
+      "required": ["discrimination_type"]
+    },
+    "outcomes": {
+      "type": "array",
+      "description": "O — Outcomes (mapped to four domains)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "outcome_domain": {
+            "type": "string",
+            "enum": ["academic", "psychological", "social", "institutional"]
+          },
+          "outcome_name": { "type": "string" },
+          "outcome_measure": { "type": "string" },
+          "key_finding": { "type": "string" },
+          "effect_direction": {
+            "type": "string",
+            "enum": ["negative-association", "positive-association", "mixed", "null", "not-applicable"]
+          },
+          "effect_size": { "type": "number" },
+          "ci_lower": { "type": "number" },
+          "ci_upper": { "type": "number" },
+          "p_value": { "type": "number" },
+          "statistical_test": { "type": "string" },
+          "qualitative_theme": {
+            "type": "string",
+            "description": "For qualitative studies, the key theme(s) related to this outcome"
+          }
+        },
+        "required": ["outcome_domain", "outcome_name", "key_finding"]
+      }
+    },
+    "intersectionality_framework": {
+      "type": "object",
+      "description": "Framework used for understanding intersectional discrimination",
+      "properties": {
+        "theoretical_framework": {
+          "type": "string",
+          "enum": [
+            "intersectionality-crenshaw",
+            "critical-race-theory",
+            "disability-studies-critical",
+            "social-model-of-disability",
+            "minority-stress-theory",
+            "ecological-systems-theory",
+            "feminist-theory",
+            "anti-deficit-achievement-framework",
+            "campus-climate-framework",
+            "institutional-theory",
+            "other",
+            "none-specified"
+          ]
+        },
+        "framework_description": { "type": "string" }
+      }
+    },
+    "key_findings": {
+      "type": "object",
+      "properties": {
+        "primary_findings": { "type": "string" },
+        "barriers_identified": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "facilitators_identified": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "recommendations": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "quality_assessment": {
+      "type": "object",
+      "properties": {
+        "tool_used": {
+          "type": "string",
+          "enum": [
+            "JBI-checklist-cross-sectional",
+            "JBI-checklist-cohort",
+            "JBI-checklist-qualitative",
+            "JBI-checklist-analytical-cross-sectional",
+            "MMAT-2018",
+            "JBI-mixed-methods",
+            "not-assessed"
+          ]
+        },
+        "overall_quality": {
+          "type": "string",
+          "enum": ["high", "moderate", "low"]
+        },
+        "scores": {
+          "type": "object",
+          "description": "Domain-level quality scores"
+        }
+      }
+    },
+    "extractor_notes": {
+      "type": "object",
+      "properties": {
+        "limitations": { "type": "string" },
+        "reviewer_notes": { "type": "string" },
+        "extraction_date": { "type": "string", "format": "date" },
+        "extractor_name": { "type": "string" },
+        "verified_by": { "type": "string" }
+      }
+    }
+  },
+  "required": ["study_metadata", "population", "exposure", "outcomes"]
+}

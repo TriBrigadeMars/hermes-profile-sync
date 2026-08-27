@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=hermes_krita_local
+X-Python-2-Compatible=false
+Name=Hermes Local Jobs
+Comment=Run a user-selected local JSON job without network services

@@ -1,0 +1,233 @@
+Microsoft PowerPoint 2016 Basic Authoring and Testing GuideSection 508 Accessibility GuidanceAccessible Electronic Document Community of Practice (AED COP)October 2018Microsoft PowerPoint 2016 Basic Authoring and Testing GuideSection 508 Accessibility GuidanceAccessible Electronic Document Community of Practice (AED COP)October 2018Microsoft PowerPoint 2016 Basic Authoring and Testing GuideSection 508 Accessibility GuidanceAccessible Electronic Document Community of Practice (AED COP)October 2018Microsoft PowerPoint 2016 Basic Authoring and Testing GuideSection 508 Accessibility GuidanceAccessible Electronic Document Community of Practice (AED COP)October 2018
+Microsoft PowerPoint 2016 Basic Authoring and Testing Guide
+Section 508 Accessibility Guidance
+Accessible Electronic Document Community of Practice (AED COP)
+October 2018
+Microsoft PowerPoint 2016 Basic Authoring and Testing Guide
+Section 508 Accessibility Guidance
+Accessible Electronic Document Community of Practice (AED COP)
+October 2018
+Contents
+Contents1
+Microsoft PowerPoint 2016 Basic Authoring and Testing Guide2
+Document Formatting2
+1.Is the file name descriptive, and is the file in .pptx format?2
+Text Formatting3
+2.Does the reading order match the visual layout?3
+3.Are lists formatted correctly?3
+4.Are columns formatted correctly?4
+5.Is text formatted for the intended language?5
+6.Are link names descriptive?6
+Object Formatting8
+7.Is vital information in the background (i.e. Slide Master) included in the reading order?8
+8.Did you use built-in features to create data tables?9
+9.Do images and other objects have alternative text?10
+Color Formatting13
+10.Are colors and other visual characteristics that convey information (such as size, shape, and location) also described in text?13
+11.Is the contrast ratio between text and background sufficient?13
+Miscellaneous16
+12.Are descriptions of embedded audio, video and multimedia files accurate?16
+13.Did you exclude flashing objects?16
+Index of Figures17
+Index of Tables17
+Microsoft PowerPoint 2016Basic Authoring and Testing Guide
+Document Formatting
+Is the file name descriptive, and is the file in .pptx format?
+How to test
+Instruction: Look at the filename in Windows Explorer or the title bar in MS PowerPoint. An example of a descriptive filename is “AccessibleElectronicDocuments.pptx.” The file must be in the “*.pptx” format for accessibility testing to be possible.
+NOTE: If the file name extension is not displayed, open your documents folder in Windows Explorer, select “View”>check “File name extensions.”
+Figure 1: The Save As Dialog window
+Test A: Is the file name descriptive and does it identify the document or its purpose? If not, the document fails this test.
+Test B: Is the file in “PowerPoint (.pptx)” format? If not, the document fails this test.
+How to author for accessibility
+A descriptive file name identifying the document or its purpose helps everyone (including people with disabilities) locate, open, and switch between documents. In addition, the document must be in a “.pptx” format because these authoring and testing instructions will only work if the file is in the “.pptx” file format.
+Select “File tab>Save As”
+Save as type: “PowerPoint Presentation(*.pptx)”
+Save the document with a descriptive file name.
+Text Formatting
+Does the reading order match the visual layout?
+How to test
+Instruction: Open the Selection pane (“Home tab > Drawing > Arrange>Selection Pane”). The first object on the slide will display at the bottom of the Selection Pane. Starting from the bottom and moving to the top, select each object to view the reading order on the slide.
+Test: Does the selection of each object match the visual reading order of the slide? If not, the document fails this test.
+Figure 2: Example of selected and subsequent objects matching the slide layout reading order
+How to author for accessibility
+Objects (such as text, pictures, and tables) in PowerPoint slides must be placed corresponding to the visual reading order to ensure assistive technology reads the slide content in a logical manner. When adding objects to a slide, use the Selection Pane to arrange the visual layout to follow the intended reading order.
+Manually move objects listed in the Selection Pane (by using drag or cut-and-paste) to match the visual reading order.
+Are lists formatted correctly?
+How to test
+Instruction: Place your cursor on a list item. Determine if one of the list formatting indicators (“Home tab>Paragraph”) is selected.
+Test: Is the list formatting in the Paragraph group highlighted? If not, the document fails this test.
+Figure 3: List formatting in Paragraph group highlighted
+How to author for accessibility
+Lists organize and structure content. Assistive technology users cannot infer meaning if you just format with tabs, a dash, or a number. Using built-in list features applies the formatting that assistive technology needs to both identify and present lists to users with disabilities.
+Select “Home tab>Paragraph” and select the “Bullets” or “Numbering” option when using lists in your presentation.
+To format content using the built-in list features, you can:
+Select the list feature you want and then type your list item, OR
+Type your list item and then select the list feature you want to use.
+Are columns formatted correctly?
+How to test
+NOTE: If content does not appear in columns, you do not need to perform this test.
+Instruction: Place the cursor on columnar text. Select “Home tab>Paragraph >Add or Remove Columns” option and determine if columnar formatting is enabled.
+Test: Are the correct number of columns highlighted? If not, the document fails this test.
+Figure 4: Example of slide text formatted in two columns
+How to author for accessibility
+Screen readers and assistive technology cannot read information in the correct reading order when using tabs or spaces to separate content into columns.
+Select “Home tab>Paragraph >Add or Remove Columns” option and choose the number of columns desired when creating columnar text.
+Is text formatted for the intended language?
+How to test
+NOTE: If the document only uses one language, you do not have to perform this test.
+Instruction: If the presentation contains words or phrases in a language other than the predominant language, place your cursor on that text. Go to “Review Tab>Language Group>Language Button>Set Proofing Language.”
+Select “Review tab>Language group>Language button>Set Proofing Language.”
+Figure 5: Language settings displaying “Korean” for selected language
+Test: Is the text formatted in the correct language? If not, the document fails this test.
+How to author for accessibility
+A document can contain sections written in different languages. Assistive technology cannot infer the correct pronunciation from just text, so text must be formatted in the correct language.
+To set a different language, you:
+Select text written in a different language.
+Select “Review tab>Language group>Language button>Set Proofing Language.”
+Select the appropriate language from the list.
+Are link names descriptive?
+How to test
+Instruction: Find hyperlinks within a slide
+Test: Do links have meaningful names that describe their destination, function, and/or purpose OR are these determinable within context? If not, the document fails this test.
+Uniquely Named Link:
+www.section508.gov
+Link Determinable within context:
+Get My Section 508 Questions Answered
+An unclear link name with no context:
+click here
+How to author for accessibility
+Assistive technology users rely on meaningful names to determine the destination, function, or purpose of links. For example, multiple “click here” links confuse assistive technology users because the name for each link is the same, while the destinations may be different.
+Naming and creating links:
+To edit the name of a link, place your cursor on the link and edit the text.
+NOTE: deleting the last character in the link name will remove the link.
+To create a hyperlink, select or type the hyperlink text and either right click and select “Hyperlink” or use “Ctrl+K” to open the “Insert Hyperlink” configuration window. Specify/verify the “Text to display” and the “Address” for the link and its destination, and select “OK.”
+Figure 6: Insert Hyperlink configuration window
+Object Formatting
+Is vital information in the background (i.e. Slide Master) included in the reading order?
+How to test
+Instruction: Look for vital information in headers, footers, and watermarks (e.g. Respond by X date, CONFIDENTIAL, or Do Not Distribute). Go to “Home tab>Drawing >Arrange>Selection Pane.”
+Test: Can the vital information be selected within the Selection pane? If not, the document fails this test.
+Figure 7: Example of vital information listed in the Selection pane
+How to author for accessibility
+Vital information can be included in a separate text box on the Slide Master (background), or in the Header/Footer of the slide. Headers and Footers have to be enabled.
+To enable Headers and Footers in your presentation:
+Select “Insert tab>Text>Header&Footer.”
+Check the “Footer” option,
+Type in vital information, and
+Select “Apply.”
+Did you use built-in features to create data tables?
+How to test
+Instruction 1: Select a table. If the “Picture Tools” tab shows up in the Ribbon, instead of the “Table Tools” tab, then the table is a picture.
+Test A: Is the document free of pictures of tables? If not, the document fails this test.
+Figure 8: Image of data table showing Picture Tools option when selected
+Instruction 2: Place your cursor on a table, and use the “Tab” key to move between table cells. Make sure cells don't span more than one column or row, which would indicate merged or split cells.
+Test B: Are tables free of merged or split cells? If not, the document fails this test.
+Figure 9: Example of accessible data table
+How to author for accessibility
+To create an accessible data table:
+Select Insert Tab>Table group>Insert Table 
+Select the number of columns and rows you desire.
+Do not merge or split cells.
+Figure 10: Insert Table option with a 5 column by 3 rows Table selection
+NOTE: If you need to create data tables with more than one header row, one or more header column, and/or merged or split cells (complex data tables), then you must convert the presentation to an accessible format (i.e. a PDF document remediated for accessibility). Complex data tables cannot be made accessible in MS PowerPoint.
+Do images and other objects have alternative text?
+How to test
+Instruction 1: Select and image or object “right click (or Shift+F10)>Format Picture (Note: could say Format Object, Format Shape, etc.)>Layout & Properties icon>Alt Text,” and read the “Description” field. Also, look for a caption or a description of the image or object in nearby text.
+Test A: Does the image/object/shape have descriptive text as alt text, a caption, or is it described in the surrounding text? If not, the document fails this test.
+Figure 11: Alt Text dialog box with descriptive text
+Instruction 2: Select an image or object that is just for decoration, right-click (or Shift+F10)>Format Picture (Note: could say Format Object, Format Shape, etc.)>Size & Properties icon>Alt Text, and read the Description field.
+Test B: Does the “Description” field of decorative images or objects contain two blank spaces between quotes? If not, the document fails this test.
+Figure 12: Alt Text dialog box using “quote marks>space>space>quote marks” Description for decorative object
+How to author for accessibility
+Assistive technology cannot infer meaning from images and other objects. Images and other objects include pictures, images of text, images of tables, shapes, icons with hyperlinks, etc.
+To enter “Alt Text,” select the image, object, or shape. “Right click” or “Shift+F10” and select “Format Picture (Note: could say Format Object, Format Shape, etc.)>Alt Text.” In the “Description” field, enter information that states the purpose (in as few words as possible while remaining clear) for a meaningful image or object or enter a space or two spaces between quotes for decorative objects. Then select “close.”
+Color Formatting
+Are colors and other visual characteristics that convey information also described in text?
+How to test
+Using only color or other visual characteristics, such as size, shape, and location, to convey meaning will not provide comparable access to people who are blind, have low vision, or are colorblind.
+Instruction: Find where you have used color and/or other visual characteristics to convey meaning such as green, yellow, red, etc.
+Test: Is there text that conveys the meaning of the color or other visual characteristics? If not, the document fails this test.
+How to author for accessibility
+The following layout tables describe the progress for three projects using colors to symbolize the current project status. Adding text in addition to the color provides comparable information to users of assistive technology and people who are colorblind.
+Use text to duplicate the meaning of the color or visual characteristics (such as size, shape, and location).
+Table 1: Examples of a project status table using only color and color with text
+Project
+Status
+Project A
+Project B
+Project C
+Project
+Status
+Project A
+On Time
+Project B
+At Risk
+Project C
+Late
+Is the contrast ratio between text and background sufficient?
+NOTE: If the document text is black on white background (or close to it), you do not need to perform this test. This test requires the Colour Contrast Analyser (an external application).
+How to test
+Execute the Colour Contrast Analyser. Select “Download” (the application can be executed without downloading it onto your computer). Open the Colour Contrast Analyser. Drag the “Foreground eyedropper” icon over a sample of your text or image of text. Drag the “Background eyedropper” icon over a sample of your background color.
+Test: Have you formatted with the correct color contrast ratio? If not, the document fails this test.
+Figure 13: Examples of pass and fail results with the Colour Contrast Analyser
+How to author for accessibility
+People who are colorblind or have low vision will have comparable access if there is sufficient contrast between the text and the background. The contrast standards are:
+Table 2: Table with contrast ratios for types and sizes of text
+Type or Size of Text
+Contrast Ratio
+Standard text (12 pt regular)
+4.5:1
+Large Text (14 pt bold or 18 pt regular)
+3:1
+Incidental text, text overlaid on images, and logotypes
+Excluded from requirement
+Create content with text or images of text that use color or shading with sufficient color contrast. If the contrast ratio does not pass, then adjust your foreground or background until it does pass.
+Table 3: Examples of good and insufficient color contrast ratios
+Good Color Contrast
+Insufficient Color Contrast
+White text on black background ratio 21:0:1
+Dark gray text on black backgroundratio 3.0:1
+Dark green text on yellow backgroundratio 7.6:1
+Orange text on yellow backgroundratio: 2.1:1
+Light blue text on dark blue backgroundratio: 10.5:1
+Red text on dark blue backgroundratio: 1.1:1
+white text on red backgroundratio: 6.5:1
+Dark green text on red background ratio: 1.3:1
+Miscellaneous
+Are descriptions of embedded audio, video and multimedia files accurate?
+How to test
+NOTE: If the document does not contain audio, video, or multimedia files, you do not need to perform this test.
+Instruction: Activate the audio-only, video-only, or multimedia file.
+Test A: Is there an accurate and complete text transcript for multimedia files, text description for audio files, and synchronized caption and/or audio description for video files? If not, the document fails this test.
+How to author for accessibility
+If you embed an audio-only, video-only, or multimedia file that contains meaningful information into your MS PowerPoint document, you must also provide additional information so that individuals with disabilities have comparable access to the information.
+Audio-only
+Accurate and complete transcript
+Video-only
+Accurate and complete text description
+Multimedia (audio and video)
+Accurate and complete synchronized captions and audio descriptions
+Did you exclude flashing objects?
+How to test
+Test: Is the document free of all flashing objects? If not, the document fails this test.
+How to author for accessibility
+Create your content without using flashing objects. Flashing objects can cause seizures and should never be used.
+Index of Figures
+Figure 1: The Save As Dialog window2
+Figure 2: Example of selected and subsequent objects matching the slide layout reading order3
+Figure 3: List formatting in Paragraph group highlighted4
+Figure 4: Example of slide text formatted in two columns5
+Figure 5: Language settings displaying “Korean” for selected language6
+Figure 6: Insert Hyperlink dialog window7
+Figure 7: Example of vital information listed in the Selection pane8
+Figure 8: Image of data table showing Picture Tools option when selected9
+Figure 9: Example of accessible data table9
+Figure 10: Insert Table option with a 5 column by 3 rows Table selection10
+Figure 11: Alt Text dialog box with descriptive text11
+Figure 12: Alt Text dialog box using “quote marks>space>space>quote marks” Description for decorative object11
+Figure 13: Examples of fail and pass results with the Colour Contrast Analyser14
+Index of Tables
+Table 1: Examples of a project status table using only color and color with text13
+Table 2: Table with contrast ratios for types and sizes of text15
+Table 3: Examples of good and insufficient color contrast ratios15

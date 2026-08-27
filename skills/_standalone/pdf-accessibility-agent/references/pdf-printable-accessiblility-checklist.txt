@@ -1,0 +1,139 @@
+AED COP PDF Test Check Sheet
+Use this check sheet to record PDF 508 Accessibility results 
+Preconditions
+The PDF is a PDF Portfolio or has file attachments
+Yes
+No
+NA
+All files in the PDF Portfolio were tested with the appropriate test process.
+All attachments were tested with the appropriate test process.
+ The PDF was generated from Adobe LiveCycle
+Yes
+No
+NA
+The PDF shows Adobe LiveCycle under Document Properties, Application.
+ Scripts
+Yes
+No
+NA
+Page Content error for “Scripts – Needs manual check” displays.
+ The PDF is tagged
+Yes
+No
+NA
+Advanced Document Properties displays “Tagged PDF: Yes”.
+ The PDF is an image or contains scanned pages
+Yes
+No
+NA
+Document displays “Scanned Page Alert”.
+Accessibility Checker displays “Image-only PDF – Failed” error.
+Accessibility Checker displays “Tagged PDF – Failed” error.
+Document Properties
+The PDF has a descriptive file name
+Yes
+No
+NA
+The filename identifies the document or its purpose.
+Initial View is set to show “Document Title”.
+ Assistive Technology access is enabled
+Yes
+No
+NA
+Content Copying for Accessibility” displays “Allowed”.
+ Document language is set
+Yes
+No
+NA
+A Language displays under Advanced > Reading Options.
+Structure Tags
+ The tags follow the visual/logical order of the document
+Yes
+No
+NA
+All meaningful content is also tagged content.
+All tags follow the visual/logical order of the page.
+ The document has decorative content
+Yes
+No
+NA
+All decorative content (text and objects) show as “Artifact”.
+Vital information in headers, footers, and watermarks is duplicated in the text
+Yes
+No
+NA
+Vital information is duplicated as tagged content.
+ Headings are tagged with a heading tag
+Yes
+No
+NA
+Heading tags match document headings and follow the visual outline.
+All non-standard heading tags map to standard heading tags.
+ Lists are tagged correctly
+Yes
+No
+NA
+Lists have a parent tag and have one or more nested list item tags.
+Sections in different languages have a corresponding language attribute
+Yes
+No
+NA
+The tag shows the selection’s language or corresponding two-letter code.
+Objects
+ Images and other objects have alternative text
+Yes
+No
+NA
+All “Figures” have alternative text that describes its purpose/function.
+All captions describe the purpose/function of associated images/objects.
+Descriptive text convey the purpose and/or function of the image/object.
+ Data tables
+Yes
+No
+NA
+Tables are identified with a “Table” tag.
+Table header cells have a “TH” tag and data cells have a “TD” tag.
+Row/column span match the layout, and cells have scope and unique IDs.
+Data cells are associated with corresponding header cells.
+ Links and controls
+Yes
+No
+NA
+Link names describe destination/purpose or describe context.
+Links have unique names.
+Tab order matches the visual/logical order of interactive elements.
+ Fillable forms
+Yes
+No
+NA
+Each form field has a tooltip that matches the label or instruction.
+Tab order matches the visual/logical order of form fields.
+ Color and Sensory characteristics
+Yes
+No
+NA
+Meaning of color or other sensory characteristics is duplicated in text.
+ Color contrast 
+Yes
+No
+NA
+Text and Large Text (including images of text) pass with the Color Contrast Analyzer.
+Miscellaneous
+The PDF contains meaningful audio-only, video-only, or multimedia objects
+Yes
+No
+NA
+Audio-only objects have a transcript that is accurate and complete.
+Video-only objects have text description that is accurate and complete.
+Multimedia (audio and video) have synchronized captions and audio description that are accurate and complete.
+ The document has no flashing objects.
+Yes
+No
+NA
+Flashing objects are excluded from the document..
+ An alternative accessible version is provided
+Yes
+No
+NA
+Alternate versions are equivalent and up to date.
+NOTES

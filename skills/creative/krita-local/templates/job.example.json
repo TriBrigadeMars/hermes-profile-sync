@@ -1,0 +1,9 @@
+{
+  "operations": [
+    {"op": "document_info"},
+    {"op": "create_layer", "name": "Hermes Notes"},
+    {"op": "rename_layer", "from": "Hermes Notes", "to": "Notes"},
+    {"op": "set_visibility", "name": "Notes", "visible": true},
+    {"op": "export", "path": "~/hermes-creative/krita/krita-preview.png"}
+  ]
+}

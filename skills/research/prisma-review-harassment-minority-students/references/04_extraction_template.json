@@ -1,0 +1,325 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PRISMA Scoping Review Data Extraction Template",
+  "description": "Data extraction schema for: Impact of Sexual Harassment and Discrimination on Minority Students in US Higher Ed (2010-2026)",
+  "type": "object",
+  "properties": {
+    "study_id": {
+      "type": "string",
+      "description": "Unique study identifier (e.g., AUTHOR_YEAR_001)"
+    },
+    "extraction_metadata": {
+      "type": "object",
+      "properties": {
+        "extractor_name": { "type": "string" },
+        "extraction_date": { "type": "string", "format": "date" },
+        "verification_date": { "type": "string", "format": "date" },
+        "verifier_name": { "type": "string" },
+        "extraction_version": { "type": "string" }
+      },
+      "required": ["extractor_name", "extraction_date"]
+    },
+    "bibliographic_data": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "authors": { "type": "array", "items": { "type": "string" } },
+        "year": { "type": "integer", "minimum": 2010, "maximum": 2026 },
+        "journal": { "type": "string" },
+        "volume": { "type": "string" },
+        "issue": { "type": "string" },
+        "pages": { "type": "string" },
+        "doi": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "publication_type": {
+          "type": "string",
+          "enum": ["peer-reviewed article", "dissertation", "government report", "institutional report", "conference paper", "book chapter", "other"]
+        }
+      },
+      "required": ["title", "authors", "year", "journal", "publication_type"]
+    },
+    "study_design": {
+      "type": "object",
+      "properties": {
+        "design_type": {
+          "type": "string",
+          "enum": ["cross-sectional survey", "longitudinal", "experimental", "quasi-experimental", "qualitative", "mixed-methods", "case study", "secondary data analysis", "content analysis", "policy analysis", "systematic review", "meta-analysis", "other"]
+        },
+        "design_detail": { "type": "string" },
+        "data_collection_method": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["survey/questionnaire", "interview", "focus group", "administrative records", "campus climate data", "national dataset", "clinical records", "content analysis", "observation", "experimental manipulation", "other"]
+          }
+        },
+        "data_type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["quantitative", "qualitative", "mixed"]
+          }
+        }
+      },
+      "required": ["design_type", "data_type"]
+    },
+    "population": {
+      "type": "object",
+      "properties": {
+        "total_sample_size": { "type": "integer", "minimum": 0 },
+        "minority_sample_size": { "type": "integer", "minimum": 0 },
+        "sample_size_details": { "type": "string" },
+        "institution_type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["4-year public", "4-year private", "2-year community college", "HBCU", "HSI", "Tribal college", "AAPI-serving", "mixed", "other"]
+          }
+        },
+        "institution_setting": {
+          "type": "string",
+          "enum": ["urban", "suburban", "rural", "mixed", "not reported"]
+        },
+        "geographic_region": {
+          "type": "string",
+          "enum": ["Northeast", "Southeast", "Midwest", "Southwest", "West", "Multiple regions", "National", "Not reported"]
+        },
+        "student_level": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["undergraduate", "graduate", "professional", "mixed"]
+          }
+        },
+        "mean_age": { "type": "number" },
+        "age_range": { "type": "string" },
+        "gender_distribution": {
+          "type": "object",
+          "properties": {
+            "female_pct": { "type": "number" },
+            "male_pct": { "type": "number" },
+            "nonbinary_pct": { "type": "number" },
+            "transgender_pct": { "type": "number" },
+            "other_pct": { "type": "number" },
+            "not_reported": { "type": "boolean" }
+          }
+        },
+        "race_ethnicity_distribution": {
+          "type": "object",
+          "properties": {
+            "black_african_american_pct": { "type": "number" },
+            "hispanic_latinx_pct": { "type": "number" },
+            "asian_american_pct": { "type": "number" },
+            "native_american_pct": { "type": "number" },
+            "pacific_islander_pct": { "type": "number" },
+            "multiracial_pct": { "type": "number" },
+            "white_pct": { "type": "number" },
+            "other_pct": { "type": "number" },
+            "not_reported": { "type": "boolean" }
+          }
+        },
+        "minority_categories_studied": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["racial/ethnic minority", "Black/African American", "Hispanic/Latinx", "Asian American/Pacific Islander", "Native American/Alaska Native", "multiracial", "sexual orientation minority (LGBTQ+)", "gender minority (transgender/nonbinary)", "disability", "undocumented status", "intersectional (multiple)", "other"]
+          }
+        }
+      },
+      "required": ["total_sample_size", "minority_categories_studied"]
+    },
+    "exposure": {
+      "type": "object",
+      "properties": {
+        "exposure_type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "sexual harassment (general)",
+              "quid pro quo sexual harassment",
+              "hostile environment sexual harassment",
+              "sexual assault/rape",
+              "dating violence",
+              "domestic violence",
+              "stalking",
+              "racial harassment",
+              "racial discrimination",
+              "gender discrimination",
+              "intersectional harassment/discrimination",
+              "cyber/online sexual harassment",
+              "institutional discrimination",
+              "microaggressions",
+              "retaliation",
+              "Title IX process issues",
+              "other"
+            ]
+          }
+        },
+        "exposure_measurement": {
+          "type": "string",
+          "description": "Name of instrument or method used to measure exposure"
+        },
+        "exposure_instrument_validated": { "type": "boolean" },
+        "exposure_prevalence": {
+          "type": "object",
+          "properties": {
+            "overall_prevalence_pct": { "type": "number" },
+            "minority_prevalence_pct": { "type": "number" },
+            "majority_prevalence_pct": { "type": "number" },
+            "prevalence_by_group": { "type": "object" },
+            "not_reported": { "type": "boolean" }
+          }
+        },
+        "perpetrator_type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["faculty/staff", "student", "administrator", "coach", "peer", "stranger", "intimate partner", "multiple", "not reported"]
+          }
+        },
+        "campus_location": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["classroom", "dormitory/residence hall", "campus grounds", "athletic facility", "party/social event", "online/digital", "workplace on campus", "Greek life", "other", "not reported"]
+          }
+        }
+      },
+      "required": ["exposure_type"]
+    },
+    "outcomes": {
+      "type": "object",
+      "properties": {
+        "academic_outcomes": {
+          "type": "object",
+          "properties": {
+            "measured": { "type": "boolean" },
+            "specific_outcomes": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["GPA", "course withdrawal", "academic probation", "degree completion", "time to degree", "academic engagement", "class attendance", "major change", "graduate school aspirations", "academic self-efficacy", "other"]
+              }
+            },
+            "findings_summary": { "type": "string" },
+            "effect_sizes": { "type": "string" },
+            "minority_differential": { "type": "string" }
+          }
+        },
+        "psychological_outcomes": {
+          "type": "object",
+          "properties": {
+            "measured": { "type": "boolean" },
+            "specific_outcomes": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["depression", "anxiety", "PTSD", "self-esteem", "self-efficacy", "substance use", "suicidal ideation", "self-harm", "stress", "burnout", "sense of belonging", "coping", "other"]
+              }
+            },
+            "findings_summary": { "type": "string" },
+            "effect_sizes": { "type": "string" },
+            "minority_differential": { "type": "string" }
+          }
+        },
+        "social_outcomes": {
+          "type": "object",
+          "properties": {
+            "measured": { "type": "boolean" },
+            "specific_outcomes": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["social isolation", "peer relationships", "campus involvement", "help-seeking", "trust in institutions", "social support", "other"]
+              }
+            },
+            "findings_summary": { "type": "string" },
+            "minority_differential": { "type": "string" }
+          }
+        },
+        "institutional_outcomes": {
+          "type": "object",
+          "properties": {
+            "measured": { "type": "boolean" },
+            "specific_outcomes": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["retention", "persistence", "transfer", "graduation rate", "campus climate perception", "reporting behavior", "Title IX engagement", "institutional satisfaction", "other"]
+              }
+            },
+            "findings_summary": { "type": "string" },
+            "minority_differential": { "type": "string" }
+          }
+        },
+        "intersectional_outcomes": {
+          "type": "object",
+          "properties": {
+            "measured": { "type": "boolean" },
+            "framework": { "type": "string" },
+            "findings_summary": { "type": "string" }
+          }
+        }
+      }
+    },
+    "interventions": {
+      "type": "object",
+      "properties": {
+        "intervention_present": { "type": "boolean" },
+        "intervention_type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["prevention program", "bystander intervention", "Title IX training", "campus policy reform", "support services", "counseling/therapy", "advocacy program", "peer support", "technology-based intervention", "legislative/policy change", "other"]
+          }
+        },
+        "intervention_target": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["all students", "minority students specifically", "faculty/staff", "institutional administrators", "campus community", "other"]
+          }
+        },
+        "intervention_effectiveness": { "type": "string" },
+        "culturally_adapted": { "type": "boolean" },
+        "intersectional_approach": { "type": "boolean" }
+      }
+    },
+    "key_findings": {
+      "type": "object",
+      "properties": {
+        "main_findings": { "type": "string" },
+        "minority_specific_findings": { "type": "string" },
+        "intersectional_findings": { "type": "string" },
+        "limitations_reported": { "type": "string" },
+        "recommendations": { "type": "string" }
+      },
+      "required": ["main_findings", "minority_specific_findings"]
+    },
+    "theoretical_framework": {
+      "type": "object",
+      "properties": {
+        "framework_used": { "type": "boolean" },
+        "framework_name": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["intersectionality theory", "critical race theory", "feminist theory", "social-ecological model", "minority stress theory", "trauma theory", "empowerment theory", "social cognitive theory", "feminist intersectionality", "organizational theory", "other", "none"]
+          }
+        },
+        "framework_detail": { "type": "string" }
+      }
+    }
+  },
+  "required": [
+    "study_id",
+    "extraction_metadata",
+    "bibliographic_data",
+    "study_design",
+    "population",
+    "exposure",
+    "outcomes",
+    "key_findings"
+  ]
+}

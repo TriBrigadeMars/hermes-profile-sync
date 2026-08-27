@@ -1,0 +1,87 @@
+AED COP MS Word 2016 Checklist
+Use this checklist to record MS Word 508 Accessibility results.
+Document
+ The Word document (.docx) is saved with a descriptive filename.
+Yes, No, NA 
+The file type is Word document (.docx) format
+The filename identifies the document or its purpose.
+Headings
+ The document uses MS Word heading styles.
+Yes, No, NA 
+Headings in the "Navigation pane" mirror the headings in the document.
+Headings in the "Navigation pane" match the document's visual outline.
+Lists
+  Lists are formatted correctly.
+Yes, No, NA 
+The "List" option is visible under "Bullets and Numbering."
+Columns
+ Columnar content is formatted correctly.
+Yes, No, NA 
+"COLUMNS:" shows under "Section” in columnar text options.
+Layout Tables
+ Layout Tables have the correct format.
+Yes, No, NA 
+Layout tables' tab order match the visual layout.
+“Text wrapping” is set to “None” in Table Properties.
+Language
+ Intended languages are formatted in the document text.
+Yes, No, NA 
+Languages are correctly formatted in the document.
+Links
+ Link names are descriptive.
+Yes, No, NA 
+Link names describe destination/purpose or describe context.
+Links have unique names.
+Headers, Footers, Watermarks
+Vital information in headers, footers, and watermarks is duplicated in the text
+Yes, No, NA 
+Vital information in headers, footers, and watermarks is also shown
+in the content.
+Data Tables
+ Data tables are created using built-in features.
+Yes, No, NA 
+Tables are not pictures.
+Tables are free of merged or split cells.
+Tables repeat their header row.
+Table Properties> "Text wrapping" is set to "None."
+Images and other Objects
+ Images and other objects have alternative text.
+Yes, No, NA 
+Images/objects have Alt Text or described in context.
+Decorative images use spaces between quotes (" ").
+Accessibility Checker does not report “Objects not Inline for
+meaningful images.”
+Text Boxes
+ Images, objects and text boxes are in line with the text.
+Yes, No, NA 
+Text boxes do not have any "Objects not Inline" warnings.
+Colors and Sensory Characteristic
+ Color and other visual characteristics are also textually described.
+Yes, No, NA 
+Meaning of color or other sensory characteristics is duplicated in text.
+Color Contrast
+ The color contrast between text and background is sufficient.
+Yes, No, NA 
+Text and Large Text (including images of text) pass with the
+Color Contrast Analyzer.
+Audio, Video and Synchronized Media
+ Embedded files are accessible.
+Yes, No, NA 
+Audio-only content has an accurate and complete transcript.
+Video-only content has an accurate and complete description.
+Synchronized media has accurate and complete synchronized captions.
+Synchronized media has accurate and complete synchronized audio 
+descriptions.       
+Forms
+ The document has no forms.
+Yes, No, NA 
+Fillable form fields are excluded from the document.
+Flashing Objects
+ The document has no flashing objects.
+Yes, No, NA 
+Flashing objects are excluded from the document.
+Alternative Accessible Version
+ An alternative accessible version is provided.
+Yes, No, NA 
+Alternate versions are equivalent and up to date.
+Notes
