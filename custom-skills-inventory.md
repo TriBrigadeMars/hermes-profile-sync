@@ -134,9 +134,8 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 
 ## Inventory-only entries (not shipped in this repo)
 
-The following 41 skills are listed above but have no `skills/` folder in this repository. Verified on 2026-08-27 from the second workstation (`cruzmars` desktop): they are not installed there either, so they exist only on the machine that authored this inventory. If their code still exists, it needs to be pushed from the source machine; otherwise these entries are stale and can be pruned.
+The following 39 skills are listed above but have no `skills/` folder in this repository. Verified on 2026-08-27 from the second workstation (`cruzmars` desktop): they are not installed there either, so they exist only on the machine that authored this inventory. If their code still exists, it needs to be pushed from the source machine; otherwise these entries are stale and can be pruned.
 
-- `ai-guardrails-codebase-auditor`
 - `album-media-downloader`
 - `apa-7-style-agent`
 - `ap-stylebook-agent`
@@ -168,7 +167,6 @@ The following 41 skills are listed above but have no `skills/` folder in this re
 - `research-question-framer`
 - `research-report-packaging`
 - `rss_feed_monitoring`
-- `security-safety-codebase-auditor`
 - `social-media-accessibility-agent`
 - `study-measures-and-sampling`
 - `study-protocol-builder`
@@ -177,6 +175,8 @@ The following 41 skills are listed above but have no `skills/` folder in this re
 - `website-accessibility-agent`
 - `workflow-orchestrator`
 - `writing-style-agent`
+
+(`security-safety-codebase-auditor` and `ai-guardrails-codebase-auditor` were shipped to this repo from the source machine on 2026-08-27, closing part of the gap.)
 
 ## Bundled skills (not custom)
 
