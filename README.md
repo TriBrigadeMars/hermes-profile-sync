@@ -6,6 +6,30 @@ Syncs Hermes Agent profiles, scripts, and cron jobs across multiple machines via
 > committing changes to `custom-skills-inventory.md` or `skills/`, run
 > `python3 scripts/verify_inventory.py` — CI fails on documented-vs-actual drift.
 
+## What Gets Synced
+
+| Item | Direction | How |
+|---|---|---|
+| **Named profiles** | Push & pull | `hermes profile export/import` (tarballs in `profiles/`) |
+| **Custom skills** | Repo → local | `skills/<category>/<name>/SKILL.md` installed to `$HERMES_HOME/skills/` |
+| **Memories** | Push & merge | `memories/MEMORY.md` + `memories/USER.md` — entries split on `§`, deduplicated by MD5 content hash, merged bidirectionally |
+| **Pets** | Push & pull | `pets/<slug>/pet.json` + `spritesheet.webp` |
+| **Scripts** | Repo → local | `scripts/` copied to `$HERMES_HOME/scripts/` |
+| **Cron jobs** | Repo → local | Created via `hermes cron create` if not present |
+
+### Memory sync details
+
+Hermes stores global (default-profile) memories as plain Markdown in
+`$HERMES_HOME/memories/MEMORY.md` and `USER.md`, with entries separated by `§`.
+
+- **Push:** local memory files are copied to `memories/` in the repo before commit.
+- **Merge (after pull):** remote entries are merged into local by splitting both
+  files on `§`, deduplicating by MD5 hash of each entry's content, and writing
+  the union back to the local file. This means memories from Machine A appear on
+  Machine B and vice versa, with no duplicates and no overwrites.
+- Named profiles have their own memory stores inside their tarballs — those sync
+  via the profile export/import step.
+
 ## Setup (run on each machine)
 
 ```bash
