@@ -25,6 +25,7 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 | `qualitative-literature-review` | Batch qualitative lit reviews with theme tracking |
 | `public-health-evaluation-planning` | Design public health evaluation plans (CDC framework) |
 | `research-literature-monitor` | Monitor academic feeds (PubMed, Crossref, RSS) |
+| `research-subagent-roles` | Shared subagent role templates + corpus validation + APA docx builder for research pipelines |
 | `research-report-packaging` | Convert research md → .docx, audit a11y, package |
 
 ## ♿ Accessibility Agents (Section 508 / WCAG)
