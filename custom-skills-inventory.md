@@ -4,7 +4,7 @@ Generated: 2026-08-26
 
 Inventory of all skills that are **custom to this agent** (i.e., *not* bundled with Hermes). Determined by diffing every `SKILL.md` on disk against the bundled manifest (`.bundled_manifest` inside the platform-appropriate Hermes home — see AGENTS.md §1: `$LOCALAPPDATA/hermes` on Windows, `~/.hermes` on macOS/Linux). Verify parity with `python3 scripts/verify_inventory.py --local`.
 
-- **Total custom skills:** 59
+- **Total custom skills:** 60
 - **Bundled (shipped with Hermes):** 82
 - **Total on disk:** 138
 
@@ -127,6 +127,7 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 | `static-site-audit-remediation` | Audit a live deployed site and apply fixes to its local repo |
 | `ml-venv-package-conflicts` | Diagnose ML venv import errors |
 | `hermes-skill-installation` | Install custom skills from zip/folder + verify |
+| `large-project-governance` | Governance control-plane for multi-agent builds: 8 control primitives (EvaluationContract, TrajectoryContract, ActionProposal, AuthorityPolicy, ActionReceipt, ProgressGuard, ReviewRequest, RegressionCase) + governance records (DecisionRecord, AcceptanceRecord, ImprovementCandidate, UncertaintySignal, CommandRiskAssessment) with deterministic Python helpers |
 
 ---
 
