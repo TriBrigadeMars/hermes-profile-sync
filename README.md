@@ -157,6 +157,51 @@ python ~/.hermes/scripts/academic_digest.py
 
 **Cron:** Every 14 days at 09:00 MST. Created automatically by `hermes-sync.sh`.
 
+## Local-Only Outlook MCP Server
+
+A local MCP server that connects to the Outlook Desktop app via Windows COM automation — no cloud APIs, no Azure AD, no OAuth tokens. All data stays on your machine.
+
+**Requirements:**
+- Windows 10/11
+- Outlook Desktop (Classic) — the `OUTLOOK.EXE` from Microsoft 365/Office (not the "new" Outlook)
+- Python 3.10+
+
+**Setup on a new machine:**
+
+```bash
+# 1. Create a dedicated venv (isolated from Hermes' internal packages)
+python -m venv "$LOCALAPPDATA/hermes/mcp-outlook-venv"
+
+# 2. Install mega-outlook-mcp + pinned mcp v1 (needed for FastMCP compatibility)
+"$LOCALAPPDATA/hermes/mcp-outlook-venv/Scripts/pip.exe" install mega-outlook-mcp
+"$LOCALAPPDATA/hermes/mcp-outlook-venv/Scripts/pip.exe" install "mcp>=1.2.0,<2.0.0"
+
+# 3. Register with Hermes
+hermes mcp add outlook --command "$LOCALAPPDATA/hermes/mcp-outlook-venv/Scripts/mega-outlook-mcp.exe" --connect-timeout 60
+
+# 4. Restart Hermes Agent
+```
+
+**64 tools available** — email (24), folders (6), calendar (7), contacts/tasks/notes (9), account info (4), Exchange-specific (11), utility (3). Includes composite tools like `outlook_summarize_inbox`, `outlook_extract_action_items`, `outlook_meeting_prep`.
+
+**Outlook Rule Creator** (`scripts/outlook_rule_creator.py`): creates Outlook rules from plain English descriptions. No MCP server needed — standalone script.
+
+```bash
+# Describe a rule (no changes)
+python ~/.hermes/scripts/outlook_rule_creator.py --describe "Move emails from newsletter@example.com to Newsletters"
+
+# Create a rule (asks for confirmation)
+python ~/.hermes/scripts/outlook_rule_creator.py --create "Categorize emails about invoice as Finance"
+
+# Generate VBA code for copy/paste
+python ~/.hermes/scripts/outlook_rule_creator.py --vba "Move emails from any @amazon.com address to Shopping"
+```
+
+**Important notes:**
+- The `mega-outlook-mcp` package requires `mcp<2.0.0` (uses `FastMCP` API). Hermes' internal `mcp` package is v2.0.0+ — that's why a separate venv is used.
+- Outlook must be running and signed in when the MCP server starts.
+- The MCP server spawns on-demand per conversation; nothing runs in the background.
+
 ## Creating a Profile to Sync
 
 ```bash

@@ -57,9 +57,11 @@ Inventory of all skills that are **custom to this agent** (i.e., *not* bundled w
 ## 📧 Outlook / Email Tooling
 | Skill | Purpose |
 |---|---|
-| `outlook-mcp-server` | Outlook MCP server (email, calendar, tasks, contacts) |
-| `outlook-mcp-server-project` | Build complete Outlook MCP server w/ full project files |
+| `outlook-mcp-server` | Outlook MCP server via Microsoft Graph API (email, calendar, tasks, contacts) |
+| `outlook-mcp-server-project` | Build complete Outlook MCP server w/ Graph API project files |
 | `azure-ad-app-registration` | Azure AD app registration for Graph API |
+
+**Local-only Outlook MCP server** (`mega-outlook-mcp`): installed via `pip install mega-outlook-mcp` into `$LOCALAPPDATA/hermes/mcp-outlook-venv/`. Uses Windows COM automation — no cloud APIs, no Azure, no OAuth. 64 tools for email, calendar, contacts, tasks, notes, rules, free/busy, GAL. MCP config: `hermes mcp add outlook --command "$LOCALAPPDATA/hermes/mcp-outlook-venv/Scripts/mega-outlook-mcp.exe"`. Requires Outlook Desktop (Classic) running and signed in. See `scripts/outlook_rule_creator.py` for plain-English rule creation.
 
 ## 📥 Media & Web Downloads
 | Skill | Purpose |
