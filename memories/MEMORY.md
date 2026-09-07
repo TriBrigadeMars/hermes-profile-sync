@@ -1,5 +1,16 @@
-Tesseract OCR 5.4 installed on this Windows host at C:\Program Files\Tesseract-OCR\tesseract.exe (installed via `winget install --id UB-Mannheim.TesseractOCR`). Local OCR/redaction skills should be wired with TESSERACT_CMD="C:/Program Files/Tesseract-OCR/tesseract.exe".
+Delegation: lock JSON schemas; combine collect+summary; define acronyms; one validation script; pre-test docx builders; batch API calls; verify child deliverable paths.
 §
-Custom skills sync repo at $LOCALAPPDATA/hermes/sync (github.com/TriBrigadeMars/hermes-profile-sync) with 18 custom skills across 6 categories (career, writing, data-science, productivity, software-development, _standalone). Scheduled daily via Windows Task Scheduler "Hermes Profile Sync" at 4AM. Installer scripts default to ~/.hermes/skills/ but Windows actual path is $LOCALAPPDATA/hermes/skills/.
+QIQA project: outputs to Desktop\...\Hermes Output QIQA Project. Gemma 4 E4B + Unsloth XPU/Arc B580. User learning ML — plain-language guides.
 §
-DELEGATION EFFICIENCY RULES (learned from SA/DV 5-topic lit review): (1) LOCK JSON SCHEMA in every delegation task — include exact field names/types. Without it, subagents return incompatible formats and consolidation eats 10+ tool calls. (2) COMBINE collection + summarization in one subagent pass — never split them. (3) DEFINE ACRONYMS in task context ('SA/DV = sexual assault/domestic violence, NOT substance abuse'). (4) ONE validation script checking everything (years/DOIs/author-format/types/citation-matches) — not separate calls per check. (5) PRE-TEST output builders (docx, etc.) with dummy data before real corpora arrive. (6) BATCH API calls (Crossref/PubMed) in one Python loop, not one curl per item. (7) FRONT-LOAD style rules (APA 'et al. from first citation for 3+ authors; a/b suffixes alphabetical by title') in synthesis task context to prevent post-hoc regex fixes.
+RATE-LIMIT RULE: User requires slow, sequential downloads (15–30s between requests) for any bulk internet fetching — university network, fears IP flagging by security. Always set and confirm a rate limit before bulk downloads.
+§
+Redaction Automation System: ...\Automated Redaction\. Pipeline v2 (2026-09-02): idempotent resume, stable job IDs (zip hash + config fingerprint), state/processed.json manifest, msvcrt lock, write-verify-rename, verification_policy.ROUTABLE. Tests 53 pass. file-intake-pipeline skill USER-OWNED, outdated.
+MD stage (2026-09-04): cron 'redacted-files-to-markdown' (ecee0257e57e, * * * * *, no_agent, deliver local) → scripts/redacted_files_to_markdown.py → venv scripts/redaction_md_venv (markitdown 0.1.7) → scripts/redacted_md_impl.py. Converts pdf/docx/txt/md/csv/json/xml (+pptx/xlsx/html); images & scan-only PDFs skipped-logged (no OCR). State+conversion.log in 'Redacted File to Markdown' dest. Collision: stem__ext.md. Source untouched.
+§
+Windows Hermes skills install under HERMES_HOME/skills/ (C:\Users\cruzmars\AppData\Local\hermes\skills), not ~/.hermes/skills. Nested skill ZIPs: inspect safely, validate frontmatter, back up differing live files, verify discovery.
+§
+Multi-topic lit review: procedure in multi-topic-literature-review skill (sequential subagents, absolute paths, APA 7, sleep-3 rate limit, md2docx preflight).
+§
+Webapp done-claims need a real browser check — curl-200 success can hide blank pages. OpenRouter gemini-2.0-flash-001 dead → gemini-3.8-flash.
+§
+File Cleanup Report (dup-detector v2): read-only scanner → weekly xlsx in Documents\File Cleanup Reports (only write). Scans ONLY Pictures, Downloads, Documents, Desktop, Videos. Allowlist: dups/stale only .docx .xlsx .pptx .pdf .mp4 .mp3 .jpg .jpeg .png .webp .md .ics; others still count for folder emptiness. Cron 9001d5dd6951 Sun 9am no_agent; needs gateway.
