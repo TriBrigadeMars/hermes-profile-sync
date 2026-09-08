@@ -1,5 +1,7 @@
-USER: Academic researcher doing SA/DV workplace-prevention literature reviews across healthcare professions (dental, nursing, pharmacy, clinical labs, MD). Values citation integrity — every source verified live vs PubMed/Crossref, honest shortfalls over padding. APA 7 only. Deliverables: per-topic .docx = 4-5k-word narrative synthesis + References + annotated bibliography. Accepts broad scope when profession-specific literature is sparse. Cost-conscious: wants lean workflows, not brute-force parallelism.
-§
-User's work role: Prevention Coordinator for the CU Office of Equity — does NOT conduct investigations/case resolutions (colleagues do: campus Title IX Coordinator, Civil Rights Investigators, Informal Resolutions Coordinator). Report audience = those office staff members. Data: Office of Equity cases 2022–2026, employee training compliance data 2022–2026, OE incident reports 2022–2026. Method: reflexive thematic analysis with the user as sole coder.
-§
+USER: Academic researcher doing SA/DV workplace-prevention literature reviews across healthcare professions (dental, nursing, pharmacy, clinical labs, MD). Values citation integrity — every source verified live vs PubMed/Crossref, honest shortfalls over padding. APA 7 only. Deliverables: per-topic .docx = 4-5k-word narrative synthesis + References + annotated bibliography. Accepts broad scope when profession-specific literature is sparse. Cost-conscious: wants lean workflows, not brute-force parallelism.§
+
+User's work role: Prevention Coordinator for the CU Office of Equity — does NOT conduct investigations/case resolutions (colleagues do: campus Title IX Coordinator, Civil Rights Investigators, Informal Resolutions Coordinator). Report audience = those office staff members. Data: Office of Equity cases 2022–2026, employee training compliance data 2022–2026, OE incident reports 2022–2026. Method: reflexive thematic analysis with the user as sole coder.§
+
 Working style: decisive — once he chooses an option, execute without relitigating or self-doubt. 'Review' = findings only, no fixes unless asked. Supplies API keys temporarily, scrubs them himself afterward.
+§
+File deliveries: never create new folders — user pre-creates destinations; write to the exact path given. mkdir triggered correction.
