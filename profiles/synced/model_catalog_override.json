@@ -105,6 +105,10 @@
           "description": "dated snapshot of v4-flash"
         },
         {
+          "id": "deepseek/deepseek-v4.1-flash",
+          "description": "V4.1 budget tier, 1M ctx"
+        },
+        {
           "id": "qwen/qwen3.8-max",
           "description": ""
         },
@@ -275,6 +279,9 @@
         },
         {
           "id": "deepseek/deepseek-v4-flash-0731"
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash"
         },
         {
           "id": "qwen/qwen3.8-max"

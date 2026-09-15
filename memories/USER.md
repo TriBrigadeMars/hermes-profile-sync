@@ -1,7 +1,9 @@
-USER: Academic researcher doing SA/DV workplace-prevention literature reviews across healthcare professions (dental, nursing, pharmacy, clinical labs, MD). Values citation integrity — every source verified live vs PubMed/Crossref, honest shortfalls over padding. APA 7 only. Deliverables: per-topic .docx = 4-5k-word narrative synthesis + References + annotated bibliography. Accepts broad scope when profession-specific literature is sparse. Cost-conscious: wants lean workflows, not brute-force parallelism.§
-
-User's work role: Prevention Coordinator for the CU Office of Equity — does NOT conduct investigations/case resolutions (colleagues do: campus Title IX Coordinator, Civil Rights Investigators, Informal Resolutions Coordinator). Report audience = those office staff members. Data: Office of Equity cases 2022–2026, employee training compliance data 2022–2026, OE incident reports 2022–2026. Method: reflexive thematic analysis with the user as sole coder.§
-
-Working style: decisive — once he chooses an option, execute without relitigating or self-doubt. 'Review' = findings only, no fixes unless asked. Supplies API keys temporarily, scrubs them himself afterward.
+GitHub account: TriBrigadeMars (not oe-marscruz). Timezone: Mountain Standard Time (MST). Has three computers running Hermes Agent. Prefers conservative automation — chose 24-hour sync over 15-minute to avoid disrupting active sessions.
 §
-File deliveries: never create new folders — user pre-creates destinations; write to the exact path given. mkdir triggered correction.
+User (TriBrigadeMars): GitHub account TriBrigadeMars (not oe-marscruz). Three computers running Hermes Agent; prefers conservative automation (chose 24-hour sync over 15-min to avoid disrupting active sessions). MST timezone. Uses OpenRouter (model: thinkingmachines/inkling:free via provider openrouter). Working on designing remote/adjunct teaching job RSS feed aggregator (US-based, remote, adjunct) with AcademicKeys + AcademicPositions sources; uses hermes-profile-sync repo for cross-machine profile sync.
+§
+User (TriBrigadeMars, MST) prefers conservative automation: daily sync over frequent (15-min corrected), dry-run default for digest delivery, documentation preferred over executable config changes. Three-machine Hermes setup. Uses OpenRouter (models: thinkingmachines/inkling:free, meta/muse-spark-1.2-contributor) and private hermes-profile-sync repo.
+§
+Email: nalcs.mika@gmail.com. Biweekly academic journal digest: 14 OA journals (Lancet, BMJ, Nature family, Annals Singapore, J Formosan Medical Assoc). Asia/Europe preferred, US/CA de-emphasized. Scripts in hermes-profile-sync repo under scripts/.
+§
+Hatched custom Hermes pets from a photo album of a person named Mack. Current pet: "Mackenzie" (slug mack-album-muse-booty). Design prefs for this mascot: kawaii chibi, short dark bob hair, round clear glasses, septum piercing, goth-rave kandi-kid look (black mesh halter + harness, black booty/bikini shorts with silver O-rings, belt + dangling chains, strappy leg wraps, platform boots). Earlier version "Mackie" (long hair) exists too.

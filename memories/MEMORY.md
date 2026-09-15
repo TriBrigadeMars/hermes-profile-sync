@@ -1,1 +1,11 @@
-Delegation: user prefers full source-text context for subagents, lean parallelism, explicit schemas, one validation script, verified deliverable paths, and z-ai/glm-5.3-flash for cost-effective bulk literature work.
+User runs local image-generation models and wants to offload image generation (e.g., Hermes pet hatching) to local backends to save paid image credits. Technique: Hermes pet pipeline accepts reference_images; local provider = custom ImageGenProvider plugin + name added to _REF_CAPABLE, or force via HERMES_PET_IMAGE_PROVIDER env var (whitelisted names only).
+§
+User has Julia 1.12.7 installed on Windows desktop at C:\Users\tlfalke\AppData\Local\Programs\Julia-1.12.7\. Prefers zero-dependency Julia code (no Pkg.add needed) for demos and learning exercises.
+§
+Tesseract OCR 5.4 installed on this Windows host at C:\Program Files\Tesseract-OCR\tesseract.exe (installed via `winget install --id UB-Mannheim.TesseractOCR`). Local OCR/redaction skills should be wired with TESSERACT_CMD="C:/Program Files/Tesseract-OCR/tesseract.exe".
+§
+Custom skills sync repo at $LOCALAPPDATA/hermes/sync (github.com/TriBrigadeMars/hermes-profile-sync) with 18 custom skills across 6 categories (career, writing, data-science, productivity, software-development, _standalone). Scheduled daily via Windows Task Scheduler "Hermes Profile Sync" at 4AM. Installer scripts default to ~/.hermes/skills/ but Windows actual path is $LOCALAPPDATA/hermes/skills/.
+§
+DELEGATION EFFICIENCY RULES (learned from SA/DV 5-topic lit review): (1) LOCK JSON SCHEMA in every delegation task — include exact field names/types. Without it, subagents return incompatible formats and consolidation eats 10+ tool calls. (2) COMBINE collection + summarization in one subagent pass — never split them. (3) DEFINE ACRONYMS in task context. (4) ONE validation script checking everything (years/DOIs/author-format/types/citation-matches) — not separate calls per check. (5) PRE-TEST output builders (docx, etc.) with dummy data before real corpora arrive. (6) BATCH API calls (Crossref/PubMed) in one Python loop, not one curl per item. (7) FRONT-LOAD style rules in synthesis task context to prevent post-hoc regex fixes.
+§
+User's preferred output/save location for project work: C:\Users\tlfalke\Documents\Hermes Projects (exists, was empty as of Sep 2026). Save deliverables/files there unless the task specifies otherwise.
