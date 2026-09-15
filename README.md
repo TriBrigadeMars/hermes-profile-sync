@@ -100,7 +100,7 @@ cd "$LOCALAPPDATA/hermes/sync" && bash hermes-sync.sh
 - Includes: config, skills, memory, plugins per profile
 - The `default` profile is NOT synced (it's the built-in root)
 - **Pets** (petdex mascots — including hatched/generated pets like Mackenzie) — `pets/<slug>/` with `pet.json` + `spritesheet.webp`
-- **Scripts** (`academic_digest.py`, `mail.py`, `setup_digest.py`, `cron_config.json`) — copied to `~/.hermes/scripts/`
+- **Scripts** (`academic_digest.py`, `mail.py`, `setup_digest.py`) — copied to `~/.hermes/scripts/`
 - **Cron jobs** — academic digest cron created automatically if missing
 - **Custom skills** — full SKILL.md + references, scripts, data, and source files for custom skills under `skills/<category>/<name>/` (e.g. `skills/career/resume-builder/`, `skills/writing/ballotpedia-style-reviewer/`); installed into `~/.hermes/skills/` on each machine
 - **Synced skills** — curated skills under `profiles/synced/skills/<category>/` (see below)
@@ -143,7 +143,6 @@ A biweekly email digest of 14 open-access journals in Public Health, AI/LLM, and
 - `scripts/academic_digest.py` — Main digest script (fetches RSS, builds email)
 - `scripts/mail.py` — Gmail SMTP sender (reads credentials from `~/.hermes/.env`)
 - `scripts/setup_digest.py` — One-command setup for new machines
-- `scripts/cron_config.json` — Job metadata
 
 **Setup on a new machine:**
 ```bash
@@ -184,7 +183,7 @@ hermes mcp add outlook --command "$LOCALAPPDATA/hermes/mcp-outlook-venv/Scripts/
 
 **64 tools available** — email (24), folders (6), calendar (7), contacts/tasks/notes (9), account info (4), Exchange-specific (11), utility (3). Includes composite tools like `outlook_summarize_inbox`, `outlook_extract_action_items`, `outlook_meeting_prep`.
 
-**Outlook Rule Creator** (`scripts/outlook_rule_creator.py`): creates Outlook rules from plain English descriptions. No MCP server needed — standalone script.
+**Outlook Rule Creator** (`scripts/outlook_rule_creator.py`): creates Outlook rules from plain English descriptions. No MCP server needed — standalone script. The parser, COM layer, and VBA generator live in `scripts/outlook_parse.py`, `scripts/outlook_com.py`, and `scripts/outlook_vba.py`; run the CLI from the `scripts/` directory (or with `scripts/` on `PYTHONPATH`) so those imports resolve.
 
 ```bash
 # Describe a rule (no changes)

@@ -26,7 +26,7 @@ echo "Hermes:    $HERMES_HOME"
 echo ""
 
 # ── Step 1: Export all NAMED profiles (skip default — it's built-in) ──
-echo "[1/7] Exporting profiles..."
+echo "[1/9] Exporting profiles..."
 cd "$SYNC_DIR"
 mkdir -p profiles
 
@@ -47,7 +47,7 @@ fi
 echo ""
 
 # ── Step 2: Sync pets (petdex mascots — incl. hatched/generated pets) ──
-echo "[2/7] Syncing pets..."
+echo "[2/9] Syncing pets..."
 mkdir -p "$SYNC_DIR/pets"
 synced_pets=0
 
@@ -69,8 +69,8 @@ fi
 echo "  Exported $synced_pets pet(s) to repo"
 echo ""
 
-# ── Step 2b: Sync custom skills from repo → local install ───────────────
-echo "[2b/7] Syncing skills from repo..."
+# ── Step 3: Sync custom skills from repo → local install ───────────────
+echo "[3/9] Syncing skills from repo..."
 SKILLS_DIR="$HERMES_HOME/skills"
 synced_skills=0
 if [ -d "$SYNC_DIR/skills" ]; then
@@ -103,17 +103,15 @@ fi
 echo "  Installed/updated $synced_skills skill(s) from repo"
 echo ""
 
-# ── Step 2c: Sync memories (global MEMORY.md + USER.md) ──────────────
-echo "[2c/7] Syncing memories..."
+# ── Step 4: Sync memories (global MEMORY.md + USER.md) ──────────────
+echo "[4/9] Syncing memories..."
 mkdir -p "$SYNC_DIR/memories"
 synced_memories=0
 for memfile in MEMORY.md USER.md; do
     src="$MEMORIES_DIR/$memfile"
     dst="$SYNC_DIR/memories/$memfile"
     if [ -f "$src" ]; then
-        # Tag local entries with this machine's hostname so merge can detect origin
-        machine_tag="$(hostname)"
-        # Copy as-is; merge happens after pull (Step 4b) to avoid clobbering remote
+        # Copy as-is; merge happens after pull to avoid clobbering remote
         cp "$src" "$dst"
         synced_memories=$((synced_memories+1))
         echo "  Pushed: $memfile ($(wc -l < "$src") lines)"
@@ -124,8 +122,8 @@ if [ "$synced_memories" -eq 0 ]; then
 fi
 echo ""
 
-# ── Step 3: Commit and push ──────────────────────────────────────────
-echo "[3/7] Committing & pushing..."
+# ── Step 5: Commit and push ──────────────────────────────────────────
+echo "[5/9] Committing & pushing..."
 cd "$SYNC_DIR"
 git add -A
 if git diff --cached --quiet; then
@@ -138,14 +136,14 @@ else
 fi
 echo ""
 
-# ── Step 4: Pull from other machines ─────────────────────────────────
-echo "[4/7] Pulling from remote..."
+# ── Step 6: Pull from other machines ─────────────────────────────────
+echo "[6/9] Pulling from remote..."
 cd "$SYNC_DIR"
 git pull origin main --rebase 2>&1 || echo "  Pull failed (resolve manually)"
 echo ""
 
-# ── Step 4b: Merge remote memories into local (deduplicate by content) ──
-echo "[4b/7] Merging memories..."
+# ── Step 7: Merge remote memories into local (deduplicate by content) ──
+echo "[7/9] Merging memories..."
 merged_memories=0
 mkdir -p "$MEMORIES_DIR"
 for memfile in MEMORY.md USER.md; do
@@ -171,8 +169,8 @@ if [ "$merged_memories" -eq 0 ]; then
 fi
 echo ""
 
-# ── Step 5: Import any profiles we don't have locally ────────────────
-echo "[5/7] Importing new profiles..."
+# ── Step 8: Import any profiles we don't have locally ────────────────
+echo "[8/9] Importing new profiles..."
 cd "$SYNC_DIR"
 imported=0
 for archive in "$SYNC_DIR/profiles/"*.tar.gz; do
@@ -213,12 +211,12 @@ if [ "$imported_pets" -gt 0 ]; then
     echo ""
 fi
 
-# ── Step 6: Sync scripts and cron jobs ───────────────────────────────
-echo "[6/7] Syncing scripts and cron jobs..."
+# ── Step 9: Sync scripts and cron jobs ───────────────────────────────
+echo "[9/9] Syncing scripts and cron jobs..."
 mkdir -p "$SCRIPTS_DIR"
 
 # Copy digest scripts from repo to Hermes scripts dir
-for script in academic_digest.py mail.py setup_digest.py cron_config.json; do
+for script in academic_digest.py mail.py setup_digest.py hermes_paths.py; do
     src="$SYNC_DIR/scripts/$script"
     dst="$SCRIPTS_DIR/$script"
     if [ -f "$src" ]; then
@@ -242,7 +240,7 @@ if command -v hermes &>/dev/null; then
         hermes cron create \
             --name "Academic-Journal-Digest-Biweekly" \
             --schedule "0 9 */14 * *" \
-            --prompt "Run python $SCRIPTS_DIR/academic_digest.py to send the biweekly academic journal digest email to nalcs.mika@gmail.com" \
+            --prompt "Run python $SCRIPTS_DIR/academic_digest.py to send the biweekly academic journal digest" \
             2>/dev/null || echo "  (cron create failed — set up manually in Hermes)"
     fi
 fi

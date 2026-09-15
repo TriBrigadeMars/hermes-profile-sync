@@ -8,8 +8,10 @@ import sys
 import os
 import shutil
 
+from hermes_paths import resolve_hermes_home
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-HERMES_HOME = os.environ.get("HERMES_HOME", os.path.expanduser("~/.hermes"))
+HERMES_HOME = str(resolve_hermes_home())
 SCRIPTS_DEST = os.path.join(HERMES_HOME, "scripts")
 
 def main():
@@ -23,7 +25,7 @@ def main():
     # 2. Copy scripts to ~/.hermes/scripts/
     print("2. Copying scripts to Hermes scripts dir...")
     os.makedirs(SCRIPTS_DEST, exist_ok=True)
-    for fname in ["academic_digest.py", "mail.py"]:
+    for fname in ["academic_digest.py", "mail.py", "hermes_paths.py"]:
         src = os.path.join(SCRIPT_DIR, fname)
         dst = os.path.join(SCRIPTS_DEST, fname)
         shutil.copy2(src, dst)
@@ -39,7 +41,7 @@ def main():
             print("   OK — Gmail credentials found\n")
         else:
             print("   WARNING: Gmail credentials missing. Add to .env:")
-            print("     GMAIL_USER=nalcs.mika@gmail.com")
+            print("     GMAIL_USER=<your-gmail-address>")
             print("     GMAIL_APP_PASSWORD=<your-app-password>\n")
     else:
         print(f"   WARNING: {env_path} not found. Create it with Gmail credentials.\n")
@@ -55,8 +57,7 @@ def main():
         print("   OK — digest sent successfully\n")
 
     print("=== Setup complete ===")
-    print("To set up the cron job, run in Hermes:")
-    print('  cronjob create --schedule "0 9 */14 * *" --prompt "Run academic_digest.py"')
+    print("To schedule the digest, run hermes-sync.sh (it creates the Academic-Journal-Digest cron job).")
 
 if __name__ == "__main__":
     main()

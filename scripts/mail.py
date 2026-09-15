@@ -16,7 +16,9 @@ from email.mime.base import MIMEBase
 from email import encoders
 from pathlib import Path
 
-HERMES_HOME = os.environ.get("HERMES_HOME", os.path.expanduser("~/.hermes"))
+from hermes_paths import resolve_hermes_home
+
+HERMES_HOME = str(resolve_hermes_home())
 env_path = os.path.join(HERMES_HOME, ".env")
 
 def load_env(path):
