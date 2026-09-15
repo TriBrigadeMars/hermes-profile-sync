@@ -166,7 +166,7 @@ for memfile in MEMORY.md USER.md; do
         continue
     fi
     # Both exist — merge by §-delimited entries, dedup by content hash
-    merged_count=$("$PYTHON" "$SYNC_DIR/scripts/merge_memories.py" "$local" "$remote")
+    merged_count=$("$PYTHON" "$SYNC_DIR_WIN\\scripts\\merge_memories.py" "$local" "$remote")
     echo "  Merged $memfile: $merged_count unique entries"
     merged_memories=$((merged_memories+1))
 done
