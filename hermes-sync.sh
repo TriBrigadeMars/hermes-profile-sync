@@ -165,8 +165,10 @@ for memfile in MEMORY.md USER.md; do
         echo "  Imported $memfile (new file, $(wc -l < "$remote") lines)"
         continue
     fi
-    # Both exist — merge by §-delimited entries, dedup by content hash
-    merged_count=$("$PYTHON" "$SYNC_DIR_WIN\\scripts\\merge_memories.py" "$local" "$remote")
+    # Both exist — merge by §-delimited entries, dedup by content hash.
+    # Native Python can't open MSYS-style /c/... paths, so pass Windows paths.
+    remote_win="$SYNC_DIR_WIN\\memories\\$memfile"
+    merged_count=$("$PYTHON" "$SYNC_DIR_WIN\\scripts\\merge_memories.py" "$local" "$remote_win")
     echo "  Merged $memfile: $merged_count unique entries"
     merged_memories=$((merged_memories+1))
 done
