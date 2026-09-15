@@ -245,10 +245,12 @@ if command -v hermes &>/dev/null; then
         echo "  Cron job 'Academic-Journal-Digest' already exists (skipping)"
     else
         echo "  Creating academic digest cron job..."
+        # NOTE: hermes cron create takes schedule and prompt as POSITIONAL args;
+        # --schedule/--prompt are not valid flags (they broke this call silently).
         hermes cron create \
             --name "Academic-Journal-Digest-Biweekly" \
-            --schedule "0 9 */14 * *" \
-            --prompt "Run python $SCRIPTS_DIR/academic_digest.py to send the biweekly academic journal digest" \
+            "0 9 */14 * *" \
+            "Run python $SCRIPTS_DIR/academic_digest.py to send the biweekly academic journal digest" \
             2>/dev/null || echo "  (cron create failed — set up manually in Hermes)"
     fi
 fi
