@@ -13,10 +13,11 @@ Exit codes: 0 = pass, 1 = failure. Run before committing inventory changes.
 
 from __future__ import annotations
 
-import os
 import re
 import sys
 from pathlib import Path
+
+from hermes_paths import resolve_hermes_home
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 INVENTORY = REPO_ROOT / "custom-skills-inventory.md"
@@ -24,18 +25,6 @@ SKILLS_DIR = REPO_ROOT / "skills"
 
 # Inventory table rows look like:  | `skill-name` | Purpose ... |
 TABLE_ROW = re.compile(r"^\|\s*`([a-z0-9][a-z0-9_-]*)`\s*\|", re.MULTILINE)
-
-
-def resolve_hermes_home() -> Path | None:
-    """Resolve the Hermes home the same way hermes-sync.sh does."""
-    home = os.environ.get("HERMES_HOME")
-    if home:
-        return Path(home)
-    localappdata = os.environ.get("LOCALAPPDATA")
-    if localappdata and (Path(localappdata) / "hermes").is_dir():
-        return Path(localappdata) / "hermes"
-    fallback = Path.home() / ".hermes"
-    return fallback if fallback.is_dir() else None
 
 
 def documented_skills() -> set[str]:
