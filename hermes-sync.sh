@@ -20,6 +20,12 @@ SCRIPTS_DIR="$HERMES_HOME/scripts"
 PETS_DIR="$HERMES_HOME/pets"
 MEMORIES_DIR="$HERMES_HOME/memories"
 
+if python3 -c 'import sys' >/dev/null 2>&1; then
+    PYTHON="python3"
+else
+    PYTHON="python"
+fi
+
 echo "=== Hermes Profile Sync ==="
 echo "Sync dir:  $SYNC_DIR"
 echo "Hermes:    $HERMES_HOME"
@@ -160,7 +166,7 @@ for memfile in MEMORY.md USER.md; do
         continue
     fi
     # Both exist — merge by §-delimited entries, dedup by content hash
-    merged_count=$(python3 "$SYNC_DIR/scripts/merge_memories.py" "$local" "$remote")
+    merged_count=$("$PYTHON" "$SYNC_DIR/scripts/merge_memories.py" "$local" "$remote")
     echo "  Merged $memfile: $merged_count unique entries"
     merged_memories=$((merged_memories+1))
 done
@@ -227,7 +233,7 @@ done
 
 # Install Python dependencies for digest scripts
 echo "  Installing Python deps (feedparser)..."
-python -m pip install feedparser -q 2>/dev/null || echo "  (pip install failed, run manually: pip install feedparser)"
+"$PYTHON" -m pip install feedparser -q 2>/dev/null || echo "  (pip install failed, run manually: pip install feedparser)"
 
 # Check if the academic digest cron job already exists; create if not
 if command -v hermes &>/dev/null; then
