@@ -89,8 +89,12 @@ if [ -d "$SYNC_DIR/skills" ]; then
             [ -d "$skill_dir" ] || continue
             skill_name="$(basename "$skill_dir")"
             dst="$SKILLS_DIR/$category/$skill_name"
-            mkdir -p "$(dirname "$dst")"
-            cp -r "$skill_dir" "$dst"
+            # Copy CONTENTS into the destination: `cp -r "$skill_dir" "$dst"` nests a
+            # duplicate <skill>/<skill>/ copy the moment $dst already exists (which it does
+            # from the first install), and every nested copy becomes a second entry in the
+            # always-on skills index. Verified 2026-09-25: 61 nested dupes traced to this line.
+            mkdir -p "$dst"
+            cp -r "$skill_dir"/. "$dst"/
             synced_skills=$((synced_skills+1))
         done
     done
@@ -101,7 +105,8 @@ if [ -d "$SYNC_DIR/skills" ]; then
             skill_name="$(basename "$skill_dir")"
             dst="$SKILLS_DIR/$skill_name"
             mkdir -p "$dst"
-            cp -r "$skill_dir" "$dst"
+            # contents-copy, not dir-copy — see the categorized branch for why
+            cp -r "$skill_dir"/. "$dst"/
             synced_skills=$((synced_skills+1))
         done
     fi
